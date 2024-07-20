@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Glassy carbon working electrode 3 mm ID",
+        "description": "Lorem Epsum",
+        "price": 29.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryImage":"https://placehold.co/50x50?text=Category",
+        "thumbnailImage":"https://placehold.co/300x200?text=Thumbnail",
+        "productImages":["https://placehold.co/300x200?text=Product","https://placehold.co/300x200?text=Product"],
+        "productBanner":"https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 2,
+        "name": "Glassy carbon working electrode 3 mm (L shape)",
+        "description": "Lorem Epsum",
+        "price": 29.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GCTL-3",
+        "categoryImage":"https://placehold.co/50x50?text=Category",
+        "thumbnailImage":"https://placehold.co/300x200?text=Thumbnail",
+        "productImages":["https://placehold.co/300x200?text=Product","https://placehold.co/300x200?text=Product"],
+        "productBanner":"https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 3,
+        "name": "Glassy carbon working electrode 5 mm",
+        "description": "Lorem Epsum",
+        "price": 29.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-5",
+        "categoryImage":"https://placehold.co/50x50?text=Category",
+        "thumbnailImage":"https://placehold.co/300x200?text=Thumbnail",
+        "productImages":["https://placehold.co/300x200?text=Product","https://placehold.co/300x200?text=Product"],
+        "productBanner":"https://placehold.co/500x400?text=banner"
+    }
+]
