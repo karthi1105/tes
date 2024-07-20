@@ -11,7 +11,7 @@ const Projects = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('../../data.json');
+        const response = await fetch('/data.json');
         const data = await response.json();
         // Get unique categories from data
         const uniqueCategories = [...new Set(data.map(item => item.category))];
