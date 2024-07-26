@@ -7,10 +7,13 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Working Electrode",
         "productcode": "TES-GC-3",
-        "categoryImage":"https://placehold.co/50x50?text=Category",
-        "thumbnailImage":"https://placehold.co/300x200?text=Thumbnail",
-        "productImages":["https://placehold.co/300x200?text=Product","https://placehold.co/300x200?text=Product"],
-        "productBanner":"https://placehold.co/500x400?text=banner"
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
     },
     {
         "id": 2,
@@ -20,10 +23,13 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Working Electrode",
         "productcode": "TES-GCTL-3",
-        "categoryImage":"https://placehold.co/50x50?text=Category",
-        "thumbnailImage":"https://placehold.co/300x200?text=Thumbnail",
-        "productImages":["https://placehold.co/300x200?text=Product","https://placehold.co/300x200?text=Product"],
-        "productBanner":"https://placehold.co/500x400?text=banner"
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
     },
     {
         "id": 3,
@@ -33,9 +39,700 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Working Electrode",
         "productcode": "TES-GC-5",
-        "categoryImage":"https://placehold.co/50x50?text=Category",
-        "thumbnailImage":"https://placehold.co/300x200?text=Thumbnail",
-        "productImages":["https://placehold.co/300x200?text=Product","https://placehold.co/300x200?text=Product"],
-        "productBanner":"https://placehold.co/500x400?text=banner"
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 4,
+        "name": "Platinum wire counter electrode",
+        "description": "Lorem Epsum",
+        "price": 49.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Counter Electrode",
+        "productcode": "TES-PW-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 5,
+        "name": "Gold disc working electrode 2 mm",
+        "description": "Lorem Epsum",
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GD-2",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 6,
+        "name": "Silver chloride reference electrode",
+        "description": "Lorem Epsum",
+        "price": 24.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Reference Electrode",
+        "productcode": "TES-AGCL-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 7,
+        "name": "Agilent HPLC Column 4.6x150mm",
+        "description": "Lorem Epsum",
+        "price": 399.99,
+        "category": "CHROMATOGRAPHY",
+        "subcategory": "HPLC Columns",
+        "productcode": "AGL-HPLC-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 8,
+        "name": "Waters Acquity UPLC Column 2.1x100mm",
+        "description": "Lorem Epsum",
+        "price": 499.99,
+        "category": "CHROMATOGRAPHY",
+        "subcategory": "UPLC Columns",
+        "productcode": "WTR-UPLC-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 9,
+        "name": "TLC Silica Gel Plate 20x20 cm",
+        "description": "Lorem Epsum",
+        "price": 29.99,
+        "category": "CHROMATOGRAPHY",
+        "subcategory": "TLC Plates",
+        "productcode": "TLC-SG-20",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 10,
+        "name": "Agilent Gas Chromatography Column",
+        "description": "Lorem Epsum",
+        "price": 199.99,
+        "category": "CHROMATOGRAPHY",
+        "subcategory": "GC Columns",
+        "productcode": "AGL-GC-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 11,
+        "name": "Ceramic crucible 50 ml",
+        "description": "Lorem Epsum",
+        "price": 19.99,
+        "category": "LABWARE",
+        "subcategory": "Crucibles",
+        "productcode": "CER-CR-50",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 12,
+        "name": "Glass beaker 500 ml",
+        "description": "Lorem Epsum",
+        "price": 12.99,
+        "category": "LABWARE",
+        "subcategory": "Beakers",
+        "productcode": "GLS-BKR-500",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 16,
+        "name": "Magnetic stirrer with hot plate",
+        "description": "Lorem Epsum",
+        "price": 199.99,
+        "category": "LAB EQUIPMENT",
+        "subcategory": "Stirrers",
+        "productcode": "MAG-HP-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 17,
+        "name": "Digital pH meter",
+        "description": "Lorem Epsum",
+        "price": 79.99,
+        "category": "LAB EQUIPMENT",
+        "subcategory": "pH Meters",
+        "productcode": "DIG-PH-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 18,
+        "name": "Centrifuge 4000 RPM",
+        "description": "Lorem Epsum",
+        "price": 499.99,
+        "category": "LAB EQUIPMENT",
+        "subcategory": "Centrifuges",
+        "productcode": "CEN-4000",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 19,
+        "name": "Bunsen burner",
+        "description": "Lorem Epsum",
+        "price": 24.99,
+        "category": "LAB EQUIPMENT",
+        "subcategory": "Burners",
+        "productcode": "BUN-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 20,
+        "name": "Soxhlet extractor",
+        "description": "Lorem Epsum",
+        "price": 89.99,
+        "category": "LAB EQUIPMENT",
+        "subcategory": "Extractors",
+        "productcode": "SOX-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 21,
+        "name": "Cuvettes for spectrophotometer",
+        "description": "Lorem Epsum",
+        "price": 19.99,
+        "category": "LABWARE",
+        "subcategory": "Cuvettes",
+        "productcode": "CUV-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 22,
+        "name": "Lab coat - Medium",
+        "description": "Lorem Epsum",
+        "price": 29.99,
+        "category": "LABWARE",
+        "subcategory": "Apparel",
+        "productcode": "LAB-M",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 23,
+        "name": "Safety goggles",
+        "description": "Lorem Epsum",
+        "price": 14.99,
+        "category": "LABWARE",
+        "subcategory": "Safety Gear",
+        "productcode": "SG-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 24,
+        "name": "Heat-resistant gloves",
+        "description": "Lorem Epsum",
+        "price": 22.99,
+        "category": "LABWARE",
+        "subcategory": "Safety Gear",
+        "productcode": "HRG-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 25,
+        "name": "Erlenmeyer flask 500 ml",
+        "description": "Lorem Epsum",
+        "price": 9.99,
+        "category": "LABWARE",
+        "subcategory": "Flasks",
+        "productcode": "ERL-FLK-500",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 26,
+        "name": "Desiccator with vacuum pump",
+        "description": "Lorem Epsum",
+        "price": 119.99,
+        "category": "LAB EQUIPMENT",
+        "subcategory": "Desiccators",
+        "productcode": "DES-VAC-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 27,
+        "name": "Magnetic stir bar 2 cm",
+        "description": "Lorem Epsum",
+        "price": 6.99,
+        "category": "LABWARE",
+        "subcategory": "Stir Bars",
+        "productcode": "MAG-BAR-2",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 29,
+        "name": "MIG welding wire 0.8 mm",
+        "description": "Lorem Epsum",
+        "price": 45.99,
+        "category": "WELDING SUPPLIES",
+        "subcategory": "Welding Wires",
+        "productcode": "WEL-MIG-0.8",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 30,
+        "name": "Welding helmet with auto-darkening",
+        "description": "Lorem Epsum",
+        "price": 89.99,
+        "category": "WELDING SUPPLIES",
+        "subcategory": "Protective Gear",
+        "productcode": "WEL-HELMET-AD",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 31,
+        "name": "Laser cutting machine 500W",
+        "description": "Lorem Epsum",
+        "price": 2999.99,
+        "category": "MACHINERY",
+        "subcategory": "Cutting Machines",
+        "productcode": "LAS-CUT-500",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 32,
+        "name": "CNC milling machine",
+        "description": "Lorem Epsum",
+        "price": 4999.99,
+        "category": "MACHINERY",
+        "subcategory": "Milling Machines",
+        "productcode": "CNC-MILL-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 33,
+        "name": "3D printer with heated bed",
+        "description": "Lorem Epsum",
+        "price": 799.99,
+        "category": "MACHINERY",
+        "subcategory": "3D Printers",
+        "productcode": "3D-PRNT-HB",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 34,
+        "name": "Microscope with LED illumination",
+        "description": "Lorem Epsum",
+        "price": 349.99,
+        "category": "OPTICAL INSTRUMENTS",
+        "subcategory": "Microscopes",
+        "productcode": "MIC-LED-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 35,
+        "name": "Spectrophotometer 200-800 nm",
+        "description": "Lorem Epsum",
+        "price": 1599.99,
+        "category": "OPTICAL INSTRUMENTS",
+        "subcategory": "Spectrophotometers",
+        "productcode": "SPE-200-800",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 36,
+        "name": "Digital oscilloscope 100 MHz",
+        "description": "Lorem Epsum",
+        "price": 799.99,
+        "category": "ELECTRONICS",
+        "subcategory": "Oscilloscopes",
+        "productcode": "OSC-100M",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 37,
+        "name": "Signal generator 1 GHz",
+        "description": "Lorem Epsum",
+        "price": 899.99,
+        "category": "ELECTRONICS",
+        "subcategory": "Signal Generators",
+        "productcode": "SIG-1G",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 38,
+        "name": "Function generator 10 MHz",
+        "description": "Lorem Epsum",
+        "price": 399.99,
+        "category": "ELECTRONICS",
+        "subcategory": "Function Generators",
+        "productcode": "FUNC-10M",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 39,
+        "name": "High-precision multimeter",
+        "description": "Lorem Epsum",
+        "price": 199.99,
+        "category": "ELECTRONICS",
+        "subcategory": "Multimeters",
+        "productcode": "MULTI-PREC",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 40,
+        "name": "Laser thermometer",
+        "description": "Lorem Epsum",
+        "price": 59.99,
+        "category": "ELECTRONICS",
+        "subcategory": "Thermometers",
+        "productcode": "LAS-THERM",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 41,
+        "name": "Particle size analyzer",
+        "description": "Lorem Epsum",
+        "price": 999.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Particle Analyzers",
+        "productcode": "PSA-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 42,
+        "name": "Vibration meter",
+        "description": "Lorem Epsum",
+        "price": 149.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Vibration Meters",
+        "productcode": "VIB-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 43,
+        "name": "Gas chromatograph",
+        "description": "Lorem Epsum",
+        "price": 3499.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Chromatographs",
+        "productcode": "GC-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 44,
+        "name": "Refractometer",
+        "description": "Lorem Epsum",
+        "price": 79.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Refractometers",
+        "productcode": "REF-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 45,
+        "name": "Spectral photometer",
+        "description": "Lorem Epsum",
+        "price": 499.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Spectral Photometers",
+        "productcode": "SP-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 46,
+        "name": "Digital balance 500 g",
+        "description": "Lorem Epsum",
+        "price": 129.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Balances",
+        "productcode": "BAL-500",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 47,
+        "name": "Precision thermometer",
+        "description": "Lorem Epsum",
+        "price": 89.99,
+        "category": "MEASUREMENT INSTRUMENTS",
+        "subcategory": "Thermometers",
+        "productcode": "PREC-THERM",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 48,
+        "name": "Stainless steel test tube holder",
+        "description": "Lorem Epsum",
+        "price": 24.99,
+        "category": "LABWARE",
+        "subcategory": "Pipettes",
+        "productcode": "ST-HOLDER-1",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 49,
+        "name": "Glass petri dishes 90 mm",
+        "description": "Lorem Epsum",
+        "price": 12.99,
+        "category": "LABWARE",
+        "subcategory": "Pipettes",
+        "productcode": "PETRI-90",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
+    },
+    {
+        "id": 50,
+        "name": "Automatic pipette 1-10 ml",
+        "description": "Lorem Epsum",
+        "price": 59.99,
+        "category": "LABWARE",
+        "subcategory": "Pipettes",
+        "productcode": "AUTO-PPT-10",
+        "categoryImage": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner"
     }
 ]

@@ -13,9 +13,14 @@ const Projects = () => {
       try {
         const response = await fetch('/data.json');
         const data = await response.json();
-        // Get unique categories from data
-        const uniqueCategories = [...new Set(data.map(item => item.category))];
-        setCategories(uniqueCategories);
+
+        // Get unique categories from data and count products in each category
+        const categoryCounts = data.reduce((acc, item) => {
+          acc[item.category] = (acc[item.category] || 0) + 1;
+          return acc;
+        }, {});
+
+        setCategories(categoryCounts);
       } catch (error) {
         console.error("Error fetching the data", error);
       }
@@ -39,23 +44,20 @@ const Projects = () => {
       <div className="main-services-area ptb-110">
         <div className="container">
           <div className="row">
-            {categories.map((category, index) => (
+            {Object.keys(categories).map((category, index) => (
               <div key={index} className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-main-services-box">
                   <div className="icon">
                     <i className="flaticon-robot-1"></i>
                   </div>
                   <h3>
-                    <Link href={`/Categories/${category}`}>
+                    <Link href={`/products?category=${category}`}>
                       {category}
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore. Ut enim ad minim veniam.
-                  </p>
-                  <Link href="/services/details" className="link-btn">
-                    Read More
+                  <p>{categories[category]} products available</p>
+                  <Link href={`/products?category=${category}`} className="link-btn">
+                    View Products
                   </Link>
                 </div>
               </div>
