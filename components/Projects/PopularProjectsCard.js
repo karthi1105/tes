@@ -10,19 +10,19 @@ const PopularProjectsCard = ({ category, subcategory }) => {
       try {
         const response = await fetch('/data.json');
         const data = await response.json();
-        console.log("data",data)
-        // Filter products by category, subcategory, and tag "Our Popular Product"
+        console.log("datass", data);
+        // Filter products by category, subcategory, and tag "Latest Product"
         const filteredProducts = data
-          .filter(item => 
+          .filter(item =>
             item.category === category && (
-              Array.isArray(item.subcategory) 
+              Array.isArray(item.subcategory)
                 ? item.subcategory.includes(subcategory)
                 : item.subcategory === subcategory
             )
           )
-          .filter(item => item.tag.includes("Our Popular Product"))
-          .slice(0, 8); // Limit to 8 products
-        
+          .filter(item => item.tag.includes("Latest Product"))
+          .slice(0, 8); 
+          
         setProducts(filteredProducts);
       } catch (error) {
         console.error("Error fetching the data", error);
@@ -33,13 +33,14 @@ const PopularProjectsCard = ({ category, subcategory }) => {
       fetchData();
     }
   }, [category, subcategory]);
-  console.log("products",products)
+
+  console.log("products", products);
   return (
     <>
       <div className="projects-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Our Popular Products</h2>
+            <h2>Our Latest Products</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

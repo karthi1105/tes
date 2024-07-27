@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import React from "react";
 import NavbarSix from "../components/Layouts/NavbarSix";
 import TopHeader from "../components/HomeSix/TopHeader";
@@ -17,8 +19,29 @@ import LatestProjectsCard from "../components/Projects/LatestProjectsCard";
 import FeedbackSlider from "../components/Common/FeedbackSlider";
 import PartnerSlider from "../components/Common/PartnerSlider";
 
+export async function getStaticProps() {
+  // Read the data from data.json
+  const filePath = path.join(process.cwd(), 'public', 'data.json');
+  const jsonData = fs.readFileSync(filePath, 'utf8');
+  const data = JSON.parse(jsonData);
 
-export default function HomeSix() {
+  // Extract unique categories and subcategories
+  const categories = [...new Set(data.map(item => item.category))];
+  const subcategories = [...new Set(data.map(item => item.subcategory))];
+
+  // Select the first category and subcategory as default (or update as needed)
+  const category = categories[0];
+  const subcategory = subcategories[0];
+
+  return {
+    props: {
+      category,
+      subcategory
+    }
+  };
+}
+
+export default function HomeSix({ category, subcategory }) {
   return (
     <>
       <TopHeader />
@@ -33,7 +56,7 @@ export default function HomeSix() {
 
       <AboutAI />
 
-      <PopularProjectsCard />
+      <PopularProjectsCard category={category} subcategory={subcategory} />
 
       <LatestProjectsCard />
 
@@ -44,4 +67,4 @@ export default function HomeSix() {
       <FooterTwo />
     </>
   );
-}; 
+}

@@ -12,7 +12,7 @@ const Projects = () => {
       try {
         const response = await fetch('/data.json');
         const data = await response.json();
-
+        console.log("data", data)
         // Get unique categories
         const uniqueData = data.reduce((acc, current) => {
           const x = acc.find(item => item.category === current.category);
