@@ -66,7 +66,7 @@ const Products = () => {
                                             className={`list ${activeSubcategory === subcategory ? "current" : ""}`}
                                             onClick={() => setActiveSubcategory(subcategory)}
                                         >
-                                            <i className="flaticon-income"></i>
+                                            {/* <i className="flaticon-income"></i> */}
                                             <span>{subcategory}</span>
                                         </li>
                                     ))}
@@ -75,17 +75,43 @@ const Products = () => {
 
                             <div className="col-lg-8 col-md-8">
                                 <div className="tab-content">
-                                    {filteredProducts.map(product => (
-                                        <div key={product.id} className="product-item">
-                                            <h3>{product.name}</h3>
-                                            <p>{product.description}</p>
-                                            <Image src={product.thumbnailImage} alt={product.name} width={300} height={200} />
-                                            <p>Price: ${product.price}</p>
-                                            <Link href={`/product/${product.name}`}>
-                                                <button>View Product</button>
-                                            </Link>
-                                        </div>
-                                    ))}
+                                    <div className="row">
+                                        {filteredProducts.map(product => (
+                                        
+                                            <div key={product.id} className="col-lg-4 col-sm-6 col-md-6">
+                                                <div className="single-projects-box">
+                                                    <Image
+                                                    src={product.thumbnailImage}
+                                                    alt={product.name}
+                                                    width={800}
+                                                    height={800}
+                                                    />
+                                
+                                                    <div className="plus-icon">
+                                                    <Link href={`/product/${product.name}`}>
+                                                        <span></span>
+                                                    </Link>
+                                                    </div>
+                                                </div>
+                                                <div className="text-center product-title-card">
+                                                    <Link href={`/product/${product.name}`}>
+                                                    <h6 className=""><b>{product.name}</b></h6>
+                                                    {/* <p>${product.price}</p> */}
+                                                    </Link>
+                                                </div> 
+                                            </div>
+                                        
+                                        // <div key={product.id} className="product-item">
+                                        //     <h3>{product.name}</h3>
+                                        //     <p>{product.description}</p>
+                                        //     <Image src={product.thumbnailImage} alt={product.name} width={300} height={200} />
+                                        //     <p>Price: ${product.price}</p>
+                                        //     <Link href={`/product/${product.name}`}>
+                                        //         <button>View Product</button>
+                                        //     </Link>
+                                        // </div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>

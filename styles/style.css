@@ -73,7 +73,7 @@ button {
   height: 100%;
 }
 .d-table-cell {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 p {
@@ -8274,4 +8274,7 @@ Footer Wrap Area CSS
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: #6d6d6d; 
+}
+.image-prod{
+  padding-left:15px
 }

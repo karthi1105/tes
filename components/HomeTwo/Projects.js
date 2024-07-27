@@ -1,10 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
 
 const Projects = () => {
+  const [uniqueCategories, setUniqueCategories] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/data.json');
+        const data = await response.json();
+
+        // Get unique categories
+        const uniqueData = data.reduce((acc, current) => {
+          const x = acc.find(item => item.category === current.category);
+          if (!x) {
+            return acc.concat([current]);
+          } else {
+            return acc;
+          }
+        }, []);
+
+        setUniqueCategories(uniqueData);
+      } catch (error) {
+        console.error("Error fetching the data", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <div className="projects-area pt-30 ptb-110">
@@ -18,9 +45,10 @@ const Projects = () => {
           <Swiper
             autoHeight={true}
             navigation={true}
+            loop={true}
             spaceBetween={25}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}
@@ -41,234 +69,26 @@ const Projects = () => {
             modules={[Navigation, Autoplay]}
             className="projects-slides"
           >
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img1.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
+            {uniqueCategories.map((categoryData, index) => (
+              <SwiperSlide key={index}>
+                <div className="single-projects-box">
+                  <Image
+                    src={categoryData.categoryImage}
+                    alt={categoryData.category}
+                    width={800}
+                    height={800}
+                  />
+                  <div className="plus-icon">
+                    <Link href={`/products?category=${categoryData.category}`}>
+                      <span></span>
+                    </Link>
+                  </div>
                 </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Electrochemistry Consumables</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img2.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
+                <div className="text-center">
+                  <h6 className=""><b>{categoryData.category}</b></h6>
                 </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Binders</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img3.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Carbon Materials</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img4.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Coin cell Parts</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Foams</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Foils</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Carbon Items & Felt</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Membrane</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Mesh</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Seperator</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Electrochemical cell</b></h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-projects-box">
-                <Image
-                  src="/images/projects-img5.jpg"
-                  alt="image"
-                  width={800}
-                  height={800}
-                />
-                <div className="plus-icon">
-                  <Link href="/projects">
-                    <span></span>
-                  </Link>
-                </div>
-              </div>
-              <div className="text-center">
-                <h6 className=""><b>Fuel cell, Electrolyzer & TEST Cell</b></h6>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
 

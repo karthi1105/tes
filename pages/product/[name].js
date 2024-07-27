@@ -5,6 +5,7 @@ import NavbarSix from '../../components/Layouts/NavbarSix';
 import FooterTwo from '../../components/Layouts/FooterTwo';
 import Image from 'next/image';
 import data from '../../public/data.json';
+import Link from 'next/link';
 
 const ProductDetail = ({ product }) => {
   const router = useRouter();
@@ -12,6 +13,15 @@ const ProductDetail = ({ product }) => {
   if (router.isFallback) {
     return <div>Loading...</div>;
   }
+
+  const handleDownload = (fileUrl) => {
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'datasheet.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <>
@@ -24,40 +34,69 @@ const ProductDetail = ({ product }) => {
         activePageText={product.name}
         bgImg="/images/page-title-bg2.jpg"
       />
+      <div className="projects-details-area ptb-110">
+        <div className="container">
+          <div className="projects-details">
+            <div className="row">
+              <div className="col-lg-8 col-md-12 col-sm-12">
+                <div className="projects-details-image">
+                  <Image src={product.productBanner} alt={product.name} width={800} height={400} />
+                </div>
+              </div>
 
-      <div className="container ptb-110">
-        <div className="row">
-          <div className="col-lg-6 col-md-6">
-            <Image
-              src={product.productBanner}
-              alt={product.name}
-              width={500}
-              height={400}
-            />
-          </div>
-          <div className="col-lg-6 col-md-6">
-            <div className="product-details">
-              <h2>{product.name}</h2>
-              <p>{product.description}</p>
-              <p>Product Code: {product.productcode}</p>
-              <p>Price: ${product.price}</p>
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="projects-details-info">
+                  <div className="d-table">
+                    <div className="d-table-cell">
+                      <ul>
+                        <li>
+                          <span></span><h4><b>{product.name}</b></h4>
+                        </li>
+                        <li>
+                          <span>Product Code:</span> {product.productcode}
+                        </li>
+                        <li>
+                          <span>Price:</span> ${product.price}
+                        </li>
+                        <li>
+                          <span>Tags:</span> App, Design, Web, Dev
+                        </li>
+                        <li><br/></li>
+                        <li>
+                          <button onClick={() => handleDownload(product.datasheet)} className="btn btn-primary">
+                            <span style={{color:"#fff"}}>Download Datasheet</span>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
 
-        <div className="row mt-5">
-          <div className="col-12">
-            <h3>Product Images</h3>
-            <div className="product-images">
-              {product.productImages.map((image, index) => (
-                <Image
-                  key={index}
-                  src={image}
-                  alt={`Product image ${index + 1}`}
-                  width={300}
-                  height={200}
-                />
-              ))}
+            <div className="projects-details-desc">
+              <h3>{product.name}</h3>
+
+              <p>
+                {product.description}
+              </p>
+              <div className="row mt-5">
+                <div className="col-12">
+                  <h3>Product Images</h3>
+                  <div className="product-images">
+                    {product.productImages.map((image, index) => (
+                      <Image
+                        key={index}
+                        src={image}
+                        alt={`Product image ${index + 1}`}
+                        width={300}
+                        height={200}
+                        className='image-prod'
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -91,3 +130,4 @@ export async function getStaticProps({ params }) {
 }
 
 export default ProductDetail;
+

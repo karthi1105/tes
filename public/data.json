@@ -5,15 +5,18 @@
         "description": "Lorem Epsum",
         "price": 29.99,
         "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory": "Working Electrode",
+        "subcategory":"Working Electrode",
         "productcode": "TES-GC-3",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/800x300?text=banner",
+        "datasheet":"/datasheet/Sample Holder.pdf",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 2,
@@ -21,15 +24,17 @@
         "description": "Lorem Epsum",
         "price": 29.99,
         "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory": "Working Electrode",
+        "subcategory":"Working Electrode",
         "productcode": "TES-GCTL-3",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+         "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 3,
@@ -39,13 +44,15 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Working Electrode",
         "productcode": "TES-GC-5",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+         "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 4,
@@ -55,13 +62,15 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Counter Electrode",
         "productcode": "TES-PW-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+         "tag":"Our Popular Product"
     },
     {
         "id": 5,
@@ -71,13 +80,15 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Working Electrode",
         "productcode": "TES-GD-2",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 6,
@@ -87,13 +98,15 @@
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Reference Electrode",
         "productcode": "TES-AGCL-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 7,
@@ -103,13 +116,14 @@
         "category": "CHROMATOGRAPHY",
         "subcategory": "HPLC Columns",
         "productcode": "AGL-HPLC-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 8,
@@ -119,13 +133,14 @@
         "category": "CHROMATOGRAPHY",
         "subcategory": "UPLC Columns",
         "productcode": "WTR-UPLC-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 9,
@@ -135,13 +150,14 @@
         "category": "CHROMATOGRAPHY",
         "subcategory": "TLC Plates",
         "productcode": "TLC-SG-20",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 10,
@@ -151,13 +167,14 @@
         "category": "CHROMATOGRAPHY",
         "subcategory": "GC Columns",
         "productcode": "AGL-GC-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 11,
@@ -167,13 +184,14 @@
         "category": "LABWARE",
         "subcategory": "Crucibles",
         "productcode": "CER-CR-50",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 12,
@@ -183,13 +201,14 @@
         "category": "LABWARE",
         "subcategory": "Beakers",
         "productcode": "GLS-BKR-500",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 16,
@@ -199,13 +218,14 @@
         "category": "LAB EQUIPMENT",
         "subcategory": "Stirrers",
         "productcode": "MAG-HP-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 17,
@@ -215,13 +235,14 @@
         "category": "LAB EQUIPMENT",
         "subcategory": "pH Meters",
         "productcode": "DIG-PH-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 18,
@@ -231,13 +252,14 @@
         "category": "LAB EQUIPMENT",
         "subcategory": "Centrifuges",
         "productcode": "CEN-4000",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 19,
@@ -247,13 +269,14 @@
         "category": "LAB EQUIPMENT",
         "subcategory": "Burners",
         "productcode": "BUN-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 20,
@@ -263,13 +286,14 @@
         "category": "LAB EQUIPMENT",
         "subcategory": "Extractors",
         "productcode": "SOX-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 21,
@@ -279,13 +303,14 @@
         "category": "LABWARE",
         "subcategory": "Cuvettes",
         "productcode": "CUV-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 22,
@@ -295,13 +320,14 @@
         "category": "LABWARE",
         "subcategory": "Apparel",
         "productcode": "LAB-M",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 23,
@@ -311,13 +337,14 @@
         "category": "LABWARE",
         "subcategory": "Safety Gear",
         "productcode": "SG-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 24,
@@ -327,13 +354,14 @@
         "category": "LABWARE",
         "subcategory": "Safety Gear",
         "productcode": "HRG-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 25,
@@ -343,13 +371,14 @@
         "category": "LABWARE",
         "subcategory": "Flasks",
         "productcode": "ERL-FLK-500",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 26,
@@ -359,13 +388,14 @@
         "category": "LAB EQUIPMENT",
         "subcategory": "Desiccators",
         "productcode": "DES-VAC-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 27,
@@ -375,13 +405,14 @@
         "category": "LABWARE",
         "subcategory": "Stir Bars",
         "productcode": "MAG-BAR-2",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 29,
@@ -391,13 +422,14 @@
         "category": "WELDING SUPPLIES",
         "subcategory": "Welding Wires",
         "productcode": "WEL-MIG-0.8",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 30,
@@ -407,13 +439,14 @@
         "category": "WELDING SUPPLIES",
         "subcategory": "Protective Gear",
         "productcode": "WEL-HELMET-AD",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 31,
@@ -423,13 +456,14 @@
         "category": "MACHINERY",
         "subcategory": "Cutting Machines",
         "productcode": "LAS-CUT-500",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 32,
@@ -439,13 +473,14 @@
         "category": "MACHINERY",
         "subcategory": "Milling Machines",
         "productcode": "CNC-MILL-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 33,
@@ -455,13 +490,14 @@
         "category": "MACHINERY",
         "subcategory": "3D Printers",
         "productcode": "3D-PRNT-HB",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 34,
@@ -471,13 +507,14 @@
         "category": "OPTICAL INSTRUMENTS",
         "subcategory": "Microscopes",
         "productcode": "MIC-LED-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 35,
@@ -487,13 +524,14 @@
         "category": "OPTICAL INSTRUMENTS",
         "subcategory": "Spectrophotometers",
         "productcode": "SPE-200-800",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 36,
@@ -503,13 +541,14 @@
         "category": "ELECTRONICS",
         "subcategory": "Oscilloscopes",
         "productcode": "OSC-100M",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 37,
@@ -519,13 +558,14 @@
         "category": "ELECTRONICS",
         "subcategory": "Signal Generators",
         "productcode": "SIG-1G",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 38,
@@ -535,13 +575,14 @@
         "category": "ELECTRONICS",
         "subcategory": "Function Generators",
         "productcode": "FUNC-10M",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 39,
@@ -551,13 +592,14 @@
         "category": "ELECTRONICS",
         "subcategory": "Multimeters",
         "productcode": "MULTI-PREC",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 40,
@@ -567,13 +609,14 @@
         "category": "ELECTRONICS",
         "subcategory": "Thermometers",
         "productcode": "LAS-THERM",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 41,
@@ -583,13 +626,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Particle Analyzers",
         "productcode": "PSA-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 42,
@@ -599,13 +643,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Vibration Meters",
         "productcode": "VIB-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 43,
@@ -615,13 +660,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Chromatographs",
         "productcode": "GC-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 44,
@@ -631,13 +677,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Refractometers",
         "productcode": "REF-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 45,
@@ -647,13 +694,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Spectral Photometers",
         "productcode": "SP-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 46,
@@ -663,13 +711,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Balances",
         "productcode": "BAL-500",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 47,
@@ -679,13 +728,14 @@
         "category": "MEASUREMENT INSTRUMENTS",
         "subcategory": "Thermometers",
         "productcode": "PREC-THERM",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 48,
@@ -695,13 +745,14 @@
         "category": "LABWARE",
         "subcategory": "Pipettes",
         "productcode": "ST-HOLDER-1",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 49,
@@ -711,13 +762,14 @@
         "category": "LABWARE",
         "subcategory": "Pipettes",
         "productcode": "PETRI-90",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     },
     {
         "id": 50,
@@ -727,12 +779,13 @@
         "category": "LABWARE",
         "subcategory": "Pipettes",
         "productcode": "AUTO-PPT-10",
-        "categoryImage": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x200?text=Thumbnail",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner"
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
     }
 ]
