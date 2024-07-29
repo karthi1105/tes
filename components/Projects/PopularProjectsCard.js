@@ -10,7 +10,6 @@ const PopularProjectsCard = ({ category, subcategory }) => {
       try {
         const response = await fetch('/data.json');
         const data = await response.json();
-        console.log("datass", data);
         // Filter products by category, subcategory, and tag "Latest Product"
         const filteredProducts = data
           .filter(item =>
@@ -20,7 +19,7 @@ const PopularProjectsCard = ({ category, subcategory }) => {
                 : item.subcategory === subcategory
             )
           )
-          .filter(item => item.tag.includes("Latest Product"))
+          .filter(item => item.tag.includes("Our Popular Product"))
           .slice(0, 8); 
           
         setProducts(filteredProducts);
@@ -34,13 +33,13 @@ const PopularProjectsCard = ({ category, subcategory }) => {
     }
   }, [category, subcategory]);
 
-  console.log("products", products);
+  // console.log("products", products);
   return (
     <>
       <div className="projects-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Our Latest Products</h2>
+            <h2>Our Popular Products</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -72,7 +71,7 @@ const PopularProjectsCard = ({ category, subcategory }) => {
           </div>
           <div className="col-lg-12 col-md-12">
             <div className="ai-all-services-btn">
-              <Link href="/products" className="btn btn-primary">
+              <Link href="/projects" className="btn btn-primary">
                 View All Products
               </Link>
             </div>

@@ -16,7 +16,7 @@
         "productBanner": "https://placehold.co/800x300?text=banner",
         "datasheet":"/datasheet/Sample Holder.pdf",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"]
     },
     {
         "id": 2,
@@ -34,7 +34,7 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-         "tag":["Our Popular Product", "Latest Product"]
+         "tag":["Latest Product"]
     },
     {
         "id": 3,
@@ -70,7 +70,7 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-         "tag":"Our Popular Product"
+         "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 5,
@@ -88,7 +88,7 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product","Latest Product"]
     },
     {
         "id": 6,
@@ -123,7 +123,8 @@
             "https://placehold.co/300x200?text=Product"
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"]
     },
     {
         "id": 8,
@@ -140,7 +141,8 @@
             "https://placehold.co/300x200?text=Product"
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 9,
@@ -157,7 +159,8 @@
             "https://placehold.co/300x200?text=Product"
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product", "Latest Product"]
     },
     {
         "id": 10,

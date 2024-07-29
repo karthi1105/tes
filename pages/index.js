@@ -5,13 +5,7 @@ import NavbarSix from "../components/Layouts/NavbarSix";
 import TopHeader from "../components/HomeSix/TopHeader";
 import MainBanner from "../components/HomeSix/MainBanner";
 import FunFacts from "../components/HomeSix/FunFacts";
-import TopFeaturedSolutions from "../components/HomeSix/TopFeaturedSolutions";
 import AboutAI from "../components/HomeSeven/AboutAI";
-import Services from "../components/HomeSix/Services";
-import ComputerVisionAI from "../components/HomeSix/ComputerVisionAI";
-import PricingPlan from "../components/HomeSix/PricingPlan";
-import LatestBlog from "../components/HomeSix/LatestBlog";
-import Newsletter from "../components/HomeSix/Newsletter";
 import FooterTwo from "../components/Layouts/FooterTwo";
 import Projects from "../components/HomeTwo/Projects";
 import PopularProjectsCard from "../components/Projects/PopularProjectsCard";
@@ -58,7 +52,7 @@ export default function HomeSix({ category, subcategory }) {
 
       <PopularProjectsCard category={category} subcategory={subcategory} />
 
-      <LatestProjectsCard />
+      <LatestProjectsCard  category={category} subcategory={subcategory}/>
 
       <FeedbackSlider />
 
