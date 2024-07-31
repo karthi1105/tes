@@ -1,11 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Glassy carbon working electrode 3 mm ID",
-        "description": "Lorem Epsum",
-        "price": 29.99,
+        "name": "Glassy Carbon Working Electrode",
+        "introduction": "The Glassy Carbon Working Electrode is designed for high-precision electrochemical measurements. Made from high-purity glassy carbon, these electrodes offer excellent electrical conductivity, chemical resistance, and mechanical stability. Available in two diameter options, 3 mm ID and 5 mm ID, these electrodes are ideal for a variety of electrochemical applications, including voltammetry, amperometry, and electrochemical analysis.",
+        "applications": ["Voltammetry - Ideal for cyclic voltammetry, linear sweep voltammetry, and other voltammetric techniques.","Amperometry - Suitable for amperometric measurements in various analytical applications.","Electrochemical Analysis - Used in the analysis of electrochemical properties of materials, including sensors and catalysts.","Research and Development - Essential for developing new electrochemical methods and materials in academic and industrial research.","Quality Control: Applied in routine quality control and testing in electrochemical laboratories."],
+        "price": 39.99,
         "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory":"Working Electrode",
+        "subcategory": "Working Electrode",
         "productcode": "TES-GC-3",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
@@ -13,72 +14,453 @@
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/800x300?text=banner",
-        "datasheet":"/datasheet/Sample Holder.pdf",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product"]
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product", "evergreen"],
+        "Material":"High-purity glassy carbon",
+        "ElectrodeDiameterOptions":"3 mm ID, 5 mm ID",
+        "Components":"Electrode body, conductive stem, insulation,O-ring",
+        "Packaging": "Individually packaged, customizable quantities available upon request",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available disc Inner Diameter(mm)", "Part No"],
+                "rows": [
+                    ["1", "Glassy carbon working electrode","3 mm", "TES-EC–GCW-3"],
+                    ["2", "Glassy carbon working electrode","5 mm", "TES-EC–GCW-5"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 2,
-        "name": "Glassy carbon working electrode 3 mm (L shape)",
-        "description": "Lorem Epsum",
-        "price": 29.99,
-        "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory":"Working Electrode",
-        "productcode": "TES-GCTL-3",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-         "tag":["Latest Product"]
-    },
-    {
-        "id": 3,
-        "name": "Glassy carbon working electrode 5 mm",
-        "description": "Lorem Epsum",
-        "price": 29.99,
-        "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory": "Working Electrode",
-        "productcode": "TES-GC-5",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-         "tag":["Our Popular Product", "Latest Product"]
-    },
-    {
-        "id": 4,
-        "name": "Platinum wire counter electrode",
-        "description": "Lorem Epsum",
-        "price": 49.99,
-        "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory": "Counter Electrode",
-        "productcode": "TES-PW-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-         "tag":["Our Popular Product", "Latest Product"]
-    },
-    {
-        "id": 5,
-        "name": "Gold disc working electrode 2 mm",
-        "description": "Lorem Epsum",
+        "name": "Glassy L Shape Working Electrode",
+        "introduction": "The Glassy Carbon L-Shaped Working Electrode is specifically designed to offer exceptional performance in a compact, easy-to-use form factor. Known for its superior chemical resistance, low background currents, and broad potential windows, this electrode is ideal for a wide range of electrochemical applications, from research laboratories to industrial settings.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Sensors - Perfect for integration into biosensors and chemical sensors.","Energy Storage Research - Utilized in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
         "category": "ELECTRO CHEMICAL COMSUMABLES",
         "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product" ,"evergreen"],
+        "Material":"High-purity glassy carbon",
+        "ElectrodeDiameter":"3 mm ID",
+        "ElectrodeLength":"Standard lengths for the vertical and horizontal sections, customizable upon request",
+        "LShapeDimensions": "Customizable to fit specific requirements",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "SurfaceFinish":"Polished",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available disc Inner Diameter(mm)", "Part No"],
+                "rows": [
+                    ["1", "Glassy carbon working electrode (L Shape)","3 mm", "TES-EC-GCL-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 3,
+        "name": "Glassy Carbon Plate  Working Electrode",
+        "introduction": "The Glassy Carbon Plate Electrode, measuring 10 mm x 10 mm x 1 mm, is a high-performance electrode designed for advanced electrochemical applications. Renowned for its exceptional chemical resistance, minimal background currents, and broad potential windows, this electrode is a preferred choice for researchers and industrial professionals seeking reliable and accurate results.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product", "evergreen"],
+        "Material":"High-purity glassy carbon",
+        "Dimension":"10 mm x 10 mm x 1 mm",
+        "ElectrodeCompatibility": "High conductivity for efficient electron transfer",
+        "ConnectorType": "Compatible with standard electrode holders and custom mounting options",
+        "SurfaceFinish":"Polished",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimension(LX B)","Plate Thickness", "Part No"],
+                "rows": [
+                    ["1", "Glassy carbon Plate electrode (L Shape)","10 mm x 10 mm","1mm", "TES-EC-GCP-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 4,
+        "name": "Detachable Glassy Carbon working Electrode",
+        "introduction": "The Detachable Glassy Carbon Working Electrode with a 3 mm inner diameter (ID) is engineered for versatility and ease of use in diverse electrochemical applications. Its detachable design allows for convenient maintenance and replacement, ensuring consistent performance and longevity. Known for its outstanding chemical resistance, low background currents, and wide potential window, this electrode is a valuable tool for both research and industrial applications.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Utilized in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"High-purity glassy carbon",
+        "InnerDiameter":"3 mm",
+        "ElectrodeLength": "Standard and custom lengths available upon request",
+        "ConnectorType": "Compatible with standard electrode holders and custom mounting options",
+        "SurfaceFinish":"Polished",
+        "ElectrodeConductivity":"High conductivity for efficient electron transfer",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available disc Inner Diameter(mm)", "Part No"],
+                "rows": [
+                    ["1", "Detachable Glassy carbon working electrode","3 mm", "TES-EC-GCD-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 5,
+        "name": "Platinum Working Electrode",
+        "introduction": "The Platinum Working Electrode, with a 3 mm ID, is designed for high-performance and precision in electrochemical applications. Renowned for its excellent conductivity, chemical inertness, and durability, this electrode is ideal for both research and industrial use. Its robust construction ensures reliable performance across a wide range of conditions.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product", "evergreen"],
+        "Material":"High-purity platinum",
+        "ElectrodeDiameter":"3 mm ID",
+        "ElectrodeLength": "Standard lengths available; custom lengths upon request",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "SurfaceFinish":"Polished for optimal performance",
+        "ElectrodeConductivity":"Superior conductivity for efficient electron transfer",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available disc Diameter(mm)", "Part No"],
+                "rows": [
+                    ["1", "Platinum working electrode","3 mm", "TES-EC-PT-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 6,
+        "name": "Platinum Plate working Electrode",
+        "introduction": "The Platinum Plate Electrode Holder, designed to hold electrodes measuring 10 mm x 15 mm, offers exceptional performance and reliability for advanced electrochemical applications. With its robust construction and precise fit, this holder ensures secure and stable placement of platinum plate electrodes, facilitating accurate and reproducible measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for use in cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Supports studies on catalytic properties and reactions.","Sensors - Facilitates integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Used in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Suitable for detecting pollutants and monitoring water quality.","Corrosion Studies - Effective for investigating corrosion resistance and behavior in various environments."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "HolderMaterial":"High-grade, corrosion-resistant materials",
+        "ElectrodeCompatibility":"10 mm x 15 mm platinum plate electrodes",
+        "Dimension": "Designed to precisely fit 10 mm x 15 mm electrodes",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight design for ease of handling and integration",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimension(LX B)", "Part No"],
+                "rows": [
+                    ["1", "Platinum plate electrode holder","10mm X 15 mm", "TES-EC-PPE-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 7,
+        "name": "Platinum Plate Working Electrode(L Shape)",
+        "introduction": "The Platinum Plate Electrode Holder, designed in an L shape to hold electrodes measuring 10 mm x 15 mm, is crafted for optimal performance and convenience in various electrochemical applications. The robust construction and precise fit ensure secure and stable placement of platinum plate electrodes, facilitating accurate and reproducible measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Supports studies on catalytic properties and reactions.","Sensors - Facilitates integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Used in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Suitable for detecting pollutants and monitoring water quality.","Corrosion Studies - Effective for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "HolderMaterial":"High-grade, corrosion-resistant materials",
+        "ElectrodeCompatibility":"10 mm x 15 mm platinum plate electrodes",
+        "Dimension": "Designed to precisely fit 10 mm x 15 mm electrodes",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight design for ease of handling and integration",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimension(LX B)", "Part No"],
+                "rows": [
+                    ["1", "Platinum plate electrode holder(L shape)","10mm X 15 mm", "TES-EC-PPL-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 8,
+        "name": "Platinum Mesh Working Electrode",
+        "introduction": "The Platinum Mesh Electrode, with dimensions of 10 mm x 10 mm, is designed for superior performance in a wide range of electrochemical applications. Known for its excellent conductivity, chemical inertness, and large surface area, this electrode is an ideal choice for researchers and industrial professionals who require reliable and accurate electrochemical measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions due to its large surface area.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"High-purity platinum",
+        "MeshType":"Fine mesh for increased surface area and improved electrochemical activity",
+        "Dimension": "10 mm x 10 mm",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight for easy handling and integration",
+        "SurfaceFinish":"Polished for optimal performance",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimension(LX B)", "Part No"],
+                "rows": [
+                    ["1", "Platinum mesh Working electrode","10 mm X 10 mm", "TES-EC-MSH-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 9,
+        "name": "Platinum Spiral Working Electrode",
+        "introduction": "The Platinum Spiral Electrode, with a length of 210 mm, is engineered for optimal performance in advanced electrochemical applications. The spiral design maximizes surface area while maintaining a compact form, ensuring enhanced sensitivity and efficiency in electrochemical reactions. Renowned for its superior conductivity, chemical inertness, and durability, this electrode is ideal for both research and industrial use.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions due to its large surface area.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"High-purity platinum",
+        "SpiralLength":"32 mm",
+        "SpiralDiameter": "Customizable to fit specific requirements",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight for easy handling and integration",
+        "SurfaceFinish":"Polished for optimal performance",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Spiral Length(L)", "Part No"],
+                "rows": [
+                    ["1", "Platinum Spiral Working electrode","32 mm", "TES-EC-PSW-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 10,
+        "name": "Gold working Electrode",
+        "introduction": "The Gold Working Electrode, with a 3 mm diameter, is designed for high-precision and reliable performance in a variety of electrochemical applications. Known for its excellent conductivity, chemical inertness, and durability, this electrode is an essential tool for researchers and industrial professionals who require accurate and reproducible electrochemical measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions due to its inert nature.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product","evergreen"],
+        "Material":"High-purity gold",
+        "ElectrodeDiameter":"3 mm",
+        "ElectrodeLength": "Standard lengths available; custom lengths upon request",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight for easy handling and integration",
+        "SurfaceFinish":"Polished",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available Disc Diameter", "Part No"],
+                "rows": [
+                    ["1", "Gold working electrode","2 mm", "TES-EC-AU-2"],
+                    ["2", "Gold working electrode","3 mm", "TES-EC-AU-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 10,
+        "name": "Copper working Electrode",
+        "introduction": "The Copper Working Electrode, with a 3 mm inner diameter (ID), is engineered for precise and reliable performance in a wide range of electrochemical applications. Copper’s excellent conductivity and cost-effectiveness make this electrode an ideal choice for researchers and industrial professionals seeking accurate and reproducible electrochemical measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Suitable for investigating the corrosion behavior of copper and copper-based alloys.","Electrochemical Deposition - Widely used in the electroplating industry for depositing copper layers.","Sensors - Integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries and capacitors.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"High-purity copper",
+        "InnerDiameter":"3 mm",
+        "ElectrodeLength": "Standard lengths available; custom lengths upon request",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight for easy handling and integration",
+        "SurfaceFinish":"Polished for optimal performance",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available Disc Inner Diameter (ID)", "Part No"],
+                "rows": [
+                    ["1", "Copper working electrode","3 mm", "TES-EC-CW-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 11,
+        "name": "Nickel working Electrode",
+        "introduction": "The Nickel Working Electrode, with a 3 mm inner diameter (ID), is designed for precise and reliable performance in various electrochemical applications. Known for its excellent conductivity, durability, and catalytic properties, this electrode is an essential tool for researchers and industrial professionals who require accurate and reproducible electrochemical measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research -  Widely used in studying catalytic properties and reactions, particularly hydrogen evolution and oxidation.","Corrosion Studies - Suitable for investigating the corrosion resistance of nickel and nickel-based alloys.","Sensors - Integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, particularly nickel-cadmium and nickel-metal hydride batteries.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product", "evergreen"],
+        "Material":"High-purity nickel",
+        "InnerDiameter":"3 mm",
+        "ElectrodeLength": "Standard lengths available; custom lengths upon request",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight for easy handling and integration",
+        "SurfaceFinish":"Polished for optimal performance",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available Disc Inner Diameter (ID)", "Part No"],
+                "rows": [
+                    ["1", "Nickel working electrode","3 mm", "TES-EC-NW-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    {
+        "id": 12,
+        "name": "Stainless Steel (SS316) working Electrode",
+        "introduction": "The 316 Stainless Steel Working Electrode, with a 3 mm inner diameter (ID), is designed to provide reliable and precise performance in various electrochemical applications. Renowned for its excellent corrosion resistance, mechanical strength, and durability, this electrode is an essential tool for researchers and industrial professionals requiring consistent and accurate electrochemical measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies - Suitable for investigating the corrosion behavior of stainless steel and other materials.","Sensors - Integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries and capacitors.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Industrial Applications - Used in various industrial electrochemical processes and research.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "productcode": "TES-GC-3",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/300x200?text=Product",
+            "https://placehold.co/300x200?text=Product"
+        ],
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"316 stainless steel",
+        "InnerDiameter":"3 mm",
+        "ElectrodeLength": "Standard lengths available; custom lengths upon request",
+        "ConnectorType": "Standard banana plug, BNC, or custom connectors available",
+        "Weight":"Lightweight for easy handling and integration",
+        "SurfaceFinish":"Polished for optimal performance",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Available Disc Diameter", "Part No"],
+                "rows": [
+                    ["1", "SS316 working electrode","3 mm", "TES-EC-SS-3"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
+    },
+    
+    {
+        "id": 13,
+        "name": "Stainless Steel Sample Holder",
+        "introduction": "The 316 Stainless Steel Working Sample Holder is engineered to provide secure and reliable sample mounting for various electrochemical applications. Made from high-quality 316 stainless steel, this sample holder is renowned for its exceptional corrosion resistance, mechanical strength, and durability, ensuring precise and consistent performance in both research and industrial environments.",
+        "applications": ["Electrochemical Analysis - Ideal for holding samples during cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies- Suitable for mounting samples to investigate corrosion resistance and behavior.","Material Testing - Used for holding samples during mechanical, chemical, and thermal testing.","Sensors - Integration into various sensor setups for detecting different analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for holding samples while detecting pollutants and monitoring water quality.","Research and Development - Essential for securing samples in various academic and industrial research applications."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "childCategory": "Sample Holder",
         "productcode": "TES-GD-2",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
@@ -86,709 +468,92 @@
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product","Latest Product"]
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"316 stainless Steel",
+        "SampleCompatibility":"Suitable for various sample sizes and types",
+        "HolderDimensions":"Standard dimensions available; custom sizes upon request",
+        "ConnectorType": "Standard mounting options; customizable connectors available",
+        "Weight": "Lightweight for easy handling and integration",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Max Smaple Thickness", "Part No"],
+                "rows": [
+                    ["1", "Stainless Steel Sample Holder","5 mm", "TES-EC-SSH-6"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
-        "id": 6,
-        "name": "Silver chloride reference electrode",
-        "description": "Lorem Epsum",
-        "price": 24.99,
+        "id": 14,
+        "name": "Copper sample Holder",
+        "introduction": "The Copper Sample Holder is an essential accessory for various laboratory and industrial applications, designed to securely hold samples in place during testing and analysis. Known for its excellent thermal and electrical conductivity, copper ensures uniform temperature distribution and minimizes potential interference in measurements.",
+        "applications": ["Excellent Conductivity - Ensures minimal resistance and accurate temperature control.","Versatile Use - Can be used in a variety of scientific and industrial settings.","Customizable - Available in different sizes to meet specific needs.","Easy Integration - Compatible with most laboratory setups and temperature control units.","Environmental Monitoring - Effective for holding samples while detecting pollutants and monitoring water quality.","Research and Development - Essential for securing samples in various academic and industrial research applications."],
+        "price": 39.99,
         "category": "ELECTRO CHEMICAL COMSUMABLES",
-        "subcategory": "Reference Electrode",
-        "productcode": "TES-AGCL-1",
+        "subcategory": "Working Electrode",
+        "childCategory": "Sample Holder",
+        "productcode": "TES-GD-2",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"High-purity copper",
+        "Dimension":"Customizable to fit specific requirements",
+        "HolderDimensions":"Standard dimensions available; custom sizes upon request",
+        "Finish": "Polished for enhanced thermal and electrical performance",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Max Smaple Thickness", "Part No"],
+                "rows": [
+                    ["1", "Copper Sample Holder","5 mm", "TES-EC-CH-6"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
-        "id": 7,
-        "name": "Agilent HPLC Column 4.6x150mm",
-        "description": "Lorem Epsum",
-        "price": 399.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "HPLC Columns",
-        "productcode": "AGL-HPLC-1",
+        "id": 15,
+        "name": "Glassy Carbon Sample Holder",
+        "introduction": "The Glassy Carbon Working Electrode Sample Holder, designed to accommodate electrodes with a 10 mm x 10 mm area, is crafted for high-precision and reliable performance in various electrochemical applications. Known for its exceptional chemical resistance, low background currents, and durability, this sample holder is an essential tool for researchers and industrial professionals seeking accurate and reproducible electrochemical measurements.",
+        "applications": ["Electrochemical Analysis - Ideal for holding electrodes during cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies - Suitable for mounting electrodes to investigate corrosion resistance and behavior.","Material Testing - Used for holding electrodes during mechanical, chemical, and thermal testing.","Sensors - Integration into various sensor setups for detecting different analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for holding electrodes while detecting pollutants and monitoring water quality.","Research and Development - Essential for securing electrodes in various academic and industrial research applications."],
+        "price": 39.99,
+        "category": "ELECTRO CHEMICAL COMSUMABLES",
+        "subcategory": "Working Electrode",
+        "childCategory": "Sample Holder",
+        "productcode": "TES-GD-2",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
             "https://placehold.co/300x200?text=Product",
             "https://placehold.co/300x200?text=Product"
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product"]
-    },
-    {
-        "id": 8,
-        "name": "Waters Acquity UPLC Column 2.1x100mm",
-        "description": "Lorem Epsum",
-        "price": 499.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "UPLC Columns",
-        "productcode": "WTR-UPLC-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
+        "productBanner": "https://placehold.co/800x400?text=banner",
+        "categoryImage": "https://placehold.co/300x300?text=Thumbnail",
+        "tag": ["Our Popular Product", "Latest Product"],
+        "Material":"High-purity glassy carbon",
+        "ElectrodeCompatibility":"10 mm x 10 mm working electrode area",
+        "HolderDimensions":"Custom sizes available upon request",
+        "ConnectorType": "Standard mounting options; customizable connectors available",
+        "Weight": "Lightweight for easy handling and integration",
+        "Customization": "Custom sizes and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimension(LX B)", "Part No"],
+                "rows": [
+                    ["1", "Glassy Carbon Sample Holder","10 mm X 10 mm", "TES-EC-GCH-10"]
+                ]
+            }
         ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
-    },
-    {
-        "id": 9,
-        "name": "TLC Silica Gel Plate 20x20 cm",
-        "description": "Lorem Epsum",
-        "price": 29.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "TLC Plates",
-        "productcode": "TLC-SG-20",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
-    },
-    {
-        "id": 10,
-        "name": "Agilent Gas Chromatography Column",
-        "description": "Lorem Epsum",
-        "price": 199.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "GC Columns",
-        "productcode": "AGL-GC-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 11,
-        "name": "Ceramic crucible 50 ml",
-        "description": "Lorem Epsum",
-        "price": 19.99,
-        "category": "LABWARE",
-        "subcategory": "Crucibles",
-        "productcode": "CER-CR-50",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 12,
-        "name": "Glass beaker 500 ml",
-        "description": "Lorem Epsum",
-        "price": 12.99,
-        "category": "LABWARE",
-        "subcategory": "Beakers",
-        "productcode": "GLS-BKR-500",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 16,
-        "name": "Magnetic stirrer with hot plate",
-        "description": "Lorem Epsum",
-        "price": 199.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Stirrers",
-        "productcode": "MAG-HP-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 17,
-        "name": "Digital pH meter",
-        "description": "Lorem Epsum",
-        "price": 79.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "pH Meters",
-        "productcode": "DIG-PH-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 18,
-        "name": "Centrifuge 4000 RPM",
-        "description": "Lorem Epsum",
-        "price": 499.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Centrifuges",
-        "productcode": "CEN-4000",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 19,
-        "name": "Bunsen burner",
-        "description": "Lorem Epsum",
-        "price": 24.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Burners",
-        "productcode": "BUN-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 20,
-        "name": "Soxhlet extractor",
-        "description": "Lorem Epsum",
-        "price": 89.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Extractors",
-        "productcode": "SOX-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 21,
-        "name": "Cuvettes for spectrophotometer",
-        "description": "Lorem Epsum",
-        "price": 19.99,
-        "category": "LABWARE",
-        "subcategory": "Cuvettes",
-        "productcode": "CUV-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 22,
-        "name": "Lab coat - Medium",
-        "description": "Lorem Epsum",
-        "price": 29.99,
-        "category": "LABWARE",
-        "subcategory": "Apparel",
-        "productcode": "LAB-M",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 23,
-        "name": "Safety goggles",
-        "description": "Lorem Epsum",
-        "price": 14.99,
-        "category": "LABWARE",
-        "subcategory": "Safety Gear",
-        "productcode": "SG-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 24,
-        "name": "Heat-resistant gloves",
-        "description": "Lorem Epsum",
-        "price": 22.99,
-        "category": "LABWARE",
-        "subcategory": "Safety Gear",
-        "productcode": "HRG-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 25,
-        "name": "Erlenmeyer flask 500 ml",
-        "description": "Lorem Epsum",
-        "price": 9.99,
-        "category": "LABWARE",
-        "subcategory": "Flasks",
-        "productcode": "ERL-FLK-500",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 26,
-        "name": "Desiccator with vacuum pump",
-        "description": "Lorem Epsum",
-        "price": 119.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Desiccators",
-        "productcode": "DES-VAC-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 27,
-        "name": "Magnetic stir bar 2 cm",
-        "description": "Lorem Epsum",
-        "price": 6.99,
-        "category": "LABWARE",
-        "subcategory": "Stir Bars",
-        "productcode": "MAG-BAR-2",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 29,
-        "name": "MIG welding wire 0.8 mm",
-        "description": "Lorem Epsum",
-        "price": 45.99,
-        "category": "WELDING SUPPLIES",
-        "subcategory": "Welding Wires",
-        "productcode": "WEL-MIG-0.8",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 30,
-        "name": "Welding helmet with auto-darkening",
-        "description": "Lorem Epsum",
-        "price": 89.99,
-        "category": "WELDING SUPPLIES",
-        "subcategory": "Protective Gear",
-        "productcode": "WEL-HELMET-AD",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 31,
-        "name": "Laser cutting machine 500W",
-        "description": "Lorem Epsum",
-        "price": 2999.99,
-        "category": "MACHINERY",
-        "subcategory": "Cutting Machines",
-        "productcode": "LAS-CUT-500",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 32,
-        "name": "CNC milling machine",
-        "description": "Lorem Epsum",
-        "price": 4999.99,
-        "category": "MACHINERY",
-        "subcategory": "Milling Machines",
-        "productcode": "CNC-MILL-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 33,
-        "name": "3D printer with heated bed",
-        "description": "Lorem Epsum",
-        "price": 799.99,
-        "category": "MACHINERY",
-        "subcategory": "3D Printers",
-        "productcode": "3D-PRNT-HB",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 34,
-        "name": "Microscope with LED illumination",
-        "description": "Lorem Epsum",
-        "price": 349.99,
-        "category": "OPTICAL INSTRUMENTS",
-        "subcategory": "Microscopes",
-        "productcode": "MIC-LED-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 35,
-        "name": "Spectrophotometer 200-800 nm",
-        "description": "Lorem Epsum",
-        "price": 1599.99,
-        "category": "OPTICAL INSTRUMENTS",
-        "subcategory": "Spectrophotometers",
-        "productcode": "SPE-200-800",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 36,
-        "name": "Digital oscilloscope 100 MHz",
-        "description": "Lorem Epsum",
-        "price": 799.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Oscilloscopes",
-        "productcode": "OSC-100M",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 37,
-        "name": "Signal generator 1 GHz",
-        "description": "Lorem Epsum",
-        "price": 899.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Signal Generators",
-        "productcode": "SIG-1G",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 38,
-        "name": "Function generator 10 MHz",
-        "description": "Lorem Epsum",
-        "price": 399.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Function Generators",
-        "productcode": "FUNC-10M",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 39,
-        "name": "High-precision multimeter",
-        "description": "Lorem Epsum",
-        "price": 199.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Multimeters",
-        "productcode": "MULTI-PREC",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 40,
-        "name": "Laser thermometer",
-        "description": "Lorem Epsum",
-        "price": 59.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Thermometers",
-        "productcode": "LAS-THERM",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 41,
-        "name": "Particle size analyzer",
-        "description": "Lorem Epsum",
-        "price": 999.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Particle Analyzers",
-        "productcode": "PSA-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 42,
-        "name": "Vibration meter",
-        "description": "Lorem Epsum",
-        "price": 149.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Vibration Meters",
-        "productcode": "VIB-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 43,
-        "name": "Gas chromatograph",
-        "description": "Lorem Epsum",
-        "price": 3499.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Chromatographs",
-        "productcode": "GC-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 44,
-        "name": "Refractometer",
-        "description": "Lorem Epsum",
-        "price": 79.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Refractometers",
-        "productcode": "REF-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 45,
-        "name": "Spectral photometer",
-        "description": "Lorem Epsum",
-        "price": 499.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Spectral Photometers",
-        "productcode": "SP-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 46,
-        "name": "Digital balance 500 g",
-        "description": "Lorem Epsum",
-        "price": 129.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Balances",
-        "productcode": "BAL-500",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 47,
-        "name": "Precision thermometer",
-        "description": "Lorem Epsum",
-        "price": 89.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Thermometers",
-        "productcode": "PREC-THERM",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 48,
-        "name": "Stainless steel test tube holder",
-        "description": "Lorem Epsum",
-        "price": 24.99,
-        "category": "LABWARE",
-        "subcategory": "Pipettes",
-        "productcode": "ST-HOLDER-1",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 49,
-        "name": "Glass petri dishes 90 mm",
-        "description": "Lorem Epsum",
-        "price": 12.99,
-        "category": "LABWARE",
-        "subcategory": "Pipettes",
-        "productcode": "PETRI-90",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
-    },
-    {
-        "id": 50,
-        "name": "Automatic pipette 1-10 ml",
-        "description": "Lorem Epsum",
-        "price": 59.99,
-        "category": "LABWARE",
-        "subcategory": "Pipettes",
-        "productcode": "AUTO-PPT-10",
-        "categoryIcon": "https://placehold.co/50x50?text=Category",
-        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
-        "productImages": [
-            "https://placehold.co/300x200?text=Product",
-            "https://placehold.co/300x200?text=Product"
-        ],
-        "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
+        "datasheet":"/datasheet/Sample Holder.pdf"
     }
 ]

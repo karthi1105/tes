@@ -2,38 +2,39 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const PopularProjectsCard = ({ category, subcategory }) => {
+const PopularProjectsCard = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch('/data.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
         const data = await response.json();
-        // Filter products by category, subcategory, and tag "Latest Product"
+        console.log("Fetched data:", data);
+        
+        // Ensure data structure is as expected
+        if (!Array.isArray(data)) {
+          throw new Error("Data is not an array");
+        }
+        
+        // Filter products by tag "evergreen"
         const filteredProducts = data
-          .filter(item =>
-            item.category === category && (
-              Array.isArray(item.subcategory)
-                ? item.subcategory.includes(subcategory)
-                : item.subcategory === subcategory
-            )
-          )
-          .filter(item => item.tag.includes("Our Popular Product"))
-          .slice(0, 8); 
+          .filter(item => item.tag.includes("evergreen"))
+          .slice(0, 8);
           
+        console.log("Filtered products:", filteredProducts);
         setProducts(filteredProducts);
       } catch (error) {
-        console.error("Error fetching the data", error);
+        console.error("Error fetching the data:", error);
       }
     };
 
-    if (category && subcategory) {
-      fetchData();
-    }
-  }, [category, subcategory]);
+    fetchData();
+  }, []);
 
-  // console.log("products", products);
   return (
     <>
       <div className="projects-area ptb-110">
@@ -71,7 +72,7 @@ const PopularProjectsCard = ({ category, subcategory }) => {
           </div>
           <div className="col-lg-12 col-md-12">
             <div className="ai-all-services-btn">
-              <Link href="/projects" className="btn btn-primary">
+              <Link href="/products" className="btn btn-primary">
                 View All Products
               </Link>
             </div>
