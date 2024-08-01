@@ -21,7 +21,7 @@ const LatestProjectsCard = ({ category, subcategory }) => {
             )
           )
           .filter(item => item.tag.includes("Latest Product"))
-        //   .slice(0, 8); 
+          .slice(0, 8); 
           
         setProducts(filteredProducts);
       } catch (error) {

@@ -8257,11 +8257,13 @@ Footer Wrap Area CSS
 
 .scroll-overflow{
   height: 520px;
-  overflow: auto;
+  overflow-x: hidden; 
+  overflow-y: scroll;
+  padding-right: 10px;
 }
 /* Scrollbar Styling */
 .scroll-overflow::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
  
 .scroll-overflow::-webkit-scrollbar-track {
