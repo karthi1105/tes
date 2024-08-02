@@ -4971,7 +4971,7 @@ Projects Area CSS
 .single-projects-box {
   position: relative;
   border-radius: 5px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.175);
   background-color: #ffffff;
 }
@@ -8255,14 +8255,14 @@ Footer Wrap Area CSS
   font-weight: 600;
 }
 
-.scroll-overflow{
+/* .scroll-overflow{
   height: 520px;
   overflow-x: hidden; 
   overflow-y: scroll;
   padding-right: 10px;
-}
+} */
 /* Scrollbar Styling */
-.scroll-overflow::-webkit-scrollbar {
+/* .scroll-overflow::-webkit-scrollbar {
     width: 7px;
 }
  
@@ -8276,7 +8276,17 @@ Footer Wrap Area CSS
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: #6d6d6d; 
-}
+} */
 .image-prod{
   padding-left:15px
+}
+.title-card-hei{
+  height: 80px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.swiper-button-prev:after, 
+.swiper-button-next:after{
+  font-size: 30px !important;
 }

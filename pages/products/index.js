@@ -68,7 +68,7 @@ const Products = () => {
                 <div className="container">
                     <div className="tab services-tab-list">
                         <div className="row">
-                            <div className="col-lg-4 col-md-4">
+                            <div className="col-lg-3 col-md-3">
                                 <ul className="tabs">
                                     {subcategories.map((subcategory, index) => (
                                         <li
@@ -82,7 +82,7 @@ const Products = () => {
                                 </ul>
                             </div>
 
-                            <div className="col-lg-8 col-md-8">
+                            <div className="col-lg-9 col-md-9">
                                 <div className="tab-content">
                                     <div className="scroll-overflow">
                                         {Object.keys(productsByChildCategory).map((childCategory, index) => (
@@ -90,8 +90,8 @@ const Products = () => {
                                                 <h3 style={{color:"#000"}}>{childCategory}</h3>
                                                 <div className="row mt-3">
                                                     {productsByChildCategory[childCategory].map(product => (
-                                                        <div key={product.id} className="col-lg-4 col-sm-6 col-md-6">
-                                                            <div className="single-projects-box">
+                                                        <div key={product.id} className="col-lg-3 col-sm-6 col-md-6">
+                                                            <div className="single-projects-box mb-3">
                                                                 <Image
                                                                     src={product.thumbnailImage}
                                                                     alt={product.name}
@@ -104,7 +104,7 @@ const Products = () => {
                                                                     </Link>
                                                                 </div>
                                                             </div>
-                                                            <div className="text-center product-title-card">
+                                                            <div className="text-center product-title-card title-card-hei">
                                                                 <Link href={`/product/${product.name}`}>
                                                                     <h6 className=""><b>{product.name}</b></h6>
                                                                 </Link>

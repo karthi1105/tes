@@ -71,7 +71,7 @@ const Projects = () => {
           >
             {uniqueCategories.map((categoryData, index) => (
               <SwiperSlide key={index}>
-                <div className="single-projects-box">
+                <div className="single-projects-box mb-3">
                   <Image
                     src={categoryData.categoryImage}
                     alt={categoryData.category}

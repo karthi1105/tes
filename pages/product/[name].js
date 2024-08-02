@@ -6,6 +6,8 @@ import FooterTwo from '../../components/Layouts/FooterTwo';
 import Image from 'next/image';
 import data from '../../public/data.json';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 
 const ProductDetail = ({ product }) => {
   const router = useRouter();
@@ -62,8 +64,48 @@ const ProductDetail = ({ product }) => {
           <div className="projects-details">
             <div className="row">
               <div className="col-lg-8 col-md-12 col-sm-12">
-                <div className="projects-details-image">
-                  <Image src={product.productBanner} alt={product.name} width={800} height={400} />
+                <div className="projects-details-image p-3">
+                  <Swiper
+                    autoHeight={true}
+                    navigation={true}
+                    loop={true}
+                    spaceBetween={25}
+                    autoplay={{
+                      delay: 3000,
+                      disableOnInteraction: true,
+                      pauseOnMouseEnter: true,
+                    }}
+                    breakpoints={{
+                      0: {
+                        slidesPerView: 1,
+                      },
+                      576: {
+                        slidesPerView: 2,
+                      },
+                      1024: {
+                        slidesPerView: 3,
+                      },
+                      1200: {
+                        slidesPerView: 4,
+                      },
+                    }}
+                    modules={[Navigation, Autoplay]}
+                    className="projects-slides"
+                  >
+                    {product.productImages.map((image, index)  => (
+                      <SwiperSlide key={index}>
+                        <div className="single-projects-box">
+                          <Image
+                            src={image}
+                            alt={'Product image ${index + 1}'}
+                            width={800}
+                            height={800}
+                          />
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                  {/* <Image src={product.productBanner} alt={product.name} width={800} height={400} /> */}
                 </div>
               </div>
 
@@ -352,7 +394,7 @@ const ProductDetail = ({ product }) => {
                 </p>
               </div>
               ) : ("")}
-              <div className="row mt-5">
+              {/* <div className="row mt-5">
                 <div className="col-12">
                   <h3>Product Images</h3>
                   <div className="product-images">
@@ -368,7 +410,7 @@ const ProductDetail = ({ product }) => {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="row mt-5">
                 <h5>Order Information</h5>
                 {product.tableData && product.tableData.map((table, index) => (
