@@ -99,7 +99,7 @@ const Products = () => {
                                                                     height={800}
                                                                 />
                                                                 <div className="plus-icon">
-                                                                    <Link href={`/product/${product.name}`}>
+                                                                    <Link href={`/product//${encodeURIComponent(product.name)}`}>
                                                                         <span></span>
                                                                     </Link>
                                                                 </div>

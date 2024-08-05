@@ -8,23 +8,27 @@ const PopularProjectsCard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        console.log("Fetching data...");
         const response = await fetch('/data.json');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
+
         const data = await response.json();
         console.log("Fetched data:", data);
-        
+
         // Ensure data structure is as expected
         if (!Array.isArray(data)) {
           throw new Error("Data is not an array");
         }
-        
-        // Filter products by tag "evergreen"
+
+        // Filter products by tag "Our Popular Product"
         const filteredProducts = data
-          .filter(item => item.tag.includes("Our Popular Product"))
+          .filter(item => {
+            return item.tag && item.tag.includes("Our Popular Product");
+          })
           .slice(0, 8);
-          
+
         console.log("Filtered products:", filteredProducts);
         setProducts(filteredProducts);
       } catch (error) {
