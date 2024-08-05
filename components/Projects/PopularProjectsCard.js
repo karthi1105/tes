@@ -22,7 +22,7 @@ const PopularProjectsCard = () => {
         
         // Filter products by tag "evergreen"
         const filteredProducts = data
-          .filter(item => item.tag.includes("evergreen"))
+          .filter(item => item.tag.includes("Our Popular Product"))
           .slice(0, 8);
           
         console.log("Filtered products:", filteredProducts);
@@ -49,7 +49,7 @@ const PopularProjectsCard = () => {
           <div className="row">
             {products.map(product => (
               <div key={product.id} className="col-lg-3 col-sm-6 col-md-6">
-                <div className="single-projects-box">
+                <div className="single-projects-box mb-3">
                   <Image
                     src={product.thumbnailImage}
                     alt={product.name}

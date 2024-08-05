@@ -48,7 +48,7 @@ const LatestProjectsCard = ({ category, subcategory }) => {
             <div className="row">
                 {products.map(product => (
                     <div key={product.id} className="col-lg-3 col-sm-6 col-md-6">
-                        <div className="single-projects-box">
+                        <div className="single-projects-box mb-3">
                             <Image
                             src={product.thumbnailImage}
                             alt={product.name}
