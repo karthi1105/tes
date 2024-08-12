@@ -57,7 +57,7 @@ const LatestProjectsCard = ({ category, subcategory }) => {
                             />
 
                             <div className="plus-icon">
-                            <Link href={'/product/${product.name}'}>
+                            <Link href={`/product/${product.name}`}>
                                 <span></span>
                             </Link>
                             </div>
