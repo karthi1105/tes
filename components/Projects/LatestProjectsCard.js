@@ -51,13 +51,13 @@ const LatestProjectsCard = ({ category, subcategory }) => {
                         <div className="single-projects-box mb-4">
                             <Image
                             src={product.thumbnailImage}
-                            alt={product.name}
+                            alt={product.productName}
                             width={800}
                             height={800}
                             />
 
                             <div className="plus-icon">
-                            <Link href="/product/${product.name}">
+                            <Link href={'/product/${product.name}'}>
                                 <span></span>
                             </Link>
                             </div>
