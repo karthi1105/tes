@@ -94,19 +94,19 @@ const Products = () => {
                                                             <div className="single-projects-box mb-3">
                                                                 <Image
                                                                     src={product.thumbnailImage}
-                                                                    alt={product.name}
+                                                                    alt={product.productName}
                                                                     width={800}
                                                                     height={800}
                                                                 />
                                                                 <div className="plus-icon">
-                                                                    <Link href={`/product//${encodeURIComponent(product.name)}`}>
+                                                                    <Link href={`/product/${encodeURIComponent(product.name)}`}>
                                                                         <span></span>
                                                                     </Link>
                                                                 </div>
                                                             </div>
                                                             <div className="text-center product-title-card title-card-hei">
                                                                 <Link href={`/product/${product.name}`}>
-                                                                    <h6 className=""><b>{product.name}</b></h6>
+                                                                    <h6 className=""><b>{product.productName}</b></h6>
                                                                 </Link>
                                                             </div>
                                                         </div>

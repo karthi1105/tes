@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Glassy Carbon Working Electrode",
+        "name": "Glassy_Carbon_Working_Electrode",
+        "productName": "Glassy Carbon Working Electrode",
         "introduction": "The Glassy Carbon Working Electrode is designed for high-precision electrochemical measurements. Made from high-purity glassy carbon, these electrodes offer excellent electrical conductivity, chemical resistance, and mechanical stability. Available in two diameter options, 3 mm ID and 5 mm ID, these electrodes are ideal for a variety of electrochemical applications, including voltammetry, amperometry, and electrochemical analysis.",
         "applications": ["Voltammetry - Ideal for cyclic voltammetry, linear sweep voltammetry, and other voltammetric techniques.","Amperometry - Suitable for amperometric measurements in various analytical applications.","Electrochemical Analysis - Used in the analysis of electrochemical properties of materials, including sensors and catalysts.","Research and Development - Essential for developing new electrochemical methods and materials in academic and industrial research.","Quality Control: Applied in routine quality control and testing in electrochemical laboratories."],
         "price": 39.99,
@@ -38,7 +39,8 @@
     },
     {
         "id": 2,
-        "name": "Glassy Carbon L Shape Working Electrode",
+        "name": "Glassy_Carbon_L_Shape_Working_Electrode",
+        "productName": "Glassy Carbon L Shape Working Electrode",
         "introduction": "The Glassy Carbon L-Shaped Working Electrode is specifically designed to offer exceptional performance in a compact, easy-to-use form factor. Known for its superior chemical resistance, low background currents, and broad potential windows, this electrode is ideal for a wide range of electrochemical applications, from research laboratories to industrial settings.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Sensors - Perfect for integration into biosensors and chemical sensors.","Energy Storage Research - Utilized in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -73,7 +75,8 @@
     },
     {
         "id": 3,
-        "name": "Glassy Carbon Plate  Working Electrode",
+        "name": "Glassy_Carbon_Plate_Working_Electrode",
+        "productName": "Glassy Carbon Plate Working Electrode",
         "introduction": "The Glassy Carbon Plate Electrode, measuring 10 mm x 10 mm x 1 mm, is a high-performance electrode designed for advanced electrochemical applications. Renowned for its exceptional chemical resistance, minimal background currents, and broad potential windows, this electrode is a preferred choice for researchers and industrial professionals seeking reliable and accurate results.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -107,7 +110,8 @@
     },
     {
         "id": 4,
-        "name": "Detachable Glassy Carbon working Electrode",
+        "name": "Detachable_Glassy_Carbon_Working_Electrode",
+        "productName": "Detachable Glassy Carbon Working Electrode",
         "introduction": "The Detachable Glassy Carbon Working Electrode with a 3 mm inner diameter (ID) is engineered for versatility and ease of use in diverse electrochemical applications. Its detachable design allows for convenient maintenance and replacement, ensuring consistent performance and longevity. Known for its outstanding chemical resistance, low background currents, and wide potential window, this electrode is a valuable tool for both research and industrial applications.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Utilized in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -142,7 +146,8 @@
     },
     {
         "id": 5,
-        "name": "Platinum Working Electrode",
+        "name": "Platinum_Working_Electrode",
+        "productName": "Platinum Working Electrode",
         "introduction": "The Platinum Working Electrode, with a 3 mm ID, is designed for high-performance and precision in electrochemical applications. Renowned for its excellent conductivity, chemical inertness, and durability, this electrode is ideal for both research and industrial use. Its robust construction ensures reliable performance across a wide range of conditions.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -177,7 +182,8 @@
     },
     {
         "id": 6,
-        "name": "Platinum Plate working Electrode",
+        "name": "Platinum_Plate_Working_Electrode",
+        "productName": "Platinum Plate Working Electrode",
         "introduction": "The Platinum Plate Electrode Holder, designed to hold electrodes measuring 10 mm x 15 mm, offers exceptional performance and reliability for advanced electrochemical applications. With its robust construction and precise fit, this holder ensures secure and stable placement of platinum plate electrodes, facilitating accurate and reproducible measurements.",
         "applications": ["Electrochemical Analysis - Ideal for use in cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Supports studies on catalytic properties and reactions.","Sensors - Facilitates integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Used in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Suitable for detecting pollutants and monitoring water quality.","Corrosion Studies - Effective for investigating corrosion resistance and behavior in various environments."],
         "price": 39.99,
@@ -211,7 +217,8 @@
     },
     {
         "id": 7,
-        "name": "Platinum Plate Working Electrode(L Shape)",
+        "name": "Platinum_Plate_Working_Electrode",
+        "productName": "Platinum Plate Working Electrode(L_Shape)",
         "introduction": "The Platinum Plate Electrode Holder, designed in an L shape to hold electrodes measuring 10 mm x 15 mm, is crafted for optimal performance and convenience in various electrochemical applications. The robust construction and precise fit ensure secure and stable placement of platinum plate electrodes, facilitating accurate and reproducible measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Supports studies on catalytic properties and reactions.","Sensors - Facilitates integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Used in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Suitable for detecting pollutants and monitoring water quality.","Corrosion Studies - Effective for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -245,7 +252,8 @@
     },
     {
         "id": 8,
-        "name": "Platinum Mesh Working Electrode",
+        "name": "Platinum_Mesh_Working_Electrode",
+        "productName": "Platinum Mesh Working Electrode",
         "introduction": "The Platinum Mesh Electrode, with dimensions of 10 mm x 10 mm, is designed for superior performance in a wide range of electrochemical applications. Known for its excellent conductivity, chemical inertness, and large surface area, this electrode is an ideal choice for researchers and industrial professionals who require reliable and accurate electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions due to its large surface area.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -280,7 +288,8 @@
     },
     {
         "id": 9,
-        "name": "Platinum Spiral Working Electrode",
+        "name": "Platinum_Spiral_Working_Electrode",
+        "productName": "Platinum Spiral Working Electrode",
         "introduction": "The Platinum Spiral Electrode, with a length of 210 mm, is engineered for optimal performance in advanced electrochemical applications. The spiral design maximizes surface area while maintaining a compact form, ensuring enhanced sensitivity and efficiency in electrochemical reactions. Renowned for its superior conductivity, chemical inertness, and durability, this electrode is ideal for both research and industrial use.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions due to its large surface area.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -315,7 +324,8 @@
     },
     {
         "id": 10,
-        "name": "Gold working Electrode",
+        "name": "Gold_working_Electrode",
+        "productName": "Gold working Electrode",
         "introduction": "The Gold Working Electrode, with a 3 mm diameter, is designed for high-precision and reliable performance in a variety of electrochemical applications. Known for its excellent conductivity, chemical inertness, and durability, this electrode is an essential tool for researchers and industrial professionals who require accurate and reproducible electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Widely used in studying catalytic properties and reactions due to its inert nature.","Sensors - Integration into chemical and biosensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for investigating corrosion resistance and behavior in various environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -351,7 +361,8 @@
     },
     {
         "id": 11,
-        "name": "Copper working Electrode",
+        "name": "Copper_working_Electrode",
+        "productName": "Copper Working Electrode",
         "introduction": "The Copper Working Electrode, with a 3 mm inner diameter (ID), is engineered for precise and reliable performance in a wide range of electrochemical applications. Copper’s excellent conductivity and cost-effectiveness make this electrode an ideal choice for researchers and industrial professionals seeking accurate and reproducible electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research - Suitable for investigating the corrosion behavior of copper and copper-based alloys.","Electrochemical Deposition - Widely used in the electroplating industry for depositing copper layers.","Sensors - Integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries and capacitors.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -386,7 +397,8 @@
     },
     {
         "id": 12,
-        "name": "Nickel working Electrode",
+        "name": "Nickel_working_Electrode",
+        "productName": "Nickel Working Electrode",
         "introduction": "The Nickel Working Electrode, with a 3 mm inner diameter (ID), is designed for precise and reliable performance in various electrochemical applications. Known for its excellent conductivity, durability, and catalytic properties, this electrode is an essential tool for researchers and industrial professionals who require accurate and reproducible electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Catalysis Research -  Widely used in studying catalytic properties and reactions, particularly hydrogen evolution and oxidation.","Corrosion Studies - Suitable for investigating the corrosion resistance of nickel and nickel-based alloys.","Sensors - Integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, particularly nickel-cadmium and nickel-metal hydride batteries.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -421,7 +433,8 @@
     },
     {
         "id": 13,
-        "name": "Stainless Steel (SS316) working Electrode",
+        "name": "Stainless_Steel_working_Electrode",
+        "productName": "Stainless Steel (SS316) working Electrode",
         "introduction": "The 316 Stainless Steel Working Electrode, with a 3 mm inner diameter (ID), is designed to provide reliable and precise performance in various electrochemical applications. Renowned for its excellent corrosion resistance, mechanical strength, and durability, this electrode is an essential tool for researchers and industrial professionals requiring consistent and accurate electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies - Suitable for investigating the corrosion behavior of stainless steel and other materials.","Sensors - Integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries and capacitors.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Industrial Applications - Used in various industrial electrochemical processes and research.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -457,7 +470,8 @@
     
     {
         "id": 14,
-        "name": "Stainless Steel Sample Holder",
+        "name": "Stainless_Steel_Sample_Holder",
+        "productName": "Stainless Steel Sample Holder",
         "introduction": "The 316 Stainless Steel Working Sample Holder is engineered to provide secure and reliable sample mounting for various electrochemical applications. Made from high-quality 316 stainless steel, this sample holder is renowned for its exceptional corrosion resistance, mechanical strength, and durability, ensuring precise and consistent performance in both research and industrial environments.",
         "applications": ["Electrochemical Analysis - Ideal for holding samples during cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies- Suitable for mounting samples to investigate corrosion resistance and behavior.","Material Testing - Used for holding samples during mechanical, chemical, and thermal testing.","Sensors - Integration into various sensor setups for detecting different analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for holding samples while detecting pollutants and monitoring water quality.","Research and Development - Essential for securing samples in various academic and industrial research applications."],
         "price": 39.99,
@@ -492,7 +506,8 @@
     },
     {
         "id": 15,
-        "name": "Copper sample Holder",
+        "name": "Copper_sample_Holder",
+        "productName": "Copper Sample Holder",
         "introduction": "The Copper Sample Holder is an essential accessory for various laboratory and industrial applications, designed to securely hold samples in place during testing and analysis. Known for its excellent thermal and electrical conductivity, copper ensures uniform temperature distribution and minimizes potential interference in measurements.",
         "applications": ["Excellent Conductivity - Ensures minimal resistance and accurate temperature control.","Versatile Use - Can be used in a variety of scientific and industrial settings.","Customizable - Available in different sizes to meet specific needs.","Easy Integration - Compatible with most laboratory setups and temperature control units.","Environmental Monitoring - Effective for holding samples while detecting pollutants and monitoring water quality.","Research and Development - Essential for securing samples in various academic and industrial research applications."],
         "price": 39.99,
@@ -526,7 +541,8 @@
     },
     {
         "id": 16,
-        "name": "Glassy Carbon Sample Holder",
+        "name": "Glassy_Carbon_Sample_Holder",
+        "productName": "Glassy Copper Sample Holder",
         "introduction": "The Glassy Carbon Working Electrode Sample Holder, designed to accommodate electrodes with a 10 mm x 10 mm area, is crafted for high-precision and reliable performance in various electrochemical applications. Known for its exceptional chemical resistance, low background currents, and durability, this sample holder is an essential tool for researchers and industrial professionals seeking accurate and reproducible electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for holding electrodes during cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Corrosion Studies - Suitable for mounting electrodes to investigate corrosion resistance and behavior.","Material Testing - Used for holding electrodes during mechanical, chemical, and thermal testing.","Sensors - Integration into various sensor setups for detecting different analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for holding electrodes while detecting pollutants and monitoring water quality.","Research and Development - Essential for securing electrodes in various academic and industrial research applications."],
         "price": 39.99,
@@ -561,7 +577,8 @@
     },
     {
         "id": 17,
-        "name": "Carbon Screen Printed Electrode",
+        "name": "Carbon_Screen_Printed_Electrode",
+        "productName": "Carbon Screen Printed Electrode",
         "introduction": "The Screen Printed Carbon Electrode (SPCE) 10 Pack is designed for high-precision and reliable performance in a variety of electrochemical applications. These electrodes are known for their excellent conductivity, reproducibility, and ease of use. Ideal for both research and industrial use, the SPCEs offer a cost-effective solution for a wide range of analytical needs.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Biosensors - Integration into biosensors for detecting biological analytes.","Education and Training - Suitable for use in academic settings for teaching and training purposes.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","Quality Control - Used in various industries for quality control and assurance processes."],
         "price": 39.99,
@@ -596,7 +613,8 @@
     },
     {
         "id": 18,
-        "name": "Gold screen printed Electrode",
+        "name": "Gold_Screen_Printed_Electrode",
+        "productName": "Gold Screen Printed Electrode",
         "introduction": "The Screen Printed Gold Electrode (SPGE) 5 Pack is meticulously designed for high-precision and reliable performance in a variety of advanced electrochemical applications. Gold electrodes are renowned for their superior conductivity, chemical inertness, and biocompatibility, making them ideal for both research and industrial applications. This pack offers a cost-effective solution for those requiring high-quality gold electrodes for sensitive and accurate measurements.",
         "applications": ["Electrochemical Analysis - Ideal for cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Biosensors - Integration into biosensors for detecting biological analytes.","Medical Diagnostics - Suitable for developing and testing diagnostic devices.","Education and Training - Suitable for use in academic settings for teaching and training purposes.","Environmental Monitoring - Effective for detecting pollutants and monitoring water quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","Quality Control: Used in various industries for quality control and assurance processes."],
         "price": 39.99,
@@ -631,7 +649,8 @@
     },
     {
         "id": 19,
-        "name": "Platinum Wire Electrode",
+        "name": "Platinum_Wire_Electrode",
+        "productName": "Platinum Wire Electrode",
         "introduction": "The Platinum Counter Electrode Wire, with a length of 50 mm, is designed for high-precision and reliable performance in a variety of electrochemical applications. Platinum's exceptional conductivity, chemical inertness, and durability make this electrode wire an essential tool for researchers and industrial professionals requiring accurate and reproducible measurements.",
         "applications": ["Electrochemical Analysis - Ideal for use as a counter electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Catalysis Research - Widely used in studying catalytic properties and reactions.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion resistance of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -664,7 +683,8 @@
     },
     {
         "id": 20,
-        "name": "Platinum Plate Electrode",
+        "name": "Platinum_Plate_Electrode",
+        "productName": "Platinum Plate Electrode",
         "introduction": "The Graphite Plate Counter Electrode, with dimensions of 15 mm x 15 mm x 3 mm, is designed for robust performance in various electrochemical applications. Graphite’s excellent electrical conductivity, chemical inertness, and high thermal stability make it a versatile and reliable choice for researchers and industrial professionals who require consistent and accurate electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for use as a counter electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Catalysis Research - Widely used in studying catalytic properties and reactions.","Sensors - Integration into chemical sensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion resistance of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -698,7 +718,8 @@
     },
     {
         "id": 21,
-        "name": "Graphite Plate Counter Electrode",
+        "name": "Graphite_Plate_Counter_Electrode",
+        "productName": "Graphite Plate Counter Electrode",
         "introduction": "The Graphite Plate Counter Electrode, with dimensions of 15 mm x 15 mm x 3 mm, is designed for robust performance in various electrochemical applications. Graphite’s excellent electrical conductivity, chemical inertness, and high thermal stability make it a versatile and reliable choice for researchers and industrial professionals who require consistent and accurate electrochemical measurements.",
         "applications": ["Electrochemical Analysis - Ideal for use as a counter electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Catalysis Research - Widely used in studying catalytic properties and reactions.","Sensors - Integration into chemical sensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion resistance of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -731,7 +752,8 @@
     },
     {
         "id": 22,
-        "name": "Graphite Rod Electrode",
+        "name": "Graphite_Rod_Electrode",
+        "productName": "Graphite Rod Electrode",
         "introduction": "The Graphite Rod with a 3 mm outer diameter (OD) is designed for high-performance and reliable use in a variety of electrochemical and industrial applications. Known for its excellent electrical conductivity, chemical inertness, and thermal stability, this graphite rod is an essential tool for researchers and professionals seeking consistent and accurate results.",
         "applications": ["Electrochemical Analysis - Ideal for use as a counter electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Catalysis Research - Widely used in studying catalytic properties and reactions.","Sensors - Integration into chemical sensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion resistance of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -768,7 +790,8 @@
     },
     {
         "id": 23,
-        "name": "Sample Holder Counter Electrode",
+        "name": "Sample_Holder_Counter_Electrode",
+        "productName": "Sample Holder Counter Electrode",
         "introduction": "The Sample Holder Electrode, designed to accommodate electrodes with a 10 mm diameter area, is engineered for precise and reliable performance in various electrochemical and material testing applications. This holder ensures secure and stable placement of electrodes, providing consistent and accurate measurements essential for both research and industrial settings.",
         "applications": ["Electrochemical Analysis - Ideal for holding electrodes during cyclic voltammetry, linear sweep voltammetry, and differential pulse voltammetry.","Sensors - Facilitates integration into chemical sensors for detecting various analytes.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for holding electrodes while detecting pollutants and monitoring water quality.","Corrosion Studies - Suitable for mounting electrodes to investigate corrosion resistance and behavior.","Research and Development - Essential for securing electrodes in various academic and industrial research applications.","Material Testing - Used for holding electrodes during mechanical, chemical, and thermal testing."],
         "price": 39.99,
@@ -802,7 +825,8 @@
     },
     {
         "id": 24,
-        "name": "Ag-Agcl Reference Electrode 50mm",
+        "name": "Ag-Agcl_Reference_Electrode_50mm",
+        "productName": "Ag/Agcl Reference Electrode 50mm",
         "introduction": "The Ag/AgCl Reference Electrode is designed to provide a stable and reliable reference potential in a variety of electrochemical applications. Known for its excellent stability, low maintenance, and reproducibility, this electrode is an essential tool for researchers and professionals in both academic and industrial settings.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups."],
         "price": 39.99,
@@ -841,7 +865,8 @@
     },
     {
         "id": 25,
-        "name": "Ag-Agcl Reference Electrode 100 mm Length",
+        "name": "Ag-Agcl_Reference_Electrode_100_mm_Length",
+        "productName": "Ag/Agcl Reference Electrode 100 mm Length",
         "introduction": "The Ag/AgCl Reference Electrode with a 6 mm outer diameter (OD) and 100 mm length is designed for high-precision and reliable performance in various electrochemical applications. Known for its exceptional stability, low maintenance, and reproducibility, this electrode is an indispensable tool for researchers and professionals in both academic and industrial settings. The extended length of 100 mm provides enhanced versatility for deeper insertion into larger electrochemical cells.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups."],
         "price": 39.99,
@@ -879,7 +904,8 @@
     },
     {
         "id": 26,
-        "name": "Ag-Agcl Reference Electrode Side Filling",
+        "name": "Ag-Agcl_Reference_Electrode_Side_Filling",
+        "productName": "Ag/Agcl Reference Electrode Side Filling",
         "introduction": "The Ag/AgCl Reference Electrode with Side Filling, featuring a 6 mm outer diameter (OD), is engineered for high-precision and reliable performance in various electrochemical applications. Known for its exceptional stability, low maintenance, and reproducibility, this electrode is an indispensable tool for researchers and professionals in both academic and industrial settings.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups."],
         "price": 39.99,
@@ -917,7 +943,8 @@
     },
     {
         "id": 27,
-        "name": "Ag-Agcl Reference Electrode Teflon Body",
+        "name": "Ag-Agcl_Reference_Electrode_Teflon_Body",
+        "productName": "Ag/Agcl Reference Electrode Teflon Body",
         "introduction": "The Ag/AgCl Reference Electrode with a Teflon body and 6 mm outer diameter (OD) is designed for high-precision and reliable performance in various electrochemical applications. The Teflon body provides exceptional chemical resistance and durability, making this electrode ideal for use in harsh environments. Known for its stable reference potential, low maintenance, and reproducibility, this electrode is an indispensable tool for researchers and professionals in both academic and industrial settings.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups."],
         "price": 39.99,
@@ -954,7 +981,8 @@
     },
     {
         "id": 28,
-        "name": "Hg-HgO Reference Electrode",
+        "name": "Hg-HgO_Reference_Electrode",
+        "productName": "Hg/HgO Reference Electrode",
         "introduction": "The Hg/HgO (Mercury/Mercury Oxide) Reference Electrode is designed to provide a stable and reliable reference potential in various electrochemical applications. Known for its high stability, low maintenance, and reproducibility, this electrode is an essential tool for researchers and professionals in both academic and industrial settings. Its precise construction ensures accurate and consistent measurements.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, particularly alkaline batteries.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials in alkaline environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups in alkaline solutions."],
         "price": 39.99,
@@ -991,7 +1019,8 @@
     },
     {
         "id": 29,
-        "name": "Hg-HgO Reference Electrode Teflon body",
+        "name": "Hg-HgO_Reference_Electrode_Teflon_body",
+        "productName": "Hg/HgO Reference Electrode Teflon Body",
         "introduction": "The Hg/HgO (Mercury/Mercury Oxide) Reference Electrode with an 8 mm outer diameter (OD) and Teflon body is designed for high-precision and reliable performance in various electrochemical applications. Known for its exceptional stability, low maintenance, and reproducibility, this electrode is an indispensable tool for researchers and professionals in both academic and industrial settings. The Teflon body provides superior chemical resistance and durability, making it ideal for use in harsh environments.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, particularly alkaline batteries.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials in alkaline environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups in alkaline solutions."],
         "price": 39.99,
@@ -1028,7 +1057,8 @@
     },
     {
         "id": 30,
-        "name": "Hg-Hg2SO4 reference Electrode",
+        "name": "Hg-Hg2SO4_reference_Electrode",
+        "productName": "Hg/Hg2SO4 reference Electrode",
         "introduction": "The Hg/Hg2SO4 (Mercury/Mercury Sulfate) Reference Electrode with a 6 mm outer diameter (OD) is designed to deliver high-precision and reliable performance in various electrochemical applications. Known for its exceptional stability, low maintenance, and reproducibility, this electrode is a crucial tool for researchers and professionals in both academic and industrial settings. Its precise construction ensures accurate and consistent measurements, making it ideal for a wide range of electrochemical experiments.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Energy Storage Research - Employed in the development and testing of batteries, particularly in acid-based systems.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials in acidic environments.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups."],
         "price": 39.99,
@@ -1064,7 +1094,8 @@
     },
     {
         "id": 31,
-        "name": "Standard Reference Electrode",
+        "name": "Standard_Reference_Electrode",
+        "productName": "Standard Reference Electrode",
         "introduction": "The Standard Hydrogen Reference Electrode Mini is a compact, high-precision electrode designed for accurate and reliable reference measurements in various electrochemical experiments. Its miniaturized design ensures ease of use and integration into small-scale and portable experimental setups without compromising performance.",
         "applications": ["Electrochemical Analysis - Ideal for use in potentiometric, voltammetric, and other electrochemical techniques.","Corrosion Studies - Suitable for corrosion monitoring and analysis in various environments.","Research and Development - Perfect for R&D applications in academic, industrial, and governmental laboratories.","pH Measurements - Can be used as a stable reference in pH measurement systems."],
         "features":["Compact Design - Miniaturized form factor for convenient use in limited space environments.","High Accuracy - Provides stable and reproducible reference potentials essential for precise electrochemical measurements.","Durable Construction - Made with high-quality materials to ensure longevity and consistent performance.","Easy Maintenance - Designed for easy refilling and maintenance, extending the electrode's operational life.","Compatibility - Works seamlessly with a wide range of electrochemical cells and instrumentation."],
@@ -1100,7 +1131,8 @@
     },
     {
         "id": 32,
-        "name": "Saturated Calomel Reference Electrode",
+        "name": "Saturated_Calomel_Reference_Electrode",
+        "productName": "Saturated Calomel Reference Electrode",
         "introduction": "The Saturated Calomel Reference Electrode (SCE) with a 6 mm outer diameter (OD) is designed for high-precision and reliable performance in various electrochemical applications. Known for its exceptional stability, low maintenance, and reproducibility, this electrode is an essential tool for researchers and professionals in both academic and industrial settings. Its precise construction ensures accurate and consistent measurements, making it ideal for a wide range of electrochemical experiments.",
         "applications": ["Electrochemical Analysis - Ideal for use as a reference electrode in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Sensors - Integration into chemical and biosensors for various applications.","Corrosion Studies - Suitable for investigating the corrosion behavior of materials.","Energy Storage Research - Employed in the development and testing of batteries, supercapacitors, and fuel cells.","Environmental Monitoring - Effective for various electrochemical detection methods in monitoring water and air quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research.","pH Measurements - Used as a stable reference in pH measurement setups."],
         "price": 39.99,
@@ -1136,7 +1168,8 @@
     },
     {
         "id": 33,
-        "name": "Luggin Capillary (Bridge Tude)",
+        "name": "Luggin_Capillary",
+        "productName": "Luggin Capillary (Bridge Tude)",
         "introduction": "The Luggin Capillary, also known as a Bridge Tube, is an essential accessory for electrochemical measurements, providing precise control over the reference electrode placement and minimizing potential errors due to solution resistance. This tool is indispensable for researchers and professionals in electrochemical laboratories, enhancing the accuracy and reliability of their experiments.",
         "applications": ["Electrochemical Analysis - Ideal for use in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques requiring precise control of reference electrode placement.","Sensors - Integration into chemical and biosensor setups for enhanced measurement precision.","Corrosion Studies - Enhances the accuracy of corrosion rate measurements by minimizing potential drop errors.","Energy Storage Research - Used in the development and testing of batteries, supercapacitors, and fuel cells to ensure accurate electrochemical characterization.","Environmental Monitoring - Effective for precise electrochemical detection methods in monitoring water and air quality.","Research and Development - Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -1169,7 +1202,8 @@
     },
     {
         "id": 34,
-        "name": "Polishing Kit",
+        "name": "Polishing_Kit",
+        "productName": "Polishing Kit",
         "introduction": "The Compact Electrode Polishing Kit is an essential tool for maintaining and preparing electrodes for high-precision electrochemical measurements. This all-in-one kit provides the necessary materials and tools to ensure your electrodes remain in optimal condition, enhancing the accuracy and reliability of your experiments. Ideal for researchers and professionals in both academic and industrial settings, this compact kit is designed for convenience and ease of use.",
         "applications": ["Electrochemical Analysis - Ideal for preparing electrodes used in cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Surface Preparation - Ensures optimal surface conditions for accurate and reproducible measurements.","Material Research - Used in the development and testing of new electrode materials.","Quality Control - Essential for maintaining electrode performance in industrial and research settings.","Education and Training - Suitable for use in academic settings for teaching proper electrode preparation techniques."],
         "KitContents":["Polishing Pads - Multiple grades of polishing pads (e.g., coarse, medium, fine) for different stages of electrode polishing.","Polishing Compounds - High-quality alumina slurry and diamond paste for effective polishing.","Polishing Cloths - Soft, lint-free cloths for final polishing and cleaning.","Electrode Holder - A secure holder to keep electrodes stable during the polishing process.","Storage Case - Durable case to keep all components organized and protected."],
@@ -1204,7 +1238,8 @@
     },
     {
         "id": 35,
-        "name": "3 Electrode",
+        "name": "3_Electrode",
+        "productName": "3 Electrode",
         "introduction": "The Swagelok-Type Cell for 3 Electrode Configuration, designed with a 12 mm & 16 mm diameter, is an advanced electrochemical cell ideal for battery research and development. This robust and versatile cell allows for precise control and measurement of electrochemical properties, making it essential for researchers and professionals in the field of energy storage and battery technology.",
         "applications": ["Battery Research and Development: Ideal for testing and evaluating new battery materials and configurations.","Electrochemical Analysis: Suitable for cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Material Testing: Used for evaluating the electrochemical properties of various electrode materials.","Quality Control: Essential for quality control and assurance in battery manufacturing processes.","Energy Storage Research: Employed in the development and testing of batteries, supercapacitors Etc","Environmental Monitoring: Effective for various electrochemical detection methods in monitoring water and air quality.","Research and Development: Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -1240,7 +1275,8 @@
     },
     {
         "id": 36,
-        "name": "2 Electrode",
+        "name": "2_Electrode",
+        "productName": "2 Electrode",
         "introduction": "The Swagelok-Type Cell for 2 Electrode Configuration is an advanced electrochemical cell designed to accommodate electrodes of various diameters, including 12 mm, 14 mm, 16 mm, and 20 mm. This versatile cell is ideal for battery research and development, providing precise control and measurement of electrochemical properties. It is an essential tool for researchers and professionals in the field of energy storage and battery technology.",
         "applications": ["Battery Research and Development: Ideal for testing and evaluating new battery materials and configurations.","Electrochemical Analysis: Suitable for cyclic voltammetry, linear sweep voltammetry, and other electrochemical techniques.","Material Testing: Used for evaluating the electrochemical properties of various electrode materials.","Quality Control: Essential for quality control and assurance in battery manufacturing processes.","Energy Storage Research: Employed in the development and testing of batteries, supercapacitors Etc","Environmental Monitoring: Effective for various electrochemical detection methods in monitoring water and air quality.","Research and Development: Essential for studying electrochemical behaviors and developing new materials in both academic and industrial research."],
         "price": 39.99,
@@ -1278,7 +1314,8 @@
     },
     {
         "id": 37,
-        "name": "Agilent HPLC Column 4.6x150mm",
+        "name": "Agilent_HPLC_Column",
+        "productName": "Agilent HPLC Column 4.6x150mm",
         "introduction": "Lorem Epsum",
         "price": 399.99,
         "category": "CHROMATOGRAPHY",
@@ -1296,7 +1333,8 @@
     },
     {
         "id": 38,
-        "name": "Waters Acquity UPLC Column 2.1x100mm",
+        "name": "Waters_Acquity_UPLC_Column",
+        "productName": "Waters Acquity UPLC Column 2.1x100mm",
         "introduction": "Lorem Epsum",
         "price": 499.99,
         "category": "CHROMATOGRAPHY",
@@ -1314,7 +1352,8 @@
     },
     {
         "id": 39,
-        "name": "TLC Silica Gel Plate 20x20 cm",
+        "name": "TLC_Silica_Gel_Plate",
+        "productName": "TLC Silica Gel Plate 20x20 cm",
         "introduction": "Lorem Epsum",
         "price": 29.99,
         "category": "CHROMATOGRAPHY",
@@ -1332,7 +1371,8 @@
     },
     {
         "id": 40,
-        "name": "Agilent Gas Chromatography Column",
+        "name": "Agilent_Gas_Chromatography_Column",
+        "productName": "Agilent Gas Chromatography Column",
         "introduction": "Lorem Epsum",
         "price": 199.99,
         "category": "CHROMATOGRAPHY",
@@ -1350,7 +1390,8 @@
     },
     {
         "id": 41,
-        "name": "Ceramic crucible 50 ml",
+        "name": "Ceramic_crucible",
+        "productName": "Ceramic Crucible 50 ml",
         "introduction": "Lorem Epsum",
         "price": 19.99,
         "category": "LABWARE",
@@ -1368,7 +1409,8 @@
     },
     {
         "id": 42,
-        "name": "Glass beaker 500 ml",
+        "name": "Glass_Beaker",
+        "productName": "Glass beaker 500 ml",
         "introduction": "Lorem Epsum",
         "price": 12.99,
         "category": "LABWARE",
@@ -1386,7 +1428,8 @@
     },
     {
         "id": 43,
-        "name": "Magnetic stirrer with hot plate",
+        "name": "Magnetic_stirrer_with_hot_plate",
+        "productName": "Magnetic Stirrer With Hot Plate",
         "introduction": "Lorem Epsum",
         "price": 199.99,
         "category": "LAB EQUIPMENT",
@@ -1404,7 +1447,8 @@
     },
     {
         "id": 44,
-        "name": "Digital pH meter",
+        "name": "Digital_pH_meter",
+        "productName": "Digital pH meter",
         "introduction": "Lorem Epsum",
         "price": 79.99,
         "category": "LAB EQUIPMENT",
@@ -1422,7 +1466,8 @@
     },
     {
         "id": 45,
-        "name": "Centrifuge 4000 RPM",
+        "name": "Centrifuge_4000_RPM",
+        "productName": "Centrifuge 4000 RPM",
         "introduction": "Lorem Epsum",
         "price": 499.99,
         "category": "LAB EQUIPMENT",
@@ -1440,7 +1485,8 @@
     },
     {
         "id": 46,
-        "name": "Bunsen burner",
+        "name": "Bunsen_burner",
+        "productName": "Bunsen burner",
         "introduction": "Lorem Epsum",
         "price": 24.99,
         "category": "LAB EQUIPMENT",
@@ -1458,7 +1504,8 @@
     },
     {
         "id": 47,
-        "name": "Soxhlet extractor",
+        "name": "Soxhlet_extractor",
+        "productName": "Soxhlet Extractor",
         "introduction": "Lorem Epsum",
         "price": 89.99,
         "category": "LAB EQUIPMENT",
@@ -1476,7 +1523,8 @@
     },
     {
         "id": 48,
-        "name": "Cuvettes for spectrophotometer",
+        "name": "Cuvettes_for_spectrophotometer",
+        "productName": "Cuvettes for Spectrophotometer",
         "introduction": "Lorem Epsum",
         "price": 19.99,
         "category": "LABWARE",
@@ -1494,7 +1542,8 @@
     },
     {
         "id": 49,
-        "name": "Lab coat - Medium",
+        "name": "Lab_coat_Medium",
+        "productName": "Lab coat - Medium",
         "introduction": "Lorem Epsum",
         "price": 29.99,
         "category": "LABWARE",
@@ -1512,7 +1561,8 @@
     },
     {
         "id": 50,
-        "name": "Safety goggles",
+        "name": "Safety_Goggles",
+        "productName": "Safety goggles",
         "introduction": "Lorem Epsum",
         "price": 14.99,
         "category": "LABWARE",
@@ -1530,7 +1580,8 @@
     },
     {
         "id": 51,
-        "name": "Heat-resistant gloves",
+        "name": "Heat_resistant_gloves",
+        "productName": "Heat-Resistant Gloves",
         "introduction": "Lorem Epsum",
         "price": 22.99,
         "category": "LABWARE",
@@ -1548,7 +1599,8 @@
     },
     {
         "id": 52,
-        "name": "Erlenmeyer flask 500 ml",
+        "name": "Erlenmeyer_flask",
+        "productName": "Erlenmeyer flask 500 ml",
         "introduction": "Lorem Epsum",
         "price": 9.99,
         "category": "LABWARE",
@@ -1566,7 +1618,8 @@
     },
     {
         "id": 53,
-        "name": "Desiccator with vacuum pump",
+        "name": "Desiccator_with_vacuum_pump",
+        "productName": "Desiccator With Vacuum Pump",
         "introduction": "Lorem Epsum",
         "price": 119.99,
         "category": "LAB EQUIPMENT",
@@ -1584,7 +1637,8 @@
     },
     {
         "id": 54,
-        "name": "Magnetic stir bar 2 cm",
+        "name": "Magnetic_stir_bar",
+        "productName": "Magnetic Stir Bar 2 cm",
         "introduction": "Lorem Epsum",
         "price": 6.99,
         "category": "LABWARE",
@@ -1602,7 +1656,8 @@
     },
     {
         "id": 55,
-        "name": "MIG welding wire 0.8 mm",
+        "name": "MIG_welding_wire",
+        "productName": "MIG Welding Wire 0.8 mm",
         "introduction": "Lorem Epsum",
         "price": 45.99,
         "category": "WELDING SUPPLIES",
@@ -1620,7 +1675,8 @@
     },
     {
         "id": 56,
-        "name": "Welding helmet with auto-darkening",
+        "name": "Welding_helmet_with_auto-darkening",
+        "productName": "Welding Helmet With Auto-Darkening",
         "introduction": "Lorem Epsum",
         "price": 89.99,
         "category": "WELDING SUPPLIES",
@@ -1638,7 +1694,8 @@
     },
     {
         "id": 57,
-        "name": "Laser cutting machine 500W",
+        "name": "Laser_cutting_machine",
+        "productName": "Laser Cutting Machine 500W",
         "introduction": "Lorem Epsum",
         "price": 2999.99,
         "category": "MACHINERY",
@@ -1656,7 +1713,8 @@
     },
     {
         "id": 58,
-        "name": "CNC milling machine",
+        "name": "CNC_milling_machine",
+        "productName": "CNC Milling Machine",
         "introduction": "Lorem Epsum",
         "price": 4999.99,
         "category": "MACHINERY",
@@ -1673,7 +1731,8 @@
     },
     {
         "id": 59,
-        "name": "3D printer with heated bed",
+        "name": "3D_printer_with_heated_bed",
+        "productName": "3D Printer With Heated Bed",
         "introduction": "Lorem Epsum",
         "price": 799.99,
         "category": "MACHINERY",
@@ -1691,7 +1750,8 @@
     },
     {
         "id": 60,
-        "name": "Microscope with LED illumination",
+        "name": "Microscope_with_LED_illumination",
+        "productName": "Microscope With LED Illumination",
         "introduction": "Lorem Epsum",
         "price": 349.99,
         "category": "OPTICAL INSTRUMENTS",
@@ -1709,7 +1769,8 @@
     },
     {
         "id": 61,
-        "name": "Spectrophotometer 200-800 nm",
+        "name": "Spectrophotometer",
+        "productName": "Spectrophotometer 200-800 nm",
         "introduction": "Lorem Epsum",
         "price": 1599.99,
         "category": "OPTICAL INSTRUMENTS",
@@ -1727,7 +1788,8 @@
     },
     {
         "id": 62,
-        "name": "Digital oscilloscope 100 MHz",
+        "name": "Digital_oscilloscope_100_MHz",
+        "productName": "Digital Oscilloscope 100 MHz",
         "introduction": "Lorem Epsum",
         "price": 799.99,
         "category": "ELECTRONICS",
@@ -1745,7 +1807,8 @@
     },
     {
         "id": 63,
-        "name": "Signal generator 1 GHz",
+        "name": "Signal_generator_1_GHz",
+        "productName": "Signal Generator 1 GHz",
         "introduction": "Lorem Epsum",
         "price": 899.99,
         "category": "ELECTRONICS",
@@ -1763,7 +1826,8 @@
     },
     {
         "id": 64,
-        "name": "Function generator 10 MHz",
+        "name": "Function_generator_10_MHz",
+        "productName": "Function Generator 10 MHz",
         "introduction": "Lorem Epsum",
         "price": 399.99,
         "category": "ELECTRONICS",
@@ -1781,7 +1845,8 @@
     },
     {
         "id": 65,
-        "name": "High-precision multimeter",
+        "name": "High-precision_multimeter",
+        "productName": "High-precision Multimeter",
         "introduction": "Lorem Epsum",
         "price": 199.99,
         "category": "ELECTRONICS",
@@ -1799,7 +1864,8 @@
     },
     {
         "id": 66,
-        "name": "Laser thermometer",
+        "name": "Laser_thermometer",
+        "productName": "Laser Thermometer",
         "introduction": "Lorem Epsum",
         "price": 59.99,
         "category": "ELECTRONICS",
@@ -1817,7 +1883,8 @@
     },
     {
         "id": 67,
-        "name": "Particle size analyzer",
+        "name": "Particle_size_analyzer",
+        "productName": "Particle Size Analyzer",
         "introduction": "Lorem Epsum",
         "price": 999.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1835,7 +1902,8 @@
     },
     {
         "id": 68,
-        "name": "Vibration meter",
+        "name": "Vibration_meter",
+        "productName": "Vibration Meter",
         "introduction": "Lorem Epsum",
         "price": 149.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1853,7 +1921,8 @@
     },
     {
         "id": 69,
-        "name": "Gas chromatograph",
+        "name": "Gas_chromatograph",
+        "productName": "Gas Chromatograph",
         "introduction": "Lorem Epsum",
         "price": 3499.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1872,6 +1941,7 @@
     {
         "id": 70,
         "name": "Refractometer",
+        "productName": "Refractometer",
         "introduction": "Lorem Epsum",
         "price": 79.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1889,7 +1959,8 @@
     },
     {
         "id": 71,
-        "name": "Spectral photometer",
+        "name": "Spectral_photometer",
+        "productName": "Spectral Photometer",
         "introduction": "Lorem Epsum",
         "price": 499.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1907,7 +1978,8 @@
     },
     {
         "id": 72,
-        "name": "Digital balance 500 g",
+        "name": "Digital_balance",
+        "productName": "Digital Balance 500g",
         "introduction": "Lorem Epsum",
         "price": 129.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1925,7 +1997,8 @@
     },
     {
         "id": 73,
-        "name": "Precision thermometer",
+        "name": "Precision_thermometer",
+        "productName": "Precision Thermometer",
         "introduction": "Lorem Epsum",
         "price": 89.99,
         "category": "MEASUREMENT INSTRUMENTS",
@@ -1943,7 +2016,8 @@
     },
     {
         "id": 74,
-        "name": "Stainless steel test tube holder",
+        "name": "Stainless_steel_test_tube_holder",
+        "productName": "Stainless Steel Test Tube Holder",
         "introduction": "Lorem Epsum",
         "price": 24.99,
         "category": "LABWARE",
@@ -1961,7 +2035,8 @@
     },
     {
         "id": 75,
-        "name": "Glass petri dishes 90 mm",
+        "name": "Glass_petri_dishes",
+        "productName": "Glass Petri Dishes 90 mm",
         "introduction": "Lorem Epsum",
         "price": 12.99,
         "category": "LABWARE",
@@ -1979,7 +2054,8 @@
     },
     {
         "id": 76,
-        "name": "Automatic pipette 1-10 ml",
+        "name": "Automatic_pipette",
+        "productName": "Automatic Pipette 1-10 ml",
         "introduction": "Lorem Epsum",
         "price": 59.99,
         "category": "LABWARE",

@@ -115,7 +115,7 @@ const ProductDetail = ({ product }) => {
                     <div className="d-table-cell">
                       <ul>
                         <li>
-                          <span></span><h4><b>{product.name}</b></h4>
+                          <span></span><h4><b>{product.productName}</b></h4>
                         </li>
                         {product.ElectrodeDiameterOptions ? (
                         <li>

@@ -48,7 +48,7 @@ const LatestProjectsCard = ({ category, subcategory }) => {
             <div className="row">
                 {products.map(product => (
                     <div key={product.id} className="col-lg-3 col-sm-6 col-md-6">
-                        <div className="single-projects-box mb-3">
+                        <div className="single-projects-box mb-4">
                             <Image
                             src={product.thumbnailImage}
                             alt={product.name}
@@ -64,7 +64,7 @@ const LatestProjectsCard = ({ category, subcategory }) => {
                         </div>
                         <div className="text-center product-title-card">
                             <Link href={`/product/${product.name}`}>
-                                <h6 className=""><b>{product.name}</b></h6>
+                                <h6 className=""><b>{product.productName}</b></h6>
                             </Link>
                         </div>
                     </div>
