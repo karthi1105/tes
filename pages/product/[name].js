@@ -53,10 +53,10 @@ const ProductDetail = ({ product }) => {
       <TopHeader />
       <NavbarSix />
       <PageBanner
-        pageTitle={product.name}
+        pageTitle={product.productName}
         homePageUrl="/"
         homePageText="Home"
-        activePageText={product.name}
+        activePageText={product.productName}
         bgImg="/images/page-title-bg2.jpg"
       />
       <div className="projects-details-area ptb-110">
@@ -333,6 +333,37 @@ const ProductDetail = ({ product }) => {
                           <span>Electrode Conductivity:</span> {product.ElectrodeConductivity}
                         </li>
                         ):("")}
+                        {/* Composition */}
+                        {product.ActiveIngredient ? (
+                        <li>
+                          <span>Active Ingredient:</span> {product.ActiveIngredient}
+                        </li>
+                        ):("")}
+                        {product.SolventSystem ? (
+                        <li>
+                          <span>Solvent System:</span> {product.SolventSystem}
+                        </li>
+                        ):("")}
+                        {product.form ? (
+                        <li>
+                          <span>Form:</span> {product.form}
+                        </li>
+                        ):("")}
+                        {product.PrimaryComponent ? (
+                        <li>
+                          <span>Primary Component:</span> {product.PrimaryComponent}
+                        </li>
+                        ):("")}
+                        {product.AdditionalComponents ? (
+                        <li>
+                          <span>Additional Components:</span> {product.AdditionalComponents}
+                        </li>
+                        ):("")}
+                        {product.ChemicalFormula ? (
+                        <li>
+                          <span>Chemical Formula:</span> {product.ChemicalFormula}
+                        </li>
+                        ):("")}
                         {/* <li>
                           <span>Price:</span> ${product.price}
                         </li>
@@ -382,6 +413,18 @@ const ProductDetail = ({ product }) => {
                 </p>
               </div>
               ) : ("")}
+              { product.keyfeatures ? (
+              <div>
+                <h5>Key Features</h5>
+                <p>
+                  {product.keyfeatures.map((keyfeatures, index) => (
+                    <ul key={index}>
+                      <li type='square'>{keyfeatures}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
               { product.applications ? (
               <div>
                 <h5>Applications</h5>
@@ -394,6 +437,7 @@ const ProductDetail = ({ product }) => {
                 </p>
               </div>
               ) : ("")}
+              
               {/* <div className="row mt-5">
                 <div className="col-12">
                   <h3>Product Images</h3>

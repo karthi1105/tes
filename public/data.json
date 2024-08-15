@@ -1314,12 +1314,14 @@
     },
     {
         "id": 37,
-        "name": "Agilent_HPLC_Column",
-        "productName": "Agilent HPLC Column 4.6x150mm",
-        "introduction": "Lorem Epsum",
+        "name": "Solution_in_a_Mixture_of_Lower_Aliphatic_Alcohols_and_Water",
+        "productName": "5% Solution in a Mixture of Lower Aliphatic Alcohols and Water",
+        "introduction": "This product is a 5% (w/v) solution, meticulously prepared using a mixture of lower aliphatic alcohols (ethanol and methanol) and water. The solution is designed for various laboratory and research applications, providing consistency and reliability for your experimental needs.",
+        "keyfeatures":["Consistency: Prepared with precise concentrations to ensure reproducibility in experimental procedures.","High Purity: Utilizes high-grade lower aliphatic alcohols and distilled water to maintain solution integrity.","Convenience: Ready-to-use solution saves time and effort in preparation.","Versatility: Suitable for a wide range of laboratory applications, including chemical synthesis, analytical procedures, and biochemical assays."],
+        "applications": ["Chemical Synthesis: Ideal for use in various organic synthesis reactions.","Analytical Chemistry: Suitable for use as a solvent or reactant in analytical methods.","Biochemical Assays: Can be used in enzymatic reactions and other biochemical protocols"],
         "price": 399.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "HPLC Columns",
+        "category": "BINDERS",
+        "subcategory": "Electrolyte Binders",
         "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
@@ -1329,17 +1331,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product"]
+        "tag":["Our Popular Product"],
+        "ActiveIngredient":"5% by weight of the specified solute.",
+        "SolventSystem":"A balanced mixture of ethanol and methanol (1:1 ratio) with distilled water.",
+        "Customization": "Custom volume and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Volume", "Part No"],
+                "rows": [
+                    ["1", "5% in a mixture of lower aliphatic alcohols and water Solution","10 ml","TES-BI-NFE-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 38,
-        "name": "Waters_Acquity_UPLC_Column",
-        "productName": "Waters Acquity UPLC Column 2.1x100mm",
-        "introduction": "Lorem Epsum",
-        "price": 499.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "UPLC Columns",
-        "productcode": "WTR-UPLC-1",
+        "name": "SBR_BINDER_Liquid",
+        "productName": "SBR BINDER(Liquid)",
+        "introduction": "Our SBR (Styrene-Butadiene Rubber) Binder is a high-performance liquid polymer binder, designed for use in a wide range of applications, including adhesive formulations, coatings, and composite materials. With excellent mechanical properties and adhesion characteristics, this product ensures optimal performance in demanding environments.",
+        "keyfeatures":["Superior Adhesion: Provides excellent bonding properties to a variety of substrates.","Durability: Enhances the mechanical strength and longevity of the end product.","Versatility: Suitable for various applications, including adhesives, sealants, and coatings.","Ease of Use: Ready-to-use liquid form facilitates easy handling and application."],
+        "applications": ["Adhesive Formulations: Ideal for use in formulating strong and durable adhesives for industrial and commercial applications.","Coatings: Provides excellent film-forming properties, making it suitable for protective and decorative coatings.","Composite Materials: Enhances the performance of composite materials by improving their mechanical properties."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1348,17 +1364,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "ActiveIngredient":"Styrene-Butadiene Rubber (SBR)",
+        "form":"Liquid",
+        "Customization": "Custom volume and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Volume", "Part No"],
+                "rows": [
+                    ["1", "SBR BINDER","Liquid","10 ml","TES-BI-SBRL-10"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 39,
-        "name": "TLC_Silica_Gel_Plate",
-        "productName": "TLC Silica Gel Plate 20x20 cm",
-        "introduction": "Lorem Epsum",
-        "price": 29.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "TLC Plates",
-        "productcode": "TLC-SG-20",
+        "name": "SBR_BINDER_Powder",
+        "productName": "SBR BINDER (Powder)",
+        "introduction": "Our SBR (Styrene-Butadiene Rubber) Binder in powder form is a versatile, high-performance additive designed for enhancing the properties of adhesives, sealants, coatings, and composite materials. This powdered binder offers excellent mechanical properties, ease of handling, and superior adhesion, making it an ideal choice for various industrial applications.",
+        "keyfeatures":["Superior Adhesion: Provides excellent bonding properties to a variety of substrates.","Enhanced Durability: Improves the mechanical strength and longevity of the end product.","Versatility: Suitable for use in adhesives, sealants, coatings, and composite materials.","Easy Handling: Powder form allows for precise dosing and easy mixing."],
+        "applications": ["Adhesive Formulations: Ideal for creating strong and durable adhesives for both industrial and commercial uses.","Sealants: Enhances the performance of sealants, providing improved flexibility and adhesion.","Coatings: Suitable for protective and decorative coatings, offering excellent film-forming properties.","Composite Materials: Enhances the mechanical properties of composite materials, improving their overall performance."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1367,17 +1397,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "ActiveIngredient":"Styrene-Butadiene Rubber (SBR)",
+        "form":"Powder",
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Volume", "Part No"],
+                "rows": [
+                    ["1", "SBR BINDER","Powder","50 Grams","TES-BI-SBRP-50"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 40,
-        "name": "Agilent_Gas_Chromatography_Column",
-        "productName": "Agilent Gas Chromatography Column",
-        "introduction": "Lorem Epsum",
-        "price": 199.99,
-        "category": "CHROMATOGRAPHY",
-        "subcategory": "GC Columns",
-        "productcode": "AGL-GC-1",
+        "name": "PTFE_BINDER",
+        "productName": "PTFE BINDER",
+        "introduction": "Polytetrafluoroethylene (PTFE) is a high-performance synthetic fluoropolymer with exceptional chemical resistance, thermal stability, and low friction properties. PTFE binders in liquid form are utilized in various industrial applications, particularly where high temperature and aggressive chemical environments are prevalent.",
+        "keyfeatures":["High Chemical Resistance: PTFE binders offer superior resistance to acids, bases, and solvents, making them ideal for harsh chemical environments.","Thermal Stability: With a melting point of around 327°C, PTFE remains stable at elevated temperatures, ensuring long-term performance.","Low Friction: The inherent low friction coefficient of PTFE contributes to reduced wear and tear in dynamic applications.","Non-stick Properties: PTFE's non-stick nature prevents material build-up, ensuring clean and efficient operations.","Electrical Insulation: Excellent dielectric properties make PTFE suitable for electrical insulation applications."],
+        "applications": ["Coatings: Used as a binder in high-performance coatings for cookware, industrial machinery, and chemical processing equipment.","Lubricants: Acts as an additive in lubricants to enhance thermal stability and reduce friction.","Sealants and Gaskets: Provides enhanced chemical resistance and durability in sealants and gasket formulations.","Composites: Utilized in composite materials to impart chemical resistance and thermal stability.","Electrical Insulation: Applied in electrical components where superior insulation and thermal stability are required."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1386,17 +1430,32 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Polytetrafluoroethylene (PTFE)",
+        "AdditionalComponents":"Proprietary stabilizers and dispersing agents",
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Volume", "Part No"],
+                "rows": [
+                    ["1", "PTFE BINDER","Liquid","100 Grams","TES-BI-PTFE-100"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 41,
-        "name": "Ceramic_crucible",
-        "productName": "Ceramic Crucible 50 ml",
-        "introduction": "Lorem Epsum",
-        "price": 19.99,
-        "category": "LABWARE",
-        "subcategory": "Crucibles",
-        "productcode": "CER-CR-50",
+        "name": "CMC_Powder",
+        "productName": "CMC Powder",
+        "introduction": "Carboxymethyl Cellulose (CMC) is a cellulose derivative obtained by chemical modification of natural cellulose. Known for its excellent thickening, stabilizing, and water retention properties, CMC is widely used across various industries, including food, pharmaceuticals, cosmetics, and industrial applications.",
+        "keyfeatures":["High Viscosity: CMC provides excellent thickening properties, making it ideal for use in formulations requiring viscosity control.","Water Retention: Exceptional water retention capability improves moisture content in various applications.","Stabilizing Agent: Acts as a stabilizer in emulsions, suspensions, and foams, ensuring uniform consistency.","Film Forming: Forms a strong, flexible film, enhancing the texture and stability of coatings and films.","Biodegradability: CMC is environmentally friendly and biodegradable, reducing environmental impact."],
+        "applications": ["Food Industry: Used as a thickener, stabilizer, and emulsifier in products such as ice cream, sauces, and bakery items.","Pharmaceuticals: Acts as a binder, disintegrant, and stabilizer in tablet formulations and suspensions.","Cosmetics: Used in creams, lotions, and toothpaste as a thickening and stabilizing agent.","Textile Industry: Improves texture and enhances the printing process in textile printing pastes.","Paper Industry: Enhances paper quality by improving moisture retention and providing a smooth finish."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "childCategory":"CMC BINDER",
+        "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1405,17 +1464,32 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Carboxymethyl Cellulose (CMC)",
+        "ChemicalFormula":"[C6H7O2(OH)2OCH2COONa]n",
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Volume", "Part No"],
+                "rows": [
+                    ["1", "CMC BINDER","Powder","100 Grams","TES-BI-CMCP-100"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 42,
-        "name": "Glass_Beaker",
-        "productName": "Glass beaker 500 ml",
-        "introduction": "Lorem Epsum",
-        "price": 12.99,
-        "category": "LABWARE",
-        "subcategory": "Beakers",
-        "productcode": "GLS-BKR-500",
+        "name": "CMC_Liquid",
+        "productName": "CMC Liquid",
+        "introduction": "Carboxymethyl Cellulose (CMC) is a cellulose derivative obtained by the chemical modification of natural cellulose. CMC in liquid form offers excellent thickening, stabilizing, and water retention properties, making it highly versatile for a range of industrial applications including food, pharmaceuticals, cosmetics, and more.",
+        "keyfeatures":["High Viscosity: Provides excellent thickening properties, essential for formulations requiring viscosity control.","Water Retention: Exceptional water retention capability, enhancing the moisture content in various applications.","Stabilizing Agent: Acts as a stabilizer in emulsions, suspensions, and foams, ensuring uniform consistency and preventing separation.","Film Forming: Forms a strong, flexible film, improving texture and stability in coatings and films.","Biodegradability: Environmentally friendly and biodegradable, reducing the environmental impact."],
+        "applications": ["Food Industry: Used as a thickener, stabilizer, and emulsifier in products such as ice cream, sauces, and bakery items.","Pharmaceuticals: Acts as a binder, disintegrant, and stabilizer in tablet formulations and suspensions.","Cosmetics: UUsed in creams, lotions, and toothpaste as a thickening and stabilizing agent.","Textile Industry: Improves texture and enhances the printing process in textile printing pastes.","Paper Industry: Enhances paper quality by improving moisture retention and providing a smooth finish."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "childCategory":"CMC BINDER",
+        "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1424,7 +1498,19 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Carboxymethyl Cellulose (CMC)",
+        "ChemicalFormula":"[C6H7O2(OH)2OCH2COONa]n (in aqueous solution)",
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Volume", "Part No"],
+                "rows": [
+                    ["1", "CMC BINDER","Powder","100 Grams","TES-BI-CMCL-100"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 43,
