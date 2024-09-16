@@ -1514,13 +1514,15 @@
     },
     {
         "id": 43,
-        "name": "Magnetic_stirrer_with_hot_plate",
-        "productName": "Magnetic Stirrer With Hot Plate",
-        "introduction": "Lorem Epsum",
-        "price": 199.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Stirrers",
-        "productcode": "MAG-HP-1",
+        "name": "NMP_Binder",
+        "productName": "NMP BINDER",
+        "introduction": "N-Methyl-2-Pyrrolidone (NMP) is a versatile and highly polar organic solvent known for its excellent solvency properties, high boiling point, and low volatility. NMP is widely used across various industries, including pharmaceuticals, electronics, petrochemicals, and coatings.",
+        "keyfeatures":["High Solvency: Excellent solvency for a wide range of organic and inorganic materials, making it suitable for various applications.","High Boiling Point: The high boiling point ensures stability and effectiveness in high-temperature processes.","Low Volatility: Low evaporation rate reduces the risk of exposure and loss during application.","Chemical Stability: Stable under normal conditions and compatible with many chemical substances.","Versatility: Suitable for a broad range of applications across multiple industries."],
+        "applications": ["Pharmaceuticals: Used as a solvent and reagent in drug formulation and production processes.","Electronics: Employed in the manufacture of lithium-ion batteries and as a cleaning agent for electronic components.","Petrochemicals: Acts as an extraction solvent in petrochemical processes and for polymer dissolution.","Coatings: Utilized as a solvent in the formulation of paints, coatings, and inks.","Agrochemicals: Used in the production of pesticides and herbicides as a solvent and carrier."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "productcode": "AGL-HPLC-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1529,17 +1531,32 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"N-Methyl-2-Pyrrolidone (NMP)",
+        "ChemicalFormula":"C5H9NO",
+        "MolecularWeight":"99.13 g/mol",
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", " N-Methyl-2-Pyrrolidone (NMP) binder","Liquid","100 Grams","TES-BI-NMP-100"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 44,
-        "name": "Digital_pH_meter",
-        "productName": "Digital pH meter",
-        "introduction": "Lorem Epsum",
-        "price": 79.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "pH Meters",
-        "productcode": "DIG-PH-1",
+        "name": "Aquesous_Binder",
+        "productName": "Aquesous Binder",
+        "introduction": "Aqueous Binder is a water-based binder designed for use in a variety of industrial applications. It offers excellent adhesive properties, good film formation, and outstanding stability. This binder is especially suitable for applications in the battery industry, coatings, and adhesives.",
+        "keyfeatures":["Excellent Adhesion: Provides strong adhesion to a wide range of substrates.","Good Film Formation: Forms a smooth, uniform film upon drying, enhancing the mechanical properties of the coated substrate.","Stable Dispersion: High stability in aqueous systems, preventing sedimentation and phase separation.","Environmentally Friendly: Water-based formulation reduces VOC emissions, making it environmentally benign.","Versatility: Suitable for use in various applications including batteries, coatings, and adhesives."],
+        "applications": ["Battery Industry: Used as a binder in the fabrication of electrodes for lithium-ion batteries, providing excellent adhesion and mechanical stability.","Coatings: Acts as a binder in coatings for improved film formation and adhesion to substrates.","Adhesives: Enhances adhesive formulations, providing strong bonding properties and flexibility.","Textiles: Applied in textile treatments to improve texture and durability."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "productcode": "TES-BI-AB-100",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1548,17 +1565,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Aqueous dispersion of a proprietary polymer blend",
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", " Aqueous Binder","Liquid","100 Grams","TES-BI-AB-100"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 45,
-        "name": "Centrifuge_4000_RPM",
-        "productName": "Centrifuge 4000 RPM",
-        "introduction": "Lorem Epsum",
-        "price": 499.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Centrifuges",
-        "productcode": "CEN-4000",
+        "name": "PVDF_Binders",
+        "productName": "PVDF(Polyvinylidene Fluoride) Binders",
+        "introduction": "Polyvinylidene Fluoride (PVDF) is a high-performance thermoplastic fluoropolymer known for its exceptional chemical resistance, mechanical strength, and excellent thermal stability. PVDF is widely used in various industries including chemical processing, electronics, automotive, and construction for applications requiring durable and reliable materials.",
+        "keyfeatures":["Chemical Resistance: Excellent resistance to acids, bases, and solvents, making it suitable for harsh chemical environments.","Thermal Stability: High thermal stability with a melting point of 171°C, suitable for high-temperature applications.","Mechanical Strength: High tensile strength and durability, ensuring long-term performance.","Electrical Insulation: Superior dielectric properties, making it ideal for electrical and electronic applications.","UV Resistance: Good resistance to UV radiation, maintaining properties and appearance under prolonged exposure to sunlight."],
+        "applications": ["Chemical Processing: Used in piping, tanks, and fittings due to its chemical resistance and mechanical strength.","Electronics: Utilized in wire and cable insulation, semiconductor processing equipment, and other electronic components.","Automotive: Applied in fuel lines, seals, and gaskets for its durability and chemical resistance.","Construction: Employed in coatings, linings, and membranes for its UV resistance and longevity.","Water Treatment: Suitable for filtration and separation membranes due to its chemical stability and strength."],
+        "price": 399.99,
+        "category": "BINDERS",
+        "subcategory": "Battery Binders",
+        "productcode": "TES-BI-AB-100",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1567,16 +1597,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Polyvinylidene Fluoride (PVDF)",
+        "ChemicalFormula":"(C₂H₂F₂)ₙ",
+        "physicalProperties":["Appearance: White powder or granules","Density: 1.78 g/cm³","Melting Point: 171°C (340°F)","Glass Transition Temperature: -40°C (-40°F)","Tensile Strength: 40-55 MPa","Elongation at Break: 20-50%","Crystallinity: 50-60%"],
+        "Customization": "Custom mass and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", "PVDF","Powder","100 Grams","TES-BI-PVDF-100"],
+                    ["2", "PVDF Battery Grade","Powder","100 Grams","TES-BI-PVDFB-100"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 46,
-        "name": "Bunsen_burner",
-        "productName": "Bunsen burner",
-        "introduction": "Lorem Epsum",
+        "name": "Nickel_foam",
+        "productName": "Nickel foam",
+        "introduction": "Nickel Foam is a high-performance porous material characterized by its open-cell structure, high surface area, and excellent conductivity. This material is widely used in various applications, including energy storage, catalysis, filtration, and thermal management.",
+        "applications": ["Energy Storage: Used as a current collector in batteries and supercapacitors due to its high conductivity and surface area.","Catalysis: Acts as a catalyst support in chemical reactions, improving efficiency and reaction rates.","Filtration: Utilized in air and liquid filtration systems for its porous structure and durability.","Thermal Management: Employed in heat exchangers and thermal interface materials for efficient heat dissipation.","Electrochemical Applications: Ideal for electrodes in fuel cells and electrolyzers."],
         "price": 24.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Burners",
+        "category": "Foams and Films",
+        "subcategory": "Foams",
         "productcode": "BUN-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
@@ -1586,17 +1631,34 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":"100 mm  L X 100 mm W",
+        "thicknessOptions":"500 micron.1000 micron,1600 micron,2000 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization": "Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Nickel Foam","100 mm LX 100 mm W","500 micron","TES-FM-NI-500"],
+                    ["2", "Nickel Foam","100 mm LX 100 mm W","1000 micron","TES-FM-NI-1000"],
+                    ["3", "Nickel Foam","100 mm LX 100 mm W","1600 micron","TES-FM-NI-1600"],
+                    ["4", "Nickel Foam","100 mm LX 100 mm W","2000 micron","TES-FM-NI-2000"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 47,
-        "name": "Soxhlet_extractor",
-        "productName": "Soxhlet Extractor",
-        "introduction": "Lorem Epsum",
-        "price": 89.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Extractors",
-        "productcode": "SOX-1",
+        "name": "Copper_Foam",
+        "productName": "Copper Foam",
+        "introduction": "Copper Foam is a high-performance porous material known for its excellent electrical and thermal conductivity, high surface area, and lightweight nature. It is widely used in applications such as energy storage, catalysis, heat exchangers, and  filtration.",
+        "applications": ["Energy Storage: Used as a current collector in batteries and supercapacitors, benefiting from high conductivity and surface area.","Catalysis: Acts as a catalyst support in chemical reactions, improving efficiency and reaction rates.","Filtration: Employed in air and liquid filtration systems for its porous structure and durability.","Thermal Management: Utilized in heat exchangers and thermal interface materials for efficient heat dissipation.","Electrochemical Applications: Ideal for electrodes in fuel cells and electrolyzers."],
+        "price": 24.99,
+        "category": "Foams and Films",
+        "subcategory": "Foams",
+        "productcode": "BUN-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1605,16 +1667,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":"1000 micron & 2000 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization": "Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Copper Foam","100 mm L X 100 W ","1000 micron","TES-FM-CU-1000"],
+                    ["2", "Copper Foam","100 mm L X 100 W","2000 micron","TES-FM-CU-2000"]
+                ]
+            }
+        ],
+        "datasheet":"/datasheet/Sample Holder.pdf"
     },
     {
         "id": 48,
-        "name": "Cuvettes_for_spectrophotometer",
-        "productName": "Cuvettes for Spectrophotometer",
-        "introduction": "Lorem Epsum",
+        "name": "Aluminium_Foam",
+        "productName": "Aluminium Foam",
+        "introduction": "Aluminium Foam is a lightweight, porous material characterized by its high strength-to-weight ratio, excellent energy absorption, and thermal conductivity. It is widely used in various industries, including automotive, aerospace, construction, and energy, for applications requiring lightweight and robust materials.",
+        "applications": ["Automotive Industry: Used in crash protection systems, sound insulation, and lightweight structural components.","Aerospace: Employed in lightweight panels, structural components, and vibration damping systems.","Construction: Utilized in lightweight partition walls, soundproofing materials, and energy-absorbing panels.","Energy: Applied in heat exchangers, cooling systems, and energy absorption devices.","Marine: Used in shipbuilding for lightweight and corrosion-resistant components."],
         "price": 19.99,
-        "category": "LABWARE",
-        "subcategory": "Cuvettes",
+        "category": "Foams and Films",
+        "subcategory": "Foams",
         "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
@@ -1624,17 +1701,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product", "Latest Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 5000 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization": "Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Aluminium foam","100 mm L X 100 mm W","5000 micron","TES-FM-AL-5000"]
+                ]
+            }
+        ]
     },
     {
         "id": 49,
-        "name": "Lab_coat_Medium",
-        "productName": "Lab coat - Medium",
-        "introduction": "Lorem Epsum",
-        "price": 29.99,
-        "category": "LABWARE",
-        "subcategory": "Apparel",
-        "productcode": "LAB-M",
+        "name": "Titanium_Foam",
+        "productName": "Titanium Foam",
+        "introduction": "Titanium Foam is a high-performance porous material known for its excellent strength-to-weight ratio, biocompatibility, and corrosion resistance. This material is widely utilized in industries such as biomedical, aerospace, automotive, and chemical processing.",
+        "applications": ["Biomedical: Used in bone implants, dental implants, and prosthetics due to its biocompatibility and ability to integrate with bone tissue.","Aerospace: Employed in lightweight structural components and heat-resistant parts. ","Automotive: Utilized in high-performance and lightweight components, such as exhaust systems and heat shields.","Chemical Processing: Acts as a catalyst support and filtration material in aggressive chemical environments.","Energy: Applied in fuel cells, battery electrodes, and heat exchangers for its conductivity and stability."],
+        "price": 19.99,
+        "category": "Foams and Films",
+        "subcategory": "Foams",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1643,17 +1733,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 1000 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization": "Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Titanium Foam",	"100 mm L X 100 mm W",	"1000 micron",	"TES-FM-TI-1000"]
+                ]
+            }
+        ]
     },
+    
     {
         "id": 50,
-        "name": "Safety_Goggles",
-        "productName": "Safety goggles",
-        "introduction": "Lorem Epsum",
-        "price": 14.99,
-        "category": "LABWARE",
-        "subcategory": "Safety Gear",
-        "productcode": "SG-1",
+        "name": "Stainless steel_foam",
+        "productName": "Stainless steel foam",
+        "introduction": "Stainless Steel Foam is a highly durable and corrosion-resistant porous material characterized by its high strength, lightweight nature, and excellent thermal and electrical conductivity. It is widely used in various applications, including filtration, catalysis, energy storage, and thermal management.",
+        "applications": ["Filtration: Used in air and liquid filtration systems for its durability and high porosity.","Catalysis: Acts as a catalyst support in chemical reactions, enhancing efficiency and reaction rates.","Energy Storage: Utilized as a current collector in batteries and supercapacitors, benefiting from its conductivity and surface area.","Thermal Management: Employed in heat exchangers, heat sinks, and thermal interface materials for efficient heat dissipation.","Acoustics: Used in noise reduction and soundproofing applications due to its porous structure and energy absorption capabilities."],
+        "price": 19.99,
+        "category": "Foams and Films",
+        "subcategory": "Foams",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1662,17 +1766,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 1000 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customizati":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Stainless steel Foam",	"100 mm L X 100 mm W",	"1000 micron",	"TES-FM-SS-1000"]
+                ]
+            }
+        ]
     },
     {
         "id": 51,
-        "name": "Heat_resistant_gloves",
-        "productName": "Heat-Resistant Gloves",
-        "introduction": "Lorem Epsum",
-        "price": 22.99,
-        "category": "LABWARE",
-        "subcategory": "Safety Gear",
-        "productcode": "HRG-1",
+        "name": " Aluminium_Laminated_Film",
+        "productName": "Aluminium laminated Film for pouch cell",
+        "introduction": "Aluminium Laminated Film is a high-performance material designed to offer excellent barrier properties, durability, and flexibility. The film is commonly used in packaging, insulation, and various industrial applications where protection against moisture, oxygen, and light is essential.",
+        "applications": ["Packaging: Used in food packaging, pharmaceuticals, and electronics to protect against environmental factors and extend shelf life.","Insulation: Applied in thermal insulation for buildings, appliances, and HVAC systems to improve energy efficiency.","Industrial: Utilized in industrial applications for protective wrapping and as a barrier layer in composite materials.","Automotive: Employed in the automotive industry for soundproofing and thermal insulation.","Consumer Goods: Used in the packaging of consumer goods such as cosmetics, personal care products, and more."],
+        "price": 19.99,
+        "category": "Foams and Films",
+        "subcategory": "Foams",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1681,17 +1798,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":"200 mm L x 200 mm W",
+        "thicknessOptions":"152 microns ",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Aluminium laminated film",	"200 mm LX 200 mm W",	"152 micron",	"TES-FM-ALF-152"]
+                ]
+            }
+        ]
     },
     {
         "id": 52,
-        "name": "Erlenmeyer_flask",
-        "productName": "Erlenmeyer flask 500 ml",
-        "introduction": "Lorem Epsum",
-        "price": 9.99,
-        "category": "LABWARE",
-        "subcategory": "Flasks",
-        "productcode": "ERL-FLK-500",
+        "name": "Tin_Foil ",
+        "productName": "Tin Foil ",
+        "introduction": "Tin foil is a versatile and high-performance material known for its excellent barrier properties, malleability, and conductivity. It is widely used in various industries, including packaging, electronics, and construction, for applications requiring protection, insulation, and reflective properties.",
+        "applications": ["Packaging: Used in food packaging to keep products fresh by protecting against moisture, oxygen, and contaminants.","Electronics: Employed in electronic components for its conductivity and protective properties.","Construction: Utilized in insulation materials for buildings, reflecting heat and providing thermal insulation.","Crafts and Decoration: Used in arts, crafts, and decorative applications for its shiny, reflective surface.","Medical: Applied in certain medical applications, such as protective coverings and sterilization wraps."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1700,17 +1830,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":"100 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Tin foil",	"100 mm L X 100 mm W",	"100-micron",	"TES-FL-SN- 100"]
+                ]
+            }
+        ]
     },
     {
         "id": 53,
-        "name": "Desiccator_with_vacuum_pump",
-        "productName": "Desiccator With Vacuum Pump",
-        "introduction": "Lorem Epsum",
-        "price": 119.99,
-        "category": "LAB EQUIPMENT",
-        "subcategory": "Desiccators",
-        "productcode": "DES-VAC-1",
+        "name": "Zinc_Foil",
+        "productName": "Zinc Foil ",
+        "introduction": "Zinc foil is a highly versatile and durable material known for its excellent corrosion resistance, electrical conductivity, and malleability. It is widely used in various industries, including electronics, batteries, chemical processing, and construction, for applications requiring protective, conductive, and structural properties.",
+        "applications": ["Electronics: Used in electronic components, connectors, and as a protective coating for electronic devices.","Batteries: Employed in battery anodes, particularly in zinc-carbon and alkaline batteries, due to its high electrochemical activity.","Chemical Processing: Utilized in the production of chemical reagents and as a protective lining in chemical equipment.","Construction: Applied in roofing, cladding, and other construction materials for its corrosion resistance and durability.","Medical: Used in medical devices and equipment for its biocompatibility and protective properties."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1719,17 +1862,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 100 micron & 500 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Zinc Foil",	"100 mm L X 100 mm W",	"100-micron",	"TES-FL-ZN- 100"],
+                    ["2", "Zinc Foil",	"100 mm L X 100 mm W",	"500-micron",	"TES-FL-zN- 100"]
+                ]
+            }
+        ]
     },
     {
         "id": 54,
-        "name": "Magnetic_stir_bar",
-        "productName": "Magnetic Stir Bar 2 cm",
-        "introduction": "Lorem Epsum",
-        "price": 6.99,
-        "category": "LABWARE",
-        "subcategory": "Stir Bars",
-        "productcode": "MAG-BAR-2",
+        "name": "Zinc_Polycrystalline_Metallic_Foil",
+        "productName": "Zinc Polycrystalline Metallic Foil ",
+        "introduction": "Zinc Polycrystalline Metallic Foil is a high-quality, versatile material known for its excellent electrical conductivity, corrosion resistance, and malleability. The polycrystalline structure enhances its mechanical properties, making it suitable for a wide range of industrial applications including electronics, batteries, chemical processing, and construction.",
+        "applications": ["Electronics: Used in electronic components, connectors, and as a protective coating for electronic devices.","Batteries: Employed in battery anodes, particularly in zinc-carbon and alkaline batteries, due to its high electrochemical activity and conductivity.","Chemical Processing: Used in the production of chemical reagents and as a protective lining in chemical equipment.","Construction: Applied in roofing, cladding, and other construction materials for its corrosion resistance and durability.","Medical: Suitable for medical devices and equipment due to its biocompatibility and protective properties."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1738,17 +1895,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 100 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Zinc Polycrystalline Metallic Foil",	"100 mm L X 100 mm W",	"100-micron",	"TES-FL-ZPMF- 100"]
+                ]
+            }
+        ]
     },
     {
         "id": 55,
-        "name": "MIG_welding_wire",
-        "productName": "MIG Welding Wire 0.8 mm",
-        "introduction": "Lorem Epsum",
-        "price": 45.99,
-        "category": "WELDING SUPPLIES",
-        "subcategory": "Welding Wires",
-        "productcode": "WEL-MIG-0.8",
+        "name": "Nickel_Foil",
+        "productName": "Nickel Foil",
+        "introduction": "Nickel foil is a high-performance material known for its excellent electrical conductivity, corrosion resistance, and mechanical strength. It is used across various industries, including electronics, aerospace, automotive, and chemical processing, for applications requiring reliable and durable conductive materials.",
+        "applications": ["Electronics: Used in batteries, capacitors, and other electronic components for its conductivity and reliability.","Aerospace: Employed in aerospace components that require high strength-to-weight ratio and corrosion resistance.","Automotive: Utilized in electric vehicle batteries and other automotive components.","Chemical Processing: Acts as a catalyst and protective layer in chemical reactors and equipment.","Energy Storage: Suitable for use in fuel cells and other energy storage devices due to its conductive properties."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1757,17 +1927,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 100 micron & 500 micron ",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Nickel Foil",	"100 mm L X 100 mm W",	"100-micron",	"TES-FL-NI- 100"],
+                    ["2", "Nickel Foil",	"100 mm L X 100 mm W",	"500-micron",	"TES-FL-NI- 500"]
+                    ]  
+            }
+        ]
     },
     {
         "id": 56,
-        "name": "Welding_helmet_with_auto-darkening",
-        "productName": "Welding Helmet With Auto-Darkening",
-        "introduction": "Lorem Epsum",
-        "price": 89.99,
-        "category": "WELDING SUPPLIES",
-        "subcategory": "Protective Gear",
-        "productcode": "WEL-HELMET-AD",
+        "name": "copper_Foil",
+        "productName": "Copper Foil",
+        "introduction": "Copper foil is a high-performance material known for its excellent electrical and thermal conductivity, malleability, and corrosion resistance. It is widely used in various industries including electronics, automotive, aerospace, and construction, for applications that require reliable and efficient conductive materials.",
+        "applications": ["Electronics: Used in printed circuit boards (PCBs), connectors, and other electronic components for its conductivity and reliability.","Automotive: Utilized in electric vehicle batteries, wiring, and other automotive components.","Aerospace: Employed in aerospace components requiring high conductivity and corrosion resistance.","Construction: Applied in roofing, cladding, and other construction materials for durability and aesthetic appeal.","Energy Storage: Suitable for use in batteries, capacitors, and other energy storage devices due to its conductive properties."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1776,17 +1960,33 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 9 micon,16 micron,20 micron,100 micron ",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Copper foil",	"5000 mm  L X 200 mm W",	"9-micron",	    "TES-FL-CU-09"],
+                    ["2", "Copper foil",	"5000 mm  L X 200 mm W",	"16-micron",	"TES-FL-CU-16"],
+                    ["3", "Copper foil",	"5000 mm  L X 200 mm W",	"20-micron",	"TES-FL-CU-20"],
+                    ["4", "Copper foil",	"5000  mm L X 100 mm W",	"100-micron",	"TES-FL-CU-100"]
+                ]  
+            }
+        ]
     },
     {
         "id": 57,
-        "name": "Laser_cutting_machine",
-        "productName": "Laser Cutting Machine 500W",
-        "introduction": "Lorem Epsum",
-        "price": 2999.99,
-        "category": "MACHINERY",
-        "subcategory": "Cutting Machines",
-        "productcode": "LAS-CUT-500",
+        "name": "Carbon_Coated_Copper_Foil",
+        "productName": "Carbon Coated Copper Foil",
+        "introduction": "Carbon coated copper foil combines the excellent electrical and thermal conductivity of copper with the enhanced surface properties provided by a carbon coating. This combination results in a high-performance material ideal for various advanced applications, particularly in energy storage and electronic devices.",
+        "applications": ["Energy Storage: Used in lithium-ion batteries and other advanced battery technologies for enhanced performance and longevity.","Electronics: Employed in electronic components such as capacitors, connectors, and flexible circuits for improved conductivity and durability.","Automotive: Utilized in electric vehicles and other automotive components requiring reliable conductive materials.","Aerospace: Applied in aerospace technology for lightweight, durable, and conductive materials.","Industrial: Suitable for a range of industrial applications where superior conductivity and surface properties are required."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1795,17 +1995,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 11 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Carbon coated Copper foil",	"1000 mm L x 239 mm W",	"11 micron",	"TES-FL-CCCU-11"]
+                ]
+            }
+        ]
     },
     {
         "id": 58,
-        "name": "CNC_milling_machine",
-        "productName": "CNC Milling Machine",
-        "introduction": "Lorem Epsum",
-        "price": 4999.99,
-        "category": "MACHINERY",
-        "subcategory": "Milling Machines",
-        "productcode": "CNC-MILL-1",
+        "name": "Aluminium_Foil",
+        "productName": ".Aluminium Foil",
+        "introduction": "Aluminium foil is a versatile, high-performance material known for its excellent barrier properties, thermal and electrical conductivity, and lightweight nature. It is widely used in various industries, including packaging, electronics, construction, and automotive, for applications requiring reliable and efficient materials.",
+        "applications": ["Packaging: Used in food and pharmaceutical packaging to protect products from moisture, light, and contaminants.","Electronics: Utilized in electronic components, capacitors, and heat sinks for its conductivity and thermal properties.","Construction: Employed in insulation materials, roofing, and cladding for its reflective and barrier properties.","Automotive: Applied in vehicle components such as heat shields, wiring, and insulation."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1813,17 +2026,36 @@
             "https://placehold.co/500x600?text=Product"
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
-        "categoryImage":"https://placehold.co/300x300?text=Thumbnail"
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 10 micon,16 micron,20 micron,100 micron,500 micron ",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Aluminium foil",	"5000 mm  L X 200 mm W",	"10-micron",    "TES-FL-AL-10"],
+                    ["2", "Aluminium foil",	"5000 mm  L X 200 mm W",	"16-micron",	"TES-FL-AL-16"],
+                    ["3", "Aluminium foil",	"5000 mm  L X 200 mm W",	"20-micron",	"TES-FL-AL-20"],
+                    ["4", "Aluminium foil",	"100 mm L X 100 mm W",	    "100-micron",	"TES-FL-AL-100"],
+                    ["5", "Aluminium foil",	"100 mm L X 100 mm W",	    "500-micron",	"TES-FL-AL-500"]
+
+                ]  
+            }
+        ]
     },
     {
         "id": 59,
-        "name": "3D_printer_with_heated_bed",
-        "productName": "3D Printer With Heated Bed",
-        "introduction": "Lorem Epsum",
-        "price": 799.99,
-        "category": "MACHINERY",
-        "subcategory": "3D Printers",
-        "productcode": "3D-PRNT-HB",
+        "name": "Carbon_Coated_Aluminium_Foil",
+        "productName": "Carbon Coated Aluminium Foil",
+        "introduction": "Aluminium foil carbon coated combines the excellent properties of aluminium with the enhanced surface characteristics provided by a carbon coating. This material is known for its superior conductivity, corrosion resistance, and enhanced surface properties, making it suitable for advanced applications in energy storage, electronics, and other high-performance industries.",
+        "applications": ["Energy Storage: Used in lithium-ion batteries and other advanced battery technologies for improved performance and longevity.","Electronics: Employed in electronic components, capacitors, and flexible circuits for better conductivity and durability.","Automotive: Utilized in electric vehicle batteries and other automotive components requiring reliable conductive materials.","Aerospace: Applied in aerospace technology for lightweight, durable, and conductive materials.","Industrial: Suitable for a range of industrial applications where superior conductivity and surface properties are required."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1832,17 +2064,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 18 micron  (Aluminium + Carbon Coating)",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Carbon coated Aluminium foil",	"2000 mm L x 260 mm W",	"18 micron",	"TES-FL-CCAL-18"]
+                ]
+            }
+        ]
     },
     {
         "id": 60,
-        "name": "Microscope_with_LED_illumination",
-        "productName": "Microscope With LED Illumination",
-        "introduction": "Lorem Epsum",
-        "price": 349.99,
-        "category": "OPTICAL INSTRUMENTS",
-        "subcategory": "Microscopes",
-        "productcode": "MIC-LED-1",
+        "name": "Stainless_Steel_Foil",
+        "productName": "Stainless Steel Foil",
+        "introduction": "SS 304 Grade Foil is a high-quality stainless steel foil known for its excellent corrosion resistance, strength, and durability. It is widely used across various industries including aerospace, automotive, medical, and construction for applications that demand reliable and long-lasting materials.",
+        "applications": ["Aerospace: Used in components that require high strength-to-weight ratio and corrosion resistance.","Automotive: Utilized in exhaust systems, heat shields, and other components requiring durability and heat resistance.","Medical: Employed in medical instruments, implants, and devices for its biocompatibility and ease of sterilization.","Construction: Applied in architectural features, roofing, and cladding for its aesthetic appeal and durability.","Industrial: Suitable for various industrial applications including chemical processing, heat exchangers, and more."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1851,17 +2096,35 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 20 micron,100 micron,200 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "304 SS Foil",	"200 mm  L X 200 mm W",	"20-micron",    "TES-FL-SS-20"],
+                    ["2", "304 SS Foil",	"100 mm  L X 100 mm W",	"100-micron",	"TES-FL-ss-100"],
+                    ["3", "304 SS Foil",	"200 mm  L X 200 mm W",	"100-micron",	"TES-FL-SS-200"],
+                    ["4", "304 SS Foil",	"100 mm L X 100 mm W",  "200-micron",	"TES-FL-SS-200"],
+                    ["5", "304 SS Foil",	"100 mm L X 100 mm W",  "500-micron",	"TES-FL-ss-500"]
+
+                ]  
+            }
+        ]
     },
     {
         "id": 61,
-        "name": "Spectrophotometer",
-        "productName": "Spectrophotometer 200-800 nm",
-        "introduction": "Lorem Epsum",
-        "price": 1599.99,
-        "category": "OPTICAL INSTRUMENTS",
-        "subcategory": "Spectrophotometers",
-        "productcode": "SPE-200-800",
+        "name": "316_Stainless_Steel_Foil",
+        "productName": " 316 Stainless Steel Foil",
+        "introduction": "316 Stainless Steel Foil is a high-performance material known for its excellent corrosion resistance, high strength, and durability. It is widely used in demanding environments such as marine, medical, and chemical processing industries, where reliability and longevity are critical.",
+        "applications": ["Marine: Used in components that require high resistance to saltwater corrosion.","Medical: Employed in medical instruments, implants, and devices for its biocompatibility and ease of sterilization.","Chemical Processing: Suitable for use in environments with exposure to corrosive chemicals.","Food Processing: Applied in food production equipment and storage containers for its hygienic properties.","Industrial: Suitable for various industrial applications, including heat exchangers, furnace parts, and more."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1870,17 +2133,33 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 20 micron,100 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "316 SS Foil",	"100 mm  L X 100 mm W",	"20-micron",    "TES-FL-SS316-10"],
+                    ["2", "316 SS Foil",	"200 mm  L X 200 mm W",	"20-micron",	"TES-FL-SS316-20"],
+                    ["3", "316 SS Foil",	"100 mm  L X 100 mm W",	"100-micron",	"TES-FL-SS316-100"]
+
+                ]  
+            }
+        ]
     },
     {
         "id": 62,
-        "name": "Digital_oscilloscope_100_MHz",
-        "productName": "Digital Oscilloscope 100 MHz",
-        "introduction": "Lorem Epsum",
-        "price": 799.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Oscilloscopes",
-        "productcode": "OSC-100M",
+        "name": "Graphite_Foil",
+        "productName": "Graphite Foil",
+        "introduction": "Graphite foil is a high-performance material known for its excellent thermal conductivity, chemical resistance, and flexibility. It is widely used in industries such as electronics, aerospace, automotive, and chemical processing for applications that require efficient heat management, sealing, and electrical conductivity.",
+        "applications": ["Electronics: Used in heat sinks, thermal interface materials, and EMI shielding for its superior thermal and electrical conductivity.","Aerospace: Employed in thermal management solutions for aircraft and spacecraft.","Automotive: Utilized in heat shields, gaskets, and battery components in electric vehicles.","Chemical Processing: Suitable for use as gaskets, seals, and linings in chemical processing equipment due to its chemical resistance.","Industrial: Applied in various industrial applications requiring high thermal stability and chemical resistance."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1889,17 +2168,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 250 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1","Graphite foil",	"100 mm  L X 100 mm W",	"250 micron",	"TES-FL-GF-25"]
+                ]
+            }
+        ]
     },
     {
         "id": 63,
-        "name": "Signal_generator_1_GHz",
-        "productName": "Signal Generator 1 GHz",
-        "introduction": "Lorem Epsum",
-        "price": 899.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Signal Generators",
-        "productcode": "SIG-1G",
+        "name": "Magnesium_Foil",
+        "productName": "Magnesium Foil ",
+        "introduction": "Magnesium foil is a lightweight, highly conductive material known for its excellent strength-to-weight ratio, thermal conductivity, and corrosion resistance. It is used across various industries including aerospace, automotive, electronics, and medical for applications that require a combination of lightness and durability.",
+        "applications": ["Aerospace: Used in lightweight structural components, heat shields, and other parts where weight saving is critical.","Automotive: Employed in automotive components such as body panels, engine parts, and frames to improve fuel efficiency by reducing weight.","Electronics: Utilized in electronic components, heat sinks, and battery casings for its conductive properties.","Medical: Applied in medical devices and implants due to its biocompatibility and lightweight nature.","Industrial: Suitable for various industrial applications requiring a combination of lightness and durability."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1908,17 +2200,29 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 100 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Magnesium Foil",	"100 mm L X 100 mm W",	"100-micron",	"TES-FL-MG- 100"]
+                ]
+            }
+        ]
     },
     {
-        "id": 64,
-        "name": "Function_generator_10_MHz",
-        "productName": "Function Generator 10 MHz",
-        "introduction": "Lorem Epsum",
-        "price": 399.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Function Generators",
-        "productcode": "FUNC-10M",
+        "name": "Titanium_Foil",
+        "productName": " Titanium Foil",
+        "introduction": "Titanium foil is a high-performance material known for its exceptional strength, lightweight, corrosion resistance, and biocompatibility. It is widely used in industries such as aerospace, automotive, medical, and chemical processing for applications that require reliable and durable materials.",
+        "applications": ["Aerospace: Used in aircraft components, heat shields, and other parts requiring high strength and low weight.","Automotive: Employed in performance and racing car components for weight reduction and durability.","Medical: Utilized in surgical instruments, implants, and other medical devices for its biocompatibility.","Chemical Processing: Suitable for use in chemical reactors, heat exchangers, and other equipment exposed to corrosive environments.","Industrial: Applied in various industrial applications, including electronics, where high performance and reliability are required."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1927,17 +2231,33 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 100 micron, 200 micron, 500 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Titanium foil",	"100 mm  L X 100 mm W",	"100-micron",   "TES-FL-TI-100"],
+                    ["2", "Titanium foil",	"100 mm  L X 100 mm W",	"200-micron",	"TES-FL-TI-200"],
+                    ["3", "Titanium foil",	"100 mm  L X 100 mm W",	"500-micron",	"TES-FL-TI-500"]
+
+                ]  
+            }
+        ]
     },
     {
         "id": 65,
-        "name": "High-precision_multimeter",
-        "productName": "High-precision Multimeter",
-        "introduction": "Lorem Epsum",
-        "price": 199.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Multimeters",
-        "productcode": "MULTI-PREC",
+        "name": "Molybednum_Foil",
+        "productName": "Molybednum Foil ",
+        "introduction": "Molybdenum foil is a high-performance material known for its excellent thermal and electrical conductivity, high melting point, and exceptional strength. It is widely used in industries such as electronics, aerospace, medical, and chemical processing for applications requiring reliable and durable materials with superior thermal and electrical properties.",
+        "applications": ["Electronics: Used in semiconductor devices, thin-film transistors, and other electronic components for its conductivity and thermal properties.","Aerospace: Employed in high-temperature parts and components, including rocket and jet engine parts.","Medical: Utilized in medical imaging equipment and devices due to its biocompatibility and stability.","Chemical Processing: Suitable for use in corrosive environments, such as in chemical reactors and heat exchangers.","Industrial: Applied in various industrial applications where high strength, thermal stability, and conductivity are required."],
+        "price": 19.99,
+        "category": "Foils",
+        "subcategory": "Foils",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1946,17 +2266,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
-    },
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 20 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Molybednum Foil",	"100 mm W X 100 mm",	"20-micron",	"TES-FL-MO- 20"]
+                ]
+            }
+        ]
+    },    
     {
         "id": 66,
-        "name": "Laser_thermometer",
-        "productName": "Laser Thermometer",
-        "introduction": "Lorem Epsum",
-        "price": 59.99,
-        "category": "ELECTRONICS",
-        "subcategory": "Thermometers",
-        "productcode": "LAS-THERM",
+        "name": "Carbon /Graphite _Felt",
+        "productName": "Carbon /Graphite  Felt",
+        "introduction": "Graphite felt is a high-performance material known for its excellent thermal insulation properties, chemical stability, and electrical conductivity. It is widely used in industries such as energy storage, high-temperature furnaces, and chemical processing for applications that require reliable thermal management and conductive materials.",
+        "applications": ["Energy Storage: Used in batteries and fuel cells for its conductive and insulating properties.","High-Temperature Furnaces: Employed as insulation material in high-temperature furnaces and kilns.","Chemical Processing: Suitable for use as a lining material in chemical reactors and other equipment exposed to corrosive chemicals.","Aerospace: Utilized in thermal protection systems and other high-temperature applications in aerospace.","Industrial: Applied in various industrial applications requiring high thermal stability and electrical conductivity."],
+        "price": 19.99,
+        "category": "Felts",
+        "subcategory": "Felts",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1965,17 +2298,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 20 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Carbon / Graphite Felt 100",	"100 mm L X 100 mm W",	"6000 micron",	"TES-FLT-CF-6000"]
+                ]
+            }
+        ]
     },
     {
         "id": 67,
-        "name": "Particle_size_analyzer",
-        "productName": "Particle Size Analyzer",
-        "introduction": "Lorem Epsum",
-        "price": 999.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Particle Analyzers",
-        "productcode": "PSA-1",
+        "name": "Titanium_Felt",
+        "productName": "Titanium  Felt",
+        "introduction": "Titanium felt is a high-performance material known for its excellent strength, lightweight, corrosion resistance, and electrical conductivity. It is widely used in industries such as energy storage, fuel cells, chemical processing, and aerospace for applications requiring reliable and durable conductive materials with superior chemical and mechanical properties.",
+        "applications": ["Energy Storage: Used in batteries, supercapacitors, and fuel cells for its conductivity and durability.","Aerospace: Applied in lightweight, high-strength components for aircraft and spacecraft.","Chemical Processing: Suitable for use as a lining material in chemical reactors and other equipment exposed to corrosive chemicals.","Medical: Utilized in surgical implants, medical devices, and prosthetics due to its biocompatibility and strength.","Industrial: Employed in various industrial applications requiring high thermal stability, conductivity, and corrosion resistance."],
+        "price": 19.99,
+        "category": "Felts",
+        "subcategory": "Felts",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -1984,17 +2330,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
-    },
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 400 microns",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Titanium Felt",	"100 mm L X 100 mm W",	"400 micron",	"TES-FLT-TI-400"]
+                ]
+            }
+        ]
+    },    
     {
         "id": 68,
-        "name": "Vibration_meter",
-        "productName": "Vibration Meter",
-        "introduction": "Lorem Epsum",
-        "price": 149.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Vibration Meters",
-        "productcode": "VIB-1",
+        "name": "NICKEL_MESH",
+        "productName": "NICKEL MESH",
+        "introduction": "Nickel mesh is a high-performance material known for its excellent electrical conductivity, corrosion resistance, and mechanical strength. It is widely used in various industries, including energy storage, chemical processing, filtration, and electronics, for applications that require reliable and durable conductive materials.",
+        "applications": ["Energy Storage: Used in batteries and fuel cells as current collectors and conductive substrates.","Chemical Processing: Employed in electrochemical processes, including electrocatalysis and electrode materials.","Filtration: Utilized in filtration systems for its strength, chemical resistance, and durability.","Electronics: Applied in electronic components, shielding, and conductive pathways.","Industrial: Suitable for various industrial applications requiring high-performance conductive materials."],
+        "price": 19.99,
+        "category": "Mesh",
+        "subcategory": "Mesh",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2003,17 +2362,31 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 200 micron  & 250 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Nickel mesh",	"100 mm L X 100 mm W",	"200 micron",	"TES-MSH-TI-200"],
+                    ["2", "Nickel mesh",	"100 mm L X 100 mm W",	"250 micron",	"TES-MSH-TI-250"]                   
+                ]
+            }
+        ]
     },
     {
         "id": 69,
-        "name": "Gas_chromatograph",
-        "productName": "Gas Chromatograph",
-        "introduction": "Lorem Epsum",
-        "price": 3499.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Chromatographs",
-        "productcode": "GC-1",
+        "name": "ALUMINIUM_MESH",
+        "productName": "ALUMINIUM MESH",
+        "introduction": "Aluminium mesh is a versatile, lightweight material known for its excellent corrosion resistance, high strength-to-weight ratio, and good conductivity. It is widely used across various industries, including aerospace, automotive, construction, and electronics, for applications requiring durable and efficient materials.",
+        "applications": ["Aerospace: Used in aircraft components, lightweight structures, and heat exchangers.","Automotive: Employed in car grills, air filters, and other automotive parts for its lightweight and corrosion resistance.","Construction: Utilized in building facades, fencing, and ventilation grilles for its strength and aesthetic appeal.","Electronics: Applied in EMI/RFI shielding, battery current collectors, and heat sinks.","Industrial: Suitable for filtration systems, sieves, and protective barriers."],
+        "price": 19.99,
+        "category": "Mesh",
+        "subcategory": "Mesh",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2022,17 +2395,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 250 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Aluminium  Mesh",	"100 mm L X 100 mm W",	"250 micron",	"TES-MSH-AL-250"]           
+                ]
+            }
+        ]
     },
     {
         "id": 70,
-        "name": "Refractometer",
-        "productName": "Refractometer",
-        "introduction": "Lorem Epsum",
-        "price": 79.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Refractometers",
-        "productcode": "REF-1",
+        "name": "STAINLESS STELL (316)_MESH",
+        "productName": "STAINLESS STELL (316) MESH",
+        "introduction": "SS316 mesh is a high-performance material known for its excellent corrosion resistance, strength, and durability. Made from 316 stainless steel, this mesh is ideal for applications in harsh environments where reliability and longevity are critical. It is widely used in industries such as marine, chemical processing, food and beverage, and pharmaceuticals.",
+        "applications": ["Marine: Used in components that require high resistance to saltwater corrosion.","Chemical Processing: Suitable for use in corrosive environments, such as chemical reactors and filtration systems.","Food and Beverage: Employed in food processing equipment and filters for its hygienic properties.","Pharmaceutical: Utilized in pharmaceutical manufacturing equipment where cleanliness and corrosion resistance are critical.","Industrial: Applied in various industrial applications requiring high performance, such as sieves, filters, and protective barriers."],
+        "price": 19.99,
+        "category": "Mesh",
+        "subcategory": "Mesh",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2041,17 +2427,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":" 100 mm  L X 100 mm W",
+        "thicknessOptions":" 200 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "SS316 Mesh",	"100 mm L X 100 mm W",	"200 micron",	"TES-MSH-SS316-200"]           
+                ]
+            }
+        ]
     },
     {
         "id": 71,
-        "name": "Spectral_photometer",
-        "productName": "Spectral Photometer",
-        "introduction": "Lorem Epsum",
-        "price": 499.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Spectral Photometers",
-        "productcode": "SP-1",
+        "name": "BRASS _MESH",
+        "productName": "BRASS  MESH",
+        "introduction": "Brass mesh is a versatile material known for its excellent corrosion resistance, electrical conductivity, and aesthetic appeal. It is widely used across various industries including filtration, decorative applications, electromagnetic interference (EMI) shielding, and architectural designs.",
+        "applications": ["Filtration: Used in water filtration systems, air filters, and sieves for its strength and corrosion resistance.","Decorative Applications: Employed in interior design, furniture, and artistic installations for its aesthetic appeal.","EMI Shielding: Utilized in electronic devices to protect against electromagnetic interference.","Architectural Designs: Applied in building facades, grilles, and ornamental features for both function and aesthetics.","Industrial: Suitable for various industrial applications, including chemical processing and manufacturing where corrosion resistance and conductivity are required."],
+        "price": 19.99,
+        "category": "Mesh",
+        "subcategory": "Mesh",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2060,17 +2459,30 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":"90 mm L x 90 mm W",
+        "thicknessOptions":" 200 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Brass  mesh",	"90mm L X 90 mm W",	"200 micron",	"TES-MSH-BRS-200"]           
+                ]
+            }
+        ]
     },
     {
         "id": 72,
-        "name": "Digital_balance",
-        "productName": "Digital Balance 500g",
-        "introduction": "Lorem Epsum",
-        "price": 129.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Balances",
-        "productcode": "BAL-500",
+        "name": "COPPER_MESH",
+        "productName": "COPPER MESH",
+        "introduction": "Copper mesh is a highly conductive and versatile material known for its excellent electrical and thermal conductivity, corrosion resistance, and malleability. It is widely used across various industries, including electronics, construction, filtration, and energy storage, for applications requiring reliable and efficient conductive materials.",
+        "applications": ["Electronics: Used in printed circuit boards (PCBs), connectors, and other electronic components for its conductivity and reliability.","Construction: Utilized in building facades, roofing, and decorative elements for its aesthetic appeal and durability.","Filtration: Employed in water and air filtration systems for its strength and corrosion resistance.","Energy Storage: Suitable for use in batteries, capacitors, and other energy storage devices due to its conductive properties.","Industrial: Applied in various industrial applications requiring high-performance conductive materials, such as electromagnetic interference (EMI) shielding and grounding systems."],
+        "price": 19.99,
+        "category": "Mesh",
+        "subcategory": "Mesh",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2079,17 +2491,29 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":"90 mm L x 90 mm W",
+        "thicknessOptions":" 200 micron",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Copper  mesh",	"100mm L X 100 mm W",	"200 micron",	"TES-MSH-CU-200"]           
+                ]
+            }
+        ]
     },
     {
         "id": 73,
-        "name": "Precision_thermometer",
-        "productName": "Precision Thermometer",
-        "introduction": "Lorem Epsum",
-        "price": 89.99,
-        "category": "MEASUREMENT INSTRUMENTS",
-        "subcategory": "Thermometers",
-        "productcode": "PREC-THERM",
+        "name": "TITANIUM_MESH",
+        "productName": "TITANIUM MESH",
+        "introduction": "Titanium mesh is a high-performance material known for its excellent strength, lightweight,  corrosion resistance, and biocompatibility. It is widely used in industries such as aerospace, automotive, medical, and chemical processing for applications requiring reliable and durable materials with superior chemical and mechanical properties.",
+        "price": 19.99,
+        "category": "Mesh",
+        "subcategory": "Mesh",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2098,17 +2522,33 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "standardDimension":"100 mm L x 100 mm W",
+        "thicknessOptions":"  0.2 mm, 0.5 mm, and 2 mm",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Dimensions(LXW)","Thickness", "Part No"],
+                "rows": [
+                    ["1", "Titanium  mesh",	"100mm L X 100 mm W",	"200 micron",	"TES-MSH-TI-200"],
+                    ["1", "Titanium  mesh",	"100mm L X 100 mm W",	"500 micron",	"TES-MSH-TI-500"], 
+                    ["1", "Titanium  mesh",	"100mm L X 100 mm W",	"2000 micron",	"TES-MSH-TI-2000"]           
+                ]
+            }
+        ]
     },
     {
         "id": 74,
-        "name": "Stainless_steel_test_tube_holder",
-        "productName": "Stainless Steel Test Tube Holder",
-        "introduction": "Lorem Epsum",
-        "price": 24.99,
-        "category": "LABWARE",
-        "subcategory": "Pipettes",
-        "productcode": "ST-HOLDER-1",
+        "name": "CARBON_POWDERS",
+        "productName": "CARBON POWDERS",
+        "introduction": "Conductive carbon black is a fine black powder with exceptional electrical conductivity, high surface area, and excellent dispersibility. It is widely used in various industries including plastics, rubber, coatings, and batteries to enhance electrical and thermal conductivity.",
+        "applications": ["Batteries: Used as a conductive additive in lithium-ion batteries, lead-acid batteries, and supercapacitors to improve conductivity and performance.","Plastics and Polymers: Enhances the electrical and thermal conductivity of plastic and polymer composites, used in electronics, automotive, and packaging industries.","Rubber: Improves the conductivity and mechanical properties of rubber compounds, used in antistatic and conductive rubber products.","Coatings: Applied in conductive coatings and paints to provide antistatic properties and electromagnetic interference (EMI) shielding.","Adhesives and Sealants: Enhances the conductivity of adhesives and sealants, used in electronic components and assemblies."],
+        "keyfeatures":["Electrical Conductivity: Provides high electrical conductivity, ideal for applications requiring conductive materials.","Thermal Conductivity: Excellent thermal conductivity, enhancing heat dissipation in various applications.","High Surface Area: Large surface area facilitates effective dispersion in matrices.","Chemical Stability: Inert and stable in various chemical environments, enhancing durability.","Versatility: Suitable for a wide range of applications including energy storage, coatings, and composites."],
+        "price": 19.99,
+        "category": "Carbon Materials",
+        "subcategory": "Carbon Material",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2117,17 +2557,39 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":" Carbon (C)",
+        "Purity":"≥ 99%",
+        "Appearance":" Black, fine powder",
+        "particularsize":"20-200 nm (varies with grade)",
+        "surfacearea":"60-150 m²/g (varies with grade)",   
+        "BulkDensity":"100-200 kg/m³",
+        "pH":"Neutral to slightly alkaline",
+        "Customization":" Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", "Carbon black KB","Powder",	"50 Gram",	"TES-CM-CBP-50"],
+                    ["1", "Hard carbon ",	"Powder",	"50 Gram",	"TES-CM-HCP-50"],
+                    ["1", "Vulcan carbon",	"Powder",	"10 Gram",	"TES-CM-VCP-10"],
+                    ["1", "Activated carbon","Powder",	"50 Gram",	"TES-CM-ACP-50"],
+                    ["1", "Super P Carbon",	"Powder",	"10 Gram",	"TES-CM-SPC-10"]
+                ]
+            }
+        ]
     },
     {
         "id": 75,
-        "name": "Glass_petri_dishes",
-        "productName": "Glass Petri Dishes 90 mm",
-        "introduction": "Lorem Epsum",
-        "price": 12.99,
-        "category": "LABWARE",
-        "subcategory": "Pipettes",
-        "productcode": "PETRI-90",
+        "name": "Carbon ( C )_paper",
+        "productName": "Carbon ( C ) paper",
+        "introduction": "Carbon paper is a high-performance material widely used in electrochemical applications due to its excellent electrical conductivity, chemical resistance, and mechanical strength. It is particularly suitable for use in fuel cells, batteries, and other electrochemical systems that require efficient gas diffusion and electrical conduction.",
+        "applications": ["Fuel Cells: Used as a gas diffusion layer in proton exchange membrane (PEM) fuel cells, enhancing gas diffusion and electrical conductivity.","Batteries: Suitable for use as a conductive substrate in various types of batteries, improving performance and durability.","Electrolyzers: Employed in water electrolyzers for hydrogen production, enhancing gas diffusion and chemical stability.","Sensors: Applied in electrochemical sensors for its conductivity and chemical resistance.","Industrial Processes: Used in various industrial electrochemical processes where high conductivity and chemical resistance are required."],
+        "keyfeatures":["High Electrical Conductivity: Provides superior electrical conductivity, essential for efficient electrochemical reactions.","Chemical Resistance: Stable in a wide range of chemical environments, making it suitable for harsh conditions.","Mechanical Strength: Durable and flexible, ensuring long-term performance in demanding applications.","Gas Permeability: High porosity allows for efficient gas diffusion, critical for fuel cell and electrolyzer performance.","Thermal Stability: Maintains performance and structural integrity at high temperatures."],
+        "price": 19.99,
+        "category": "Carbon Materials",
+        "subcategory": "Carbon Papers",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2136,17 +2598,36 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Carbon (C)",
+        "Purity":"High-purity carbon fibers",
+        "Appearance":" Black, smooth surface",
+        "StandardDimension": "100 mm  L X 100 mm W",
+        "ThicknessOptions": "200 micron & 400 micron)",
+        "Density":"~0.4-0.7 g/cm³ (varies with thickness)",   
+        "Porosity":"High, providing excellent gas permeability",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", "Carbon paper","100 mm  L X 100 mm W","200 micron","TES-CM-CP-200"],
+                    ["1", "Carbon paper","100 mm  L X 100 mm W","400 micron","TES-CM-CP-400"]
+                ]
+            }
+        ]
     },
     {
         "id": 76,
-        "name": "Automatic_pipette",
-        "productName": "Automatic Pipette 1-10 ml",
-        "introduction": "Lorem Epsum",
-        "price": 59.99,
-        "category": "LABWARE",
-        "subcategory": "Pipettes",
-        "productcode": "AUTO-PPT-10",
+        "name": "Carbon_Paper (5% PTFE)",
+        "productName": "Carbon Paper (5% PTFE)",
+        "introduction": "Carbon paper with 5% PTFE is a high-performance material designed for use in various electrochemical applications. The addition of PTFE enhances its chemical resistance, hydrophobicity, and durability. This composite material is widely used in fuel cells, electrolyzers, and other electrochemical systems.",
+        "applications": ["Fuel Cells: Used as a gas diffusion layer in proton exchange membrane (PEM) fuel cells, facilitating efficient gas diffusion and electrical conductivity.","Electrolyzers: Employed in water electrolyzers for hydrogen production, enhancing gas diffusion and chemical stability.","Batteries: Suitable for use in various types of batteries as a conductive and durable electrode material.","Sensors: Applied in electrochemical sensors for its conductivity and chemical resistance.","Industrial Processes: Used in various industrial electrochemical processes where high conductivity and chemical resistance are required."],
+        "keyfeatures":["Enhanced Hydrophobicity: PTFE improves the hydrophobic properties of the carbon paper, making it suitable for use in humid environments.","Chemical Resistance: The addition of PTFE enhances the chemical resistance, making it stable in various chemical environments.","High Conductivity: Excellent electrical conductivity, essential for efficient electrochemical reactions.","Durability: High mechanical strength and flexibility, ensuring long-term performance in demanding applications.","Gas Permeability: High porosity allows for efficient gas diffusion, critical for fuel cell and electrolyzer performance."],
+        "price": 19.99,
+        "category": "Carbon Materials",
+        "subcategory": "Carbon Papers",
+        "productcode": "CUV-1",
         "categoryIcon": "https://placehold.co/50x50?text=Category",
         "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
         "productImages": [
@@ -2155,6 +2636,786 @@
         ],
         "productBanner": "https://placehold.co/500x400?text=banner",
         "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
-        "tag":["Our Popular Product", "Latest Product"]
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Carbon",
+        "Additive":"Polytetrafluoroethylene (PTFE) - 5%",
+        "Appearance":" Black, smooth surface",
+        "StandardDimension": "100 mm  L X 100 mm W",
+        "ThicknessOptions": "250 micron",
+        "Density":"~0.5-0.7 g/cm³",   
+        "Porosity":"High, providing excellent gas permeability",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", "Carbon paper5 % PTFE","100 mm  L X 100 mm W","250 micron","TES-CM-CPTFE-250"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Carbon_Cloth",
+        "productName": "Carbon Cloth",
+        "introduction": "Carbon coated carbon cloth is a high-performance material that combines the excellent properties of carbon cloth with an additional carbon coating to enhance its electrical conductivity, durability, and chemical resistance. This material is widely used in fuel cells, batteries, and other electrochemical applications where robust and efficient conductive materials are essential",
+        "KeyFeatures": ["Enhanced Electrical Conductivity: The additional carbon coating significantly improves electrical conductivity, essential for efficient electrochemical reactions.","Chemical Resistance: Excellent stability in a wide range of chemical environments, making it suitable for harsh conditions.","Durability: The carbon coating enhances the mechanical strength and durability of the cloth, ensuring long-term performance.","Gas and Liquid Permeability: High porosity allows for efficient gas and liquid flow, critical for fuel cell and filtration performance.","Thermal Stability: Maintains performance and structural integrity at high temperatures."],
+        "applications":["Fuel Cells: Used as a gas diffusion layer in proton exchange membrane (PEM) fuel cells, enhancing gas diffusion and electrical conductivity.","Batteries: Suitable for use as a conductive substrate in various types of batteries, improving performance and durability.","Electrolyzers: Employed in water electrolyzers for hydrogen production, enhancing gas diffusion and chemical stability.","Sensors: Used in electrochemical sensors for its conductivity and chemical resistance.","Filtration Systems: Applied in filtration systems for its permeability and chemical resistance"],
+        "price": 19.99,
+        "category": "Carbon Materials",
+        "subcategory": "Carbon Papers",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "PrimaryComponent":"Carbon (C)",
+        "Coating Component":"Additional carbon layer",
+        "Appearance":" Black, smooth surface",
+        "StandardDimension": "100 mm  L X 100 mm W",
+        "ThicknessOptions": "250 micron",
+        "Density":"~0.5-0.7 g/cm³",   
+        "Porosity":"High, providing excellent gas permeability",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", "Carbon Cloth ","100 mm  L X 100 mm W","330 micron","TES-CM-CC-330"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Carbon_Coated_Carbon_Cloth",
+        "productName": "Carbon Coated Carbon Cloth",
+        "introduction": "Our Carbon Coated Carbon Cloth is a high-performance material designed to meet the demanding needs of various industrial applications. This advanced material combines the lightweight, flexible nature of carbon cloth with the enhanced properties provided by a specialized carbon coating. The result is a versatile, durable fabric that excels in conductivity, thermal management, and chemical resistance.",
+        "keyfeatures": ["High Electrical Conductivity:The carbon coating significantly improves the electrical conductivity of the cloth, making it an excellent choice for applications requiring efficient electron transfer.","Enhanced Thermal Stability:The material maintains its integrity and performance even at elevated temperatures, ensuring reliability in high-heat environments.","Chemical Resistance:The carbon coating offers superior resistance to corrosive chemicals, extending the lifespan of the cloth in aggressive conditions.","Lightweight and Flexible:Despite its robust performance characteristics, the carbon coated carbon cloth remains lightweight and flexible, allowing for easy handling and integration into various systems.","Durability:The combined properties of the carbon cloth and coating result in a highly durable material capable of withstanding mechanical stress and repeated use."],
+        "applications":["Energy Storage:Ideal for use in fuel cells, batteries, and supercapacitors due to its excellent conductivity and chemical resistance.","Thermal Management:Suitable for heat dissipation and thermal insulation in electronics, automotive, and aerospace industries.","Electronics:Used in the manufacture of conductive textiles, sensors, and flexible electronic devices.","Industrial Processes:Effective in filtration systems, chemical processing, and other applications where durability and chemical resistance are critical."],
+        "price": 19.99,
+        "category": "Carbon Materials",
+        "subcategory": "Carbon Papers",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "StandardDimension": "100 mm  L X 100 mm W",
+        "ThicknessOptions": "330 micron",
+        "Base":"Carbon Cloth",
+        "Coating":"Hight purity Carbon",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight", "Part No"],
+                "rows": [
+                    ["1", "Carbon coated carbon cloth","100 mm  L X 100 mm W","400 micron","TES-CM-CCC-400"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Separator_PP-PE-PP",
+        "productName": "Separator PP-PE-PP",
+        "introduction": "The Separator PP-PE-PP is a high-performance separation unit designed for various industrial applications. Constructed with a multilayered composition, it combines the unique properties of polypropylene (PP) and polyethylene (PE) to ensure superior durability, efficiency, and functionality",
+        "keyfeatures": [""],
+        "materialComposition":["Outer Layers: Made of high-quality polypropylene (PP), offering excellent chemical resistance and mechanical strength.",
+        "Inner Layer: Composed of polyethylene (PE), providing flexibility and a smooth surface for improved flow and separation efficiency."],
+        "durabilityAndResistance":["Exceptional resistance to a wide range of chemicals, ensuring long-term performance in harsh environments.",
+        "Robust construction that withstands high pressures and temperatures, suitable for demanding industrial processes."],
+        "efficientSeparation":["Engineered to deliver optimal separation performance, reducing contamination and enhancing product purity.",
+        "Designed to handle various separation tasks, including liquid-liquid, solid-liquid, and gas-liquid separations."],
+        "versatileApplications":["Ideal for use in chemical processing, water treatment, food and beverage industries, and more.",
+        "Suitable for both continuous and batch processing systems, offering flexibility in different operational settings"],
+        "easyMaintenance":["Smooth inner surface reduces fouling and simplifies cleaning procedures",
+        "Modular design allows for easy replacement and maintenance of individual components, minimizing downtime."],
+        "price": 19.99,
+        "category": "Separator",
+        "subcategory": "Separator",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Material":"Polypropylene (PP) and Polyethylene (PE)",
+        "OperatingTemperatureRange":"-20°C to 80°C (-4°F to 176°F)",
+        "MaximumOperatingPressure":"10 bar (145 psi)",
+        "Dimension":"Customizable based on application requirements",
+        "Weight":"Varies depending on size and configuration",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight","Layers", "Part No"],
+                "rows": [
+                    ["1", "SEPERATOR PP-PE-PP","5000 mm (L) x85 mm (W)","20 micron","Three Layer","TES-SP-PPPE-20"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Separator_PP",
+        "productName": "Separator PP",
+        "introduction": "The Separator PP is a high-performance industrial separation unit made entirely of polypropylene (PP). Known for its excellent chemical resistance and mechanical strength, this separator is designed to handle a wide range of separation tasks in various industrial settings.",
+        "keyfeatures": [""],
+        "materialComposition":["Constructed from high-quality polypropylene (PP), providing excellent resistance to chemicals, corrosion, and physical wear.",
+        "Lightweight yet durable, ensuring ease of installation and long-term reliability."],
+        "durabilityAndResistance":["Outstanding chemical resistance, making it suitable for handling aggressive substances.",
+        "High mechanical strength to withstand rigorous industrial environments and operational pressures."],
+        "efficientSeparation":["Engineered for optimal separation efficiency, reducing impurities and enhancing product quality.",
+        "Capable of handling diverse separation processes, including liquid-liquid, solid-liquid, and gas-liquid separations."],
+        "versatileApplications":[ "Ideal for use in industries such as chemical processing, water treatment, food and beverage, pharmaceuticals, and more.",
+        "Suitable for both continuous and batch processing, offering flexibility to meet various operational needs."],
+        "easyMaintenance":[ "Smooth inner surfaces reduce fouling and simplify cleaning procedures.",
+        "Modular design allows for easy replacement and maintenance of individual components, minimizing downtime."],
+        "price": 19.99,
+        "category": "Separator",
+        "subcategory": "Separator",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Material":"Polypropylene (PP) and Polyethylene (PE)",
+        "OperatingTemperatureRange":"-20°C to 80°C (-4°F to 176°F)",
+        "MaximumOperatingPressure":"10 bar (145 psi)",
+        "Dimension":"Customizable based on application requirements",
+        "Weight":"Varies depending on size and configuration",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight","Layers", "Part No"],
+                "rows": [
+                    ["1", "SEPERATOR PP","5000 mm (L) x60 mm (W)","20 micron","Single Layer","TES-SP-PP-60"],
+                    ["1", "SEPERATOR PP","5000 mm (L) x35 mm (W)","25 micron","Single Layer","TES-SP-PP-35"],
+                    ["1", "SEPERATOR PP","5000 mm (L) x50 mm (W)","25 micron","Single Layer","TES-SP-PP-50"],
+                    ["1", "SEPERATOR PP","5000 mm (L) x85 mm (W)","25 micron","Single Layer","TES-SP-PP-85"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Cellulose_based_separator",
+        "productName": "Cellulose based separator",
+        "introduction": "The Cellulose-Based Separator is an eco-friendly, high-performance separation unit designed to meet the demands of various industrial applications. Made from renewable cellulose material, this separator combines sustainability with efficiency, offering a reliable solution for numerous separation processes.",
+        "keyfeatures": [""],
+        "ecoFriendlyMaterial":[ "Constructed from renewable cellulose, promoting environmental sustainability.",
+        "Biodegradable and compostable, reducing the environmental impact of industrial processes."],
+        "highEfficiency":["Excellent filtration and separation capabilities, enhancing product purity and quality.",
+        "Designed for optimal performance in liquid-liquid, solid-liquid, and gas-liquid separation tasks."],
+        "chemicalCompatibility":["Suitable for a wide range of chemicals, ensuring broad application across different industries.",
+        "Resistant to various solvents and chemicals, providing durability and reliability."],
+        "versatileApplications":[ "Ideal for use in industries such as chemical processing, water treatment, food and beverage, pharmaceuticals, and more.",
+        "Can be used in both continuous and batch processing systems, offering flexibility in operation."],
+        "easyMaintenance":[ "Smooth surface minimizes fouling and facilitates easy cleaning.",
+        "Lightweight and easy to handle, reducing maintenance efforts and downtime."],
+        "price": 19.99,
+        "category": "Separator",
+        "subcategory": "Separator",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Material":"Cellulose",
+        "OperatingTemperatureRange":"0°C to 80°C (32°F to 176°F)",
+        "MaximumOperatingPressure":"5 bar (72 psi)",
+        "Dimension":"Customizable based on application requirements",
+        "Weight":"Varies depending on size and configuration",
+        "Customization":"Custom sizes and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Form","Weight","Part No"],
+                "rows": [
+                    ["1", "Cellulose based separator","5000 mm L x 100 mm W","35 micron","TES-SP-CLS-35"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "CR_2016",
+        "productName": "CR 2016",
+        "introduction": "The 2016 coin cell parts are essential components designed for the assembly of 2016 coin cells. These parts are made from high-quality materials to ensure optimal performance, durability, and reliability. They are widely used in research and development, battery prototyping, and small-scale production.",
+        "applications": ["Research and Development: Ideal for the development and testing of new battery materials and chemistries.","Battery Prototyping: Used in the prototyping of coin cell batteries for performance evaluation.","Small-Scale Production: Suitable for limited production runs of coin cell batteries for specialized applications.","Education and Training: Used in educational institutions for teaching battery assembly and electrochemical testing."],
+        "price": 19.99,
+        "category": "Coin Cell Parts",
+        "subcategory": "Coin Cell Parts",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Components":" Upper Cap, Lower Cap, Spring, Spacer",
+        "Quantity":"100 Sets",
+        "Packaging":"Each set is individually packaged, customizable quantities available upon request",
+        "Customization":" Custom quantity and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty", "Part No"],
+                "rows": [
+                    ["1", "2016 Coin cell parts upper, lower spring and spacer","100 sets",	"TES-CCP-2016"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "CR_2025",
+        "productName": "CR 2025",
+        "introduction": "The 2025 coin cell parts are essential components designed for the assembly of 2025 coin cells. These parts are made from high-quality materials to ensure optimal performance, durability, and reliability. They are widely used in research and development, battery prototyping, and small-scale production.",
+        "applications": ["Research and Development: Ideal for the development and testing of new battery materials and chemistries.","Battery Prototyping: Used in the prototyping of coin cell batteries for performance evaluation.","Small-Scale Production: Suitable for limited production runs of coin cell batteries for specialized applications.","Education and Training: Used in educational institutions for teaching battery assembly and electrochemical testing."],
+        "price": 19.99,
+        "category": "Coin Cell Parts",
+        "subcategory": "Coin Cell Parts",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Components":" Upper Cap, Lower Cap, Spring, Spacer",
+        "Quantity":"100 Sets",
+        "Packaging":"Each set is individually packaged, customizable quantities available upon request",
+        "Customization":" Custom quantity and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty", "Part No"],
+                "rows": [
+                    ["1", "2025 Coin cell parts upper, lower spring and spacer","100 sets",	"TES-CCP-2025"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "CR_2032",
+        "productName": "CR 2032",
+        "introduction": "The 2032 coin cell parts are essential components designed for the assembly of 2032 coin cells. These parts are made from high-quality materials to ensure optimal performance, durability, and reliability. They are widely used in research and development, battery prototyping, and small-scale production.",
+        "applications": ["Research and Development: Ideal for the development and testing of new battery materials and chemistries.","Battery Prototyping: Used in the prototyping of coin cell batteries for performance evaluation.","Small-Scale Production: Suitable for limited production runs of coin cell batteries for specialized applications.","Education and Training: Used in educational institutions for teaching battery assembly and electrochemical testing."],
+        "price": 19.99,
+        "category": "Coin Cell Parts",
+        "subcategory": "Coin Cell Parts",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Components":" Upper Cap, Lower Cap, Spring, Spacer",
+        "Quantity":"100 Sets",
+        "Packaging":"Each set is individually packaged, customizable quantities available upon request",
+        "Customization":" Custom quantity and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty", "Part No"],
+                "rows": [
+                    ["1", "2032 Coin cell parts upper, lower spring and spacer","100 sets",	"TES-CCP-2032"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "CR_2032_Meshed_Coin_Cell_Parts",
+        "productName": "CR 2032 Meshed Coin Cell Parts",
+        "introduction": "The 2032 meshed coin cell parts are essential components designed for the assembly of 2032 coin cells, particularly for applications requiring enhanced electrochemical performance. These parts are made from high-quality materials to ensure optimal performance, durability, and reliability. The meshed upper cap improves the contact and distribution of electrolyte, enhancing the overall efficiency of the cell. They are widely used in research and development, battery prototyping, and small-scale production.",
+        "applications": ["Research and Development: Ideal for the development and testing of new battery materials and chemistries.","Battery Prototyping: Used in the prototyping of coin cell batteries for performance evaluation.","Small-Scale Production: Suitable for limited production runs of coin cell batteries for specialized applications.","Education and Training: Used in educational institutions for teaching battery assembly and electrochemical testing."],
+        "price": 19.99,
+        "category": "Coin Cell Parts",
+        "subcategory": "Coin Cell Parts",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Components":" Upper Cap with Mesh, Lower Cap, Spring, Spacer",
+        "Quantity":"100 Sets",
+        "Packaging":"Each set is individually packaged, customizable quantities available upon request",
+        "Customization":" Custom quantity and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty", "Part No"],
+                "rows": [
+                    ["1", "2032 Meshed  Coin cell parts upper, lower spring and spacer","100 sets",	"TES-CCP-2032"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Coin_Cell_Holder",
+        "productName": "Coin Cell Holder",
+        "introduction": "Coin cell holders are versatile and reliable components designed to securely hold 2016, 2025, and 2032 coin cell batteries. Made from high-quality materials, these holders ensure excellent electrical conductivity and durability. They are widely used in electronics, prototyping, and small-scale production, providing a convenient solution for battery-powered devices.",
+        "applications": ["Electronics: Used in a wide range of electronic devices, including remote controls, clocks, and sensors","Prototyping: Ideal for developing and testing battery-powered prototypes and small-scale production runs.","Consumer Products: Suitable for use in consumer electronics such as wearables, key fobs, and small gadgets","Educational Kits: Used in educational kits and DIY projects for teaching and learning about battery-powered circuits."],
+        "price": 19.99,
+        "category": "Coin Cell Parts",
+        "subcategory": "Coin Cell Parts",
+        "productcode": "CUV-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Compatible Coin Cell Sizes":" CR 2016,CR 2025,CR 2032",
+        "Material":"High-quality plastic and metal contacts",
+        "Dimensions":"Designed to fit standard CR 2016,CR 2025 & CR 2032 coin cells",
+        "Packaging": "Customizable quantities available upon request",
+        "Customization":" Custom quantity and specification  are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty", "Part No"],
+                "rows": [
+                    ["1", "Coin cell holder","1 sets","TES-CCH-1"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "18650_cylindrical_cell",
+        "productName": "18650 Cylindrical Cell Parts",
+        "introduction": "The 18650 cylindrical cell parts are essential components designed for the assembly of 18650 lithium-ion batteries. These parts are made from high-quality materials to ensure optimal performance, durability, and safety. They are widely used in battery manufacturing, research and development, and small-scale production.",
+        "applications": ["Battery Manufacturing: Essential components for the production of 18650 lithium-ion batteries.","Research and Development: Ideal for the development and testing of new battery materials and chemistries.","Battery Prototyping: Used in the prototyping of 18650 batteries for performance evaluation.","Small-Scale Production: Suitable for limited production runs of 18650 batteries for specialized applications.","Education and Training: Used in educational institutions for teaching battery assembly and electrochemical testing."],
+        "componentsAndSpecification": [""],
+        "positiveCap":[ "Material: Nickel-plated steel.",
+        "Dimensions: Designed to fit standard 18650 cells.","Surface Finish: Polished for excellent conductivity and corrosion resistance."],
+        "negativeCap":["Material: Nickel-plated steel.",
+        "Dimensions: Designed to fit standard 18650 cells","Surface Finish: Polished for excellent conductivity and corrosion resistance"],
+        "insulatorRing":["Material: Polypropylene (PP) or Polyethylene (PE).",
+        "Dimensions: Suitable for standard 18650 cells","Function: Provides electrical insulation between the positive and negative terminals to prevent short circuits."],
+        "spacer":[ "Material: Stainless Steel or Aluminum.",
+        "Dimensions: Designed to fit standard 18650 cells.","Function: Ensures proper spacing and alignment of cell components"],
+        "safetyVent":[ "Material: Stainless Steel.",
+        "Dimensions: Designed to fit standard 18650 cells.","Function: Releases internal pressure to prevent explosion in case of cell failure."],
+        "cases":[ "Material: Stainless Steel.",
+        "Dimensions: Diameter: 18 mm, Height: 65 mm.","Surface Finish: Polished for durability and corrosion resistance."],
+        "price": 19.99,
+        "category": "Cylindrical Cell",
+        "subcategory": "Cylindrical Cell",
+        "productcode": "TES-CC-18650",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Components":"Positive Cap, Negative Cap, Insulator Ring, Spacer, Safety Vent, and Case",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Customizable quantities available as per customer requirement.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "18650 cylindrical cell parts","1 set","TES-CC-18650"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "basic_electrochemical_cell",
+        "productName": "Basic Electrochemical Cell",
+        "introduction": "The electrochemical cells with purge tube are designed for various electrochemical experiments and applications. These cells are made from high-quality materials to ensure durability, chemical resistance, and optimal performance. The inclusion of a purge tube allows for the introduction of inert gases to control the environment within the cell, making them ideal for research and development in fields such as electrochemistry, materials science, and analytical chemistry.",
+        "applications": ["Research and Development: Ideal for conducting electrochemical experiments and developing new materials.","Analytical Chemistry: Used for analyzing chemical reactions and properties through electrochemical methods.","Materials Science: Suitable for studying corrosion, electrodeposition, and other material properties.","Education: Used in academic settings for teaching and demonstrating electrochemical principles.","Industrial Applications: Applicable in the development and testing of batteries, fuel cells, and sensors."],
+        "keyfeatures": ["High Chemical Resistance: Made from materials that resist corrosion and chemical degradation.","Integrated Purge Tube: Allows for the introduction of inert gases to control the internal environment.","Versatile Electrode Configurations: Compatible with various electrode materials and configurations.","Secure Sealing: Ensures no leakage and maintains the integrity of the experimental conditions.","Multiple Volume Options: Available in 20 mL, 50 mL, and 100 mL to accommodate different experimental needs."],
+        "price": 19.99,
+        "category": "Electrochemical Cell",
+        "subcategory": "Electrochemical Cell",
+        "productcode": "TES-ECELL-BEC-20",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "volumeOptions":"Positive Cap, Negative Cap, Insulator Ring, Spacer, Safety Vent, and Case",
+        "Material":"High-quality glass",
+        "Components":"Cell body, electrodes, purge tube, cap,sealing mechanism",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "Electrochemical cell 20 ml with purge tube","1 set","TES-ECELL-BEC-20"],
+                    ["2", "Electrochemical cell 50 ml with purge tube","1 set","TES-ECELL-BEC-50"],
+                    ["3", "Electrochemical cell 100 ml with purge tube","1 set","TES-ECELL-BEC-100"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 88,
+        "name": "h_type_cell",
+        "productName": "H-Type Electrochemical Cell with Purge Tube",
+        "introduction": "The H-Type electrochemical cell is designed for precise and efficient hydrogen evolution reaction (HER) and oxygen evolution reaction (OER) studies. This cell features two compartments, each equipped with a purge tube for gas introduction and control. Made from high-quality materials, the H-Type cell ensures durability, chemical resistance, and optimal performance. It is ideal for research and development in electrochemistry, materials science, and energy storage applications.",
+        "applications": ["Hydrogen Evolution Reaction (HER): Ideal for studying the mechanisms and kinetics of HER.","Oxygen Evolution Reaction (OER): Suitable for investigating the processes and efficiency of OER.","Electrochemical Research: Used for various electrochemical studies, including corrosion, electrodeposition, and more.","Materials Science: Suitable for testing new materials and catalysts for HER and OER applications.","Energy Storage: Applied in the development and testing of energy storage devices, such as fuel cells and electrolyser."],
+        "specification": [""],
+        "materials":["Cell Body: High-quality glass","Electrodes: Platinum, gold, graphite, or other materials as required","Purge Tubes: Inert material compatible with cell body","Membrane Separator: Nafion or other ion-exchange membranes"],
+        "components":["Cell Body: H-Type design with two compartments connected by a membrane separator","Electrodes: Configurable based on experimental needs (working, counter, reference)","Purge Tubes: Integrated tubes for gas purging in each compartment","Membrane Separator: Ensures separation of products and allows ion exchange","Cap/Sealing Mechanism: Secure sealing to prevent leakage and contamination"],
+        "operatingConditions":["Temperature Range: -20°C to 80°C (varies with material)","Pressure: Suitable for atmospheric pressure to slight positive pressure"],
+        "price": 19.99,
+        "category": "Electrochemical Cell",
+        "subcategory": "Electrochemical Cell",
+        "productcode": "TES-ECELL-HC-20",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "volumeOptionsperCompartment":"20 mL, 50 mL, 100 mL",
+        "Material":"High-quality glass or inert plastic",
+        "Components":"Cell body, electrodes, purge tubes, membrane separator, cap/sealing mechanism",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "H Type cell 20 mL each compartment with purge tube","1 set","TES-ECELL-HC-20"],
+                    ["2", "H Type cell 50 mL each compartment with purge tube","1 set","TES-ECELL-HC-50"],
+                    ["3", "H Type cell 100 mL each compartment with purge tube","1 set","TES-ECELL-HC-100"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 89,
+        "name": "corrosion_cell",
+        "productName": "Corrosion Flat Cell with Purge Tube",
+        "introduction": "The Corrosion Flat Cell is designed for precise and efficient corrosion studies. This cell features a flat configuration with a purge tube for gas introduction and control, making it ideal for research and development in corrosion science, materials testing, and electrochemistry. Made from high-quality materials, the Corrosion Flat Cell ensures durability, chemical resistance, and optimal performance.",
+        "applications": ["Corrosion Studies: Ideal for investigating the corrosion behavior of metals and alloys.","Electrochemical Research: Used for various electrochemical studies, including corrosion, electrodeposition, and more.","Electrochemical Research: Used for various electrochemical studies, including corrosion, electrodeposition, and more.","Materials Testing: Suitable for testing the corrosion resistance and durability of new materials.","Industrial Applications: Applied in the development and testing of corrosion inhibitors and protective coatings.","Education and Training: Used in academic settings for teaching and demonstrating corrosion principles."],
+        "specification": [""],
+        "materials":["Cell Body: High-quality glass","Electrodes: Platinum, gold, graphite, or other materials as required","Purge Tube: Inert material compatible with cell body"],
+        "components":["Cell Body: Flat design for easy sample placement and removal","Electrodes: Configurable based on experimental needs (working, counter, reference)","Purge Tube: Integrated tube for gas purging","Cap/Sealing Mechanism: Secure sealing to prevent leakage and contamination"],
+        "operatingConditions":["Temperature Range: -20°C to 80°C (varies with material)","Pressure: Suitable for atmospheric pressure to slight positive pressure"],
+        "price": 19.99,
+        "category": "Electrochemical Cell",
+        "subcategory": "Electrochemical Cell",
+        "productcode": "TES-ECELL-CRC-100",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "volumeOptions":"100 mL, 250 mL, 500 mL",
+        "Material":"High-quality glass",
+        "Components":"Cell body, electrodes, purge tube, cap/sealing mechanism",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "Corrosion Cell 100 ml with purge tube","1 set","TES-ECELL-CRC-100"],
+                    ["2", "Corrosion Cell 250 ml with purge tube","1 set","TES-ECELL-CRC-250"],
+                    ["3", "Corrosion Cell 500 ml with purge tube","1 set","TES-ECELL-CRC-500"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 90,
+        "name": "flow_cell",
+        "productName": "Flow cell",
+        "introduction": "The Flow Cell is designed for electrolytic applications, providing a controlled environment for precise electrochemical reactions. This cell features a 100 mL capacity with integrated inlet and outlet ports for continuous flow of electrolytes, along with a purge tube for gas introduction and control. Constructed from high-quality materials, the Flow Cell ensures durability, chemical resistance, and optimal performance. It is ideal for research and development in electrochemistry, materials science, and industrial processes.",
+        "applications": ["Electrochemical Research: Ideal for conducting continuous flow electrochemical experiments and reactions.","Materials Science: Suitable for testing new materials and catalysts in a controlled flow environment.","Industrial Processes: Applied in the development and optimization of electrolytic processes and industrial electrolysis.","Battery Development: Used for studying and testing electrolytes and electrode materials for batteries and fuel cells.","Education and Training: Utilized in academic settings for teaching and demonstrating flow electrochemistry principles."],
+        "specification": [""],
+        "materials":["Cell Body: inert plastic","Electrodes: Platinum, gold, graphite, or other materials as required","Inlet/Outlet Ports: Compatible with standard tubing for electrolyte flow","Purge Tube: Inert material compatible with cell body"],
+        "components":["Cell Body: Cylindrical design with inlet and outlet ports for continuous flow","Electrodes: Configurable based on experimental needs (working, counter, reference)","Inlet/Outlet Ports: Integrated ports for controlled electrolyte flow","Purge Tube: Integrated tube for gas purging","Cap/Sealing Mechanism: Secure sealing to prevent leakage and contamination"],
+        "operatingConditions":["Temperature Range: -20°C to 120°C (varies with material)","Pressure: Suitable for atmospheric pressure to slight positive pressure"],
+        "price": 19.99,
+        "category": "Electrochemical Cell",
+        "subcategory": "Electrochemical Cell",
+        "productcode": "TES-ECELL-FLWC-100",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "volume":"100 mL",
+        "Material":"High-quality glass",
+        "Components":"Cell body, inlet and outlet ports, electrodes, purge tube, cap/sealing mechanism",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "Flow Cell 100 ml","1 set","TES-ECELL-FLWC-100"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 91,
+        "name": "solid_State_Battery",
+        "productName": "Solid-State Battery Test Fixture",
+        "introduction": "The Solid-State Battery Test Fixture is designed for precise and efficient testing of solid-state battery cells. This fixture provides a stable and controlled environment for evaluating the performance, safety, and durability of solid-state batteries. Made from high-quality materials, it ensures durability, accurate measurements, and reproducibility of test results. It is ideal for research and development, quality control, and small-scale production testing in the field of advanced battery technologies.",
+        "applications": ["Research and Development: Ideal for testing and developing new solid-state battery materials and designs.","Quality Control: Used for routine testing of solid-state batteries in manufacturing and production environments.","Performance Evaluation: Suitable for evaluating the performance and durability of solid-state batteries under various conditions.","Safety Testing: Enables thorough safety assessments of solid-state batteries, including thermal and mechanical stress tests.","Academic and Industrial Research: Applied in academic research labs and industrial R&D centers for advanced battery studies."],
+        "specification": [""],
+        "materials":["Fixture Body: High-quality stainless steel for durability and corrosion resistance","Insulating Components: High-temperature resistant insulating materials"],
+        "components":["Fixture Body: Rigid frame to securely hold the battery cell.","Clamping Mechanism: Adjustable clamps to ensure consistent pressure and contact.","Electrical Contacts: Gold-plated or copper contacts for optimal electrical conductivity.","Temperature Control Ports: Integrated ports for temperature sensors and heating/cooling elements."],
+        "dimension":["Standard Sizes: Customizable to fit various solid-state battery cell sizes","Fixture Height: Adjustable to accommodate different cell thicknesses"],
+        "operatingConditions":["Temperature Range: -40°C to 150°C (varies with materials used)","Pressure Range: Adjustable clamping pressure for different testing requirements"],
+        "price": 19.99,
+        "category": "Solid State Battery Measurements",
+        "subcategory": "Solid State Battery Measurements",
+        "productcode": "TES-SSB-10",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "application":"Testing of solid-state battery cells",
+        "Material":"High-quality stainless steel and insulating materials",
+        "Components":"Fixture body, clamping mechanism, electrical contacts, temperature control ports",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "Solid state battery test cell","1 set","TES-SSB-10"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 92,
+        "name": "conductivity_sample_holder",
+        "productName": "Conductivity Sample Holder",
+        "introduction": "The Conductivity Sample Holder is designed for precise and efficient measurement of electrical conductivity in both through-plane and in-plane orientations. This holder provides a stable and controlled environment for evaluating the conductivity of various materials, ensuring accurate and reproducible results. It is ideal for research and development, quality control, and material testing in industries such as electronics, materials science, and energy storage.",
+        "applications": ["Research and Development: Ideal for testing and developing new conductive materials and composites.","Quality Control: Used for routine testing of materials in manufacturing and production environments.","Performance Evaluation: Suitable for evaluating the conductivity of materials under various conditions.","Material Testing: Enables thorough assessment of conductive properties in materials science and engineering applications.","Academic and Industrial Research: Applied in academic research labs and industrial R&D centers for advanced material studies."],
+        "specification": [""],
+        "materials":["Holder Body: High-quality Gold plated for durability and corrosion resistance","Insulating Components: High-temperature resistant insulating materials","Electrical Contacts: Gold-plated or copper contacts for optimal electrical conductivity"],
+        "measurementTypes":["Through-Plane Conductivity: Measures electrical conductivity perpendicular to the plane of the sample","In-Plane Conductivity: Measures electrical conductivity parallel to the plane of the sample"],
+        "components":["Holder Body: Rigid frame to securely hold the sample","Clamping Mechanism: Adjustable clamps to ensure consistent pressure and contact.","Electrical Contacts: Configurable contacts for through-plane and in-plane measurements.","Temperature Control Ports: Integrated ports for temperature sensors and heating  elements.","Sample Positioning Guide: Ensures precise alignment of the sample within the holder"],
+        "dimension":["Standard Sizes: Customizable to fit various sample sizes and shapes.","Holder Height: Adjustable to accommodate different sample thicknesses."],
+        "operatingConditions":["Temperature Range: RT to 120°C (varies with materials used).","Pressure Range: Adjustable clamping pressure for different testing requirements."],
+        "price": 19.99,
+        "category": "Conductivity Measurements",
+        "subcategory": "Conductivity Measurements",
+        "productcode": "TES-CSH-IN-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "measurementType":"Through-Plane and In-Plane Conductivity",
+        "Material":"High-quality Gold Plated and insulating materials",
+        "Components":"Holder body, clamping mechanism, electrical contacts, temperature control ports, sample positioning guide",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "Conductivity sample holder through plane","1 set","TES-CSH-IN-1"],
+                    ["2", "Conductivity sample holder In-plane","1 set","TES-CSM-THR-1"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 93,
+        "name": "environmental_controlled_conductivity_setup",
+        "productName": "Environmental Controlled Conductivity Setup- Software Controlled",
+        "introduction": "The Environmental Controlled Conductivity Sample Holder is a state-of-the-art device designed for precise measurement of electrical conductivity in various materials under controlled environmental conditions. This advanced tool is essential for research and development in fields such as materials science, electronics, and nanotechnology.",
+        "applications": ["Materials Science: Study of conductive and semi-conductive materials under varying environmental conditions.","Electronics: Testing the performance and reliability of electronic components and devices.","Nanotechnology: Characterization of nano-materials and their electrical properties.","Environmental Research: Understanding the impact of environmental changes on material conductivity."],
+        "benefits":["Precision and Reliability: Ensure accurate and reproducible results with advanced environmental control features.","Versatility: Suitable for a wide range of materials and experimental setups.","User-Friendly: Easy to operate with intuitive controls and software integration."],
+        "keyfeatures": [""],
+        "temperatureControl":["Precise temperature regulation from -40°C to +150°C","High stability and uniformity across the sample holder","Integrated sensors for real-time monitoring and adjustments"],
+        "humidityControl":["Adjustable humidity levels from 5% to 95% RH","Rapid response to changes in set points","Ensures consistent environmental conditions throughout the experiment"],
+        "SampleCompatibilitys":["Accommodates a wide range of sample sizes and shapes","Suitable for solid, liquid, and thin-film samples.","Easy loading and unloading mechanism for minimal sample disturbance"],
+        "measurementAccuracy":["High-precision conductivity measurements with low noise levels","Advanced shielding and grounding techniques to minimize external interference","Compatible with various conductivity measurement instruments"],
+        "dataIntegration":["Seamless integration with data acquisition systems.","USB, Ethernet, and wireless connectivity options.","User-friendly software for data logging, analysis, and reporting"],
+        "constructionandDesign":["Robust construction with corrosion-resistant materials","Compact and ergonomic design for easy handling and storage","Clear viewing windows for visual inspection of samples"],
+        "price": 19.99,
+        "category": "Conductivity Measurements",
+        "subcategory": "Conductivity Measurements",
+        "productcode": "TES-CSH-ENC-1",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "TemperatureRange":"-40°C to +150°C",
+        "humidityRange":"5% to 95% RH",
+        "sampleSize":"Up to 50mm (L) x 50mm (W)",
+        "conductivity":"USB",
+        "powerSupply":"110V/220V AC, 50/60Hz",
+        "Dimension":"600 mm x 600 mm x 800 mm",
+        "Weight":"10  kg",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Qty","Part No"],
+                "rows": [
+                    ["1", "Environmental Controlled Conductivity Setup- Software Controlled","1 set","TES-CSH-ENC-1"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 94,
+        "name": "pem",
+        "productName": "Proton Exchange Membrane (PEM)",
+        "introduction": "Proton Exchange Membrane (PEM) is a high-performance material designed for use in fuel cells and other electrochemical applications. PEMs are made from perfluorosulfonic acid (PFSA) polymers, which offer excellent proton conductivity, chemical resistance, and mechanical stability. These membranes are crucial components in proton exchange membrane fuel cells (PEMFCs), electrolyzers, and other devices requiring efficient proton transport.",
+        "applications": ["Fuel Cells: Used as the proton-conducting membrane in proton exchange membrane fuel cells (PEMFCs) for automotive, stationary, and portable power applications.","Electrolyzers: Employed in water electrolyzers for hydrogen production, ensuring efficient proton transport and gas separation.","Redox Flow Batteries: Utilized as a separator membrane in redox flow batteries, enhancing ion exchange and system efficiency.","Hydrogen Purification: Applied in hydrogen purification and separation systems to ensure high-purity hydrogen production.","Sensors: Integrated into various electrochemical sensors for precise and reliable measurements."],
+        "specification": [""],
+        "materials":["Composition: Perfluorosulfonic Acid (PFSA) Polymer","Reinforcement: Optional reinforcement with expanded PTFE for enhanced mechanical strength","Form: Available in roll or sheet form","Custom Sizes: Custom dimensions available upon request"],
+        "physicalPropertiess":["Proton Conductivity: ≥ 0.1 S/cm (at 80°C and 100% RH)","Water Uptake: 20-30% (varies with thickness)","Mechanical Strength: Tensile strength ≥ 20 MPa"],
+        "chemicalProperties":["Chemical Stability: Resistant to acids, bases, and organic solvents","Operating pH Range: 0 to 14"],
+        "operatingConditions":["Temperature Range: -20°C to 120°C","Humidity Range: 0% to 100% RH"],
+        "price": 19.99,
+        "category": "Membranes",
+        "subcategory": "Membranes",
+        "productcode": "TES-MEM-PEM-150",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Material":"Perfluorosulfonic Acid (PFSA) Polymer",
+        "ThicknessOptions":"50 µm, 100 µm, 150 µm",
+        "form":"Roll or Sheet",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Part No"],
+                "rows": [
+                    ["1", "Membrane 150 mm X 150 mm","TES-MEM-PEM-150"],
+                    ["2", "Membrane 100 mm X 100 mm","TES-MEM-PEM-100"]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": 95,
+        "name": "aem",
+        "productName": "Anion Exchange Membrane (AEM)",
+        "introduction": "Anion Exchange Membrane (AEM) is a high-performance material designed for use in fuel cells, electrolyzers, and other electrochemical applications that require efficient anion transport. AEMs are made from functionalized polymers that offer excellent hydroxide conductivity, chemical resistance, and mechanical stability. These membranes are crucial components in anion exchange membrane fuel cells (AEMFCs), alkaline electrolyzers, and other devices requiring efficient anion transport.",
+        "applications": ["Anion Exchange Membrane Fuel Cells (AEMFCs): Used as the anion-conducting membrane in fuel cells for automotive, stationary, and portable power applications.","Alkaline Electrolyzers: Employed in water electrolyzers for hydrogen production, ensuring efficient hydroxide ion transport and gas separation.","Redox Flow Batteries: Utilized as a separator membrane in alkaline redox flow batteries, enhancing ion exchange and system efficiency.","CO2 Electrolysis: Applied in systems for electrochemical conversion of CO2 to value-added products, ensuring efficient anion transport.","Sensors: Integrated into various electrochemical sensors for precise and reliable measurements."],
+        "specification": [""],
+        "materials":["Composition: Functionalized polymer with quaternary ammonium groups","Reinforcement: Optional reinforcement with expanded PTFE for enhanced mechanical strength"],
+        "dimension":["Form: Available in roll or sheet form","Custom Sizes: Custom dimensions available upon request"],
+        "physicalPropertiess":["Anion Conductivity: ≥ 0.02 S/cm (at 80°C and 100% RH)","Water Uptake: 20-40% (varies with thickness)","Mechanical Strength: Tensile strength ≥ 15 MPa"],
+        "chemicalProperties":["Chemical Stability: Resistant to bases and organic solvents; moderate resistance to acids","Operating pH Range: 7 to 14"],
+        "operatingConditions":["Temperature Range: -20°C to 100°C","Humidity Range: 0% to 100% RH"],
+        "price": 19.99,
+        "category": "Membranes",
+        "subcategory": "Membranes",
+        "productcode": "TES-MEM-AEM-100",
+        "categoryIcon": "https://placehold.co/50x50?text=Category",
+        "thumbnailImage": "https://placehold.co/300x300?text=Thumbnail",
+        "productImages": [
+            "https://placehold.co/500x600?text=Product",
+            "https://placehold.co/500x600?text=Product"
+        ],
+        "productBanner": "https://placehold.co/500x400?text=banner",
+        "categoryImage":"https://placehold.co/300x300?text=Thumbnail",
+        "tag":["Our Popular Product"],
+        "Material":"Perfluorosulfonic Acid (PFSA) Polymer",
+        "ThicknessOptions":"50 µm, 100 µm, 150 µm",
+        "form":"Roll or Sheet",
+        "Packaging":"Customizable quantities available upon request",
+        "Customization":"Custom quantity and configurations are available upon request. Please contact our sales team for more information.",
+        "tableData": [
+            {
+                "header": ["S.No", "Product Name","Part No"],
+                "rows": [
+                    ["1", "Anion Exchange membrane 100 mm X 100 mm","TES-MEM-AEM-100"],
+                    ["2", "AEM PPS based membrane 100 mm X 100 mm","TES-MEM-PPS-100"]
+                ]
+            }
+        ]
     }
+
 ]

@@ -268,6 +268,16 @@ const ProductDetail = ({ product }) => {
                           <span>Components:</span> {product.Components}
                         </li>
                         ):("")}
+                        {product.standardDimension ? (
+                        <li>
+                          <span>Standard Dimension:</span> {product.standardDimension}
+                        </li>
+                        ):("")}
+                        {product.thicknessOptions ? (
+                        <li>
+                          <span>Thickness Options:</span> {product.thicknessOptions}
+                        </li>
+                        ):("")}
                         {product.Packaging ? (
                         <li>
                           <span>Packaging:</span> {product.Packaging}
@@ -364,6 +374,147 @@ const ProductDetail = ({ product }) => {
                           <span>Chemical Formula:</span> {product.ChemicalFormula}
                         </li>
                         ):("")}
+                        {product.MolecularWeight ? (
+                        <li>
+                          <span>Molecular Weight:</span> {product.MolecularWeight}
+                        </li>
+                        ):("")}
+                        {product.Purity ? (
+                        <li>
+                          <span>Purity:</span> {product.Purity}
+                        </li>
+                        ):("")}
+                        {product.Appearance ? (
+                        <li>
+                          <span>Appearance:</span> {product.Appearance}
+                        </li>
+                        ):("")}
+                         {product.particularsize ? (
+                        <li>
+                          <span>particular Size:</span> {product.particularsize}
+                        </li>
+                        ):("")}
+                         {product.surfacearea ? (
+                        <li>
+                          <span>surface Area:</span> {product.surfacearea}
+                        </li>
+                        ):("")}
+                         {product.BulkDensity  ?(
+                        <li>
+                          <span>Bulk Density:</span> {product.BulkDensity}
+                        </li>
+                        ):("")}
+                         {product. pH ? (
+                        <li>
+                          <span>pH:</span> {product.pH}
+                        </li>
+                        ):("")}
+                         {product.StandardDimension ? (
+                        <li>
+                          <span>StandardDimension:</span> {product.StandardDimension}
+                        </li>
+                        ):("")}
+                        {product.ThicknessOptions ? (
+                        <li>
+                          <span>Thickness Options:</span> {product.ThicknessOptions}
+                        </li>
+                        ):("")}
+                         {product.Density ? (
+                        <li>
+                          <span>Density:</span> {product.Density}
+                        </li>
+                        ):("")}
+                         {product.Porosity ? (
+                        <li>
+                          <span>Porosity:</span> {product.Porosity}
+                        </li>
+                        ):("")}
+                        {product.Additive ? (
+                        <li>
+                          <span>Additive:</span> {product.Additive}
+                        </li>
+                        ):("")}
+                        {product.CoatingComponent? (
+                        <li>
+                          <span>CoatingComponen:</span> {product.CoatingComponen}
+                        </li>
+                        ):("")}
+                        {product.Base? (
+                        <li>
+                          <span>Base:</span> {product.Base}
+                        </li>
+                        ):("")}
+                        {product.Coating ? (
+                        <li>
+                          <span>Coating :</span> {product.Coating }
+                        </li>
+                        ):("")}
+                         
+                         {product.OperatingTemperatureRange ? (
+                        <li>
+                          <span>Operating Temperature Range:</span> {product.OperatingTemperatureRange}
+                        </li>
+                        ):("")}
+                         {product.MaximumOperatingPressure ? (
+                        <li>
+                          <span>Maximum Operating Pressure:</span> {product.MaximumOperatingPressure}
+                        </li>
+                        ):("")}
+                        {product.Quantity ? (
+                        <li>
+                          <span>Quantity:</span> {product.Quantity}
+                        </li>
+                        ):("")}
+                        {product.volume ? (
+                        <li>
+                          <span>Volume:</span> {product.volume}
+                        </li>
+                        ):("")}
+                        {product.volumeOptions ? (
+                        <li>
+                          <span>Volume Options:</span> {product.volumeOptions}
+                        </li>
+                        ):("")}
+                        {product.volumeOptionsperCompartment ? (
+                        <li>
+                          <span>Volume Options per Compartment:</span> {product.volumeOptionsperCompartment}
+                        </li>
+                        ):("")}
+                        {product.application ? (
+                        <li>
+                          <span>Applications:</span> {product.application}
+                        </li>
+                        ):("")}
+                        {product.measurementType ? (
+                        <li>
+                          <span>Measurement Types:</span> {product.measurementType}
+                        </li>
+                        ):("")}
+                        {product.humidityRange ? (
+                        <li>
+                          <span>Humidity Range:</span> {product.humidityRange}
+                        </li>
+                        ):("")}
+                        {product.sampleSize ? (
+                          <li>
+                            <span>Sample Size:</span> {product.sampleSize}
+                          </li>
+                          ):("")}
+                        {product.conductivity ? (
+                          <li>
+                            <span>Conductivity:</span> {product.conductivity}
+                          </li>
+                          ):("")}
+                          {product.powerSupply ? (
+                          <li>
+                            <span>Power Supply:</span> {product.powerSupply}
+                          </li>
+                          ):("")}
+                          {product.TemperatureRange ? (
+                          <li>
+                            <span>Temperature Range:</span> {product.TemperatureRange}
+                          </li>
+                          ):("")}
                         {/* <li>
                           <span>Price:</span> ${product.price}
                         </li>
@@ -389,6 +540,18 @@ const ProductDetail = ({ product }) => {
               <p>
                 {product.introduction}
               </p>
+              { product.physicalProperties ? (
+              <div>
+                <h5>Physical Properties</h5>
+                <p>
+                  {product.physicalProperties.map((physicalProperties, index) => (
+                    <ul key={index}>
+                      <li type='square'>{physicalProperties}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
               { product.features ? (
               <div>
                 <h5>Features</h5>
@@ -413,7 +576,23 @@ const ProductDetail = ({ product }) => {
                 </p>
               </div>
               ) : ("")}
-              { product.keyfeatures ? (
+              {product.keyfeatures && product.keyfeatures.length > 0 ? (
+                <div>
+                  <h5>Key Features</h5>
+                  <p>
+                  {product.keyfeatures
+                      .filter((keyfeature) => keyfeature !== "") // Filter out empty strings
+                      .map((keyfeature, index) => (
+                      <ul key={index}>
+                    
+                        <li  type='square'>{keyfeature}</li>
+                      
+                  </ul>))}
+                  </p>
+                </div>
+              ) : ("")}
+
+              {/* { product.keyfeatures ? (
               <div>
                 <h5>Key Features</h5>
                 <p>
@@ -424,7 +603,363 @@ const ProductDetail = ({ product }) => {
                   ))}
                 </p>
               </div>
+              ) : ("")} */}
+               { product.ecoFriendlyMaterial ? (
+              <div>
+                <h6>Eco-Friendly Material :</h6>
+                <p>
+                  {product.ecoFriendlyMaterial.map((ecoFriendlyMaterial, index) => (
+                    <ul key={index}>
+                      <li type='square'>{ecoFriendlyMaterial}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
               ) : ("")}
+               { product.highEfficiency ? (
+              <div>
+                <h6>High Efficiency :</h6>
+                <p>
+                  {product.highEfficiency.map((highEfficiency, index) => (
+                    <ul key={index}>
+                      <li type='square'>{highEfficiency}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+               { product.chemicalCompatibility ? (
+              <div>
+                <h6>Chemical Compatibility :</h6>
+                <p>
+                  {product.chemicalCompatibility.map((chemicalCompatibility, index) => (
+                    <ul key={index}>
+                      <li type='square'>{chemicalCompatibility}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.materialComposition ? (
+              <div>
+                <h6>Material Composition :</h6>
+                <p>
+                  {product.materialComposition.map((materialComposition, index) => (
+                    <ul key={index}>
+                      <li type='square'>{materialComposition}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.durabilityAndResistance ? (
+              <div>
+                <h6>Durability And Resistance :</h6>
+                <p>
+                  {product.durabilityAndResistance.map((durabilityAndResistance, index) => (
+                    <ul key={index}>
+                      <li type='square'>{durabilityAndResistance}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.efficientSeparation ? (
+              <div>
+                <h6>Efficient Separation :</h6>
+                <p>
+                  {product.efficientSeparation.map((efficientSeparation, index) => (
+                    <ul key={index}>
+                      <li type='square'>{efficientSeparation}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.versatileApplications ? (
+              <div>
+                <h6>Versatile Applications :</h6>
+                <p>
+                  {product.versatileApplications.map((versatileApplications, index) => (
+                    <ul key={index}>
+                      <li type='square'>{versatileApplications}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.easyMaintenance ? (
+              <div>
+                <h6>Easy Maintenance :</h6>
+                <p>
+                  {product.easyMaintenance.map((easyMaintenance, index) => (
+                    <ul key={index}>
+                      <li type='square'>{easyMaintenance}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              {product.componentsAndSpecification && product.componentsAndSpecification.length > 0 ? (
+                <div>
+                  <h5>Components And Specification</h5>
+                  <p>
+                  {product.componentsAndSpecification
+                      .filter((componentsAndSpecification) => componentsAndSpecification !== "") // Filter out empty strings
+                      .map((componentsAndSpecification, index) => (
+                      <ul key={index}>
+                    
+                        <li  type='square'>{componentsAndSpecification}</li>
+                      
+                  </ul>))}
+                  </p>
+                </div>
+              ) : ("")}
+              { product.positiveCap ? (
+              <div>
+                <h6>Positive Cap :</h6>
+                <p>
+                  {product.positiveCap.map((positiveCap, index) => (
+                    <ul key={index}>
+                      <li type='square'>{positiveCap}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.negativeCap ? (
+              <div>
+                <h6>Negative Cap :</h6>
+                <p>
+                  {product.negativeCap.map((negativeCap, index) => (
+                    <ul key={index}>
+                      <li type='square'>{negativeCap}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.insulatorRing ? (
+              <div>
+                <h6>Insulator Ring :</h6>
+                <p>
+                  {product.insulatorRing.map((insulatorRing, index) => (
+                    <ul key={index}>
+                      <li type='square'>{insulatorRing}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.spacer ? (
+              <div>
+                <h6>Spacer :</h6>
+                <p>
+                  {product.spacer.map((spacer, index) => (
+                    <ul key={index}>
+                      <li type='square'>{spacer}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.safetyVent ? (
+              <div>
+                <h6>Safety Vent :</h6>
+                <p>
+                  {product.safetyVent.map((safetyVent, index) => (
+                    <ul key={index}>
+                      <li type='square'>{safetyVent}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.cases ? (
+              <div>
+                <h6>Case :</h6>
+                <p>
+                  {product.cases.map((cases, index) => (
+                    <ul key={index}>
+                      <li type='square'>{cases}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.temperatureControl ? (
+              <div>
+                <h6>Temperature Control :</h6>
+                <p>
+                  {product.temperatureControl.map((temperatureControl, index) => (
+                    <ul key={index}>
+                      <li type='square'>{temperatureControl}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.humidityControl ? (
+              <div>
+                <h6>Humidity Control :</h6>
+                <p>
+                  {product.humidityControl.map((humidityControl, index) => (
+                    <ul key={index}>
+                      <li type='square'>{humidityControl}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.SampleCompatibilitys ? (
+              <div>
+                <h6>Sample Compatibilitys :</h6>
+                <p>
+                  {product.SampleCompatibilitys.map((SampleCompatibilitys, index) => (
+                    <ul key={index}>
+                      <li type='square'>{SampleCompatibilitys}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.measurementAccuracy ? (
+              <div>
+                <h6>Measurement Accuracy :</h6>
+                <p>
+                  {product.measurementAccuracy.map((measurementAccuracy, index) => (
+                    <ul key={index}>
+                      <li type='square'>{measurementAccuracy}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.dataIntegration ? (
+              <div>
+                <h6>Data Integration :</h6>
+                <p>
+                  {product.dataIntegration.map((dataIntegration, index) => (
+                    <ul key={index}>
+                      <li type='square'>{dataIntegration}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.constructionandDesign ? (
+              <div>
+                <h6>Construction And Design :</h6>
+                <p>
+                  {product.constructionandDesign.map((constructionandDesign, index) => (
+                    <ul key={index}>
+                      <li type='square'>{constructionandDesign}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+             
+             {product.specification && product.specification.length > 0 ? (
+                <div>
+                  <h5>Specification</h5>
+                  <p>
+                  {product.specification
+                      .filter((specification) => specification !== "") // Filter out empty strings
+                      .map((specification, index) => (
+                      <ul key={index}>
+                    
+                        <li  type='square'>{specification}</li>
+                      
+                  </ul>))}
+                  </p>
+                </div>
+              ) : ("")}
+               { product.materials ? (
+              <div>
+                <h6>Material :</h6>
+                <p>
+                  {product.materials.map((materials, index) => (
+                    <ul key={index}>
+                      <li type='square'>{materials}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.measurementTypes ? (
+              <div>
+                <h6>Measurement Types :</h6>
+                <p>
+                  {product.measurementTypes.map((measurementTypes, index) => (
+                    <ul key={index}>
+                      <li type='square'>{measurementTypes}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+               { product.components ? (
+              <div>
+                <h6>Components :</h6>
+                <p>
+                  {product.components.map((components, index) => (
+                    <ul key={index}>
+                      <li type='square'>{components}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              { product.dimension ? (
+              <div>
+                <h6>Dimensions :</h6>
+                <p>
+                  {product.dimension.map((dimension, index) => (
+                    <ul key={index}>
+                      <li type='square'>{dimension}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+               { product.operatingConditions ? (
+              <div>
+                <h6>Operating Conditions :</h6>
+                <p>
+                  {product.operatingConditions.map((operatingConditions, index) => (
+                    <ul key={index}>
+                      <li type='square'>{operatingConditions}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+
+              { product.physicalPropertiess ? (
+                <div>
+                  <h6>Physical Properties</h6>
+                  <p>
+                    {product.physicalPropertiess.map((physicalPropertiess, index) => (
+                      <ul key={index}>
+                        <li type='square'>{physicalPropertiess}</li>
+                      </ul>
+                    ))}
+                  </p>
+                </div>
+                ) : ("")}
+                { product.chemicalProperties ? (
+                <div>
+                  <h6>Chemical Properties</h6>
+                  <p>
+                    {product.chemicalProperties.map((chemicalProperties, index) => (
+                      <ul key={index}>
+                        <li type='square'>{chemicalProperties}</li>
+                      </ul>
+                    ))}
+                  </p>
+                </div>
+                ) : ("")}
               { product.applications ? (
               <div>
                 <h5>Applications</h5>
@@ -437,6 +972,20 @@ const ProductDetail = ({ product }) => {
                 </p>
               </div>
               ) : ("")}
+              { product.benefits ? (
+              <div>
+                <h5>Benefits</h5>
+                <p>
+                  {product.benefits.map((benefits, index) => (
+                    <ul key={index}>
+                      <li type='square'>{benefits}</li>
+                    </ul>
+                  ))}
+                </p>
+              </div>
+              ) : ("")}
+              
+              
               
               {/* <div className="row mt-5">
                 <div className="col-12">
